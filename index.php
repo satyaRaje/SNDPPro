@@ -105,46 +105,46 @@
         <div class="row">
             <div class="col-sm-2">
                 <img src="img/logo/idea.png">
-                <h3>
+                <h5 style="font-weight: bold;">
                     IDEA
-                </h3>
+                </h5>
             </div>
             <div class="col-sm-2">
                 <img src="img/logo/3dCAD.png">
-                <h3>3D CAD<br>
+                <h5 style="font-weight: bold;">3D CAD<br>
                     Model in<br>
-                    STL Format</h3>
+                    STL Format</h5>
             </div>
             <div class="col-sm-2">
                 <img src="img/logo/stlUPload.png">
-                <h3>
-                    Upload<br>
-                    Design STL<br>
-                    Files on<br>
+                <h5 style="font-weight: bold;">
+                    Upload
+                    Design STL
+                    Files on
                     website or<br>
                     email it to us
-                </h3>
+                </h5>
             </div>
             <div class="col-sm-2">
                 <img src="img/logo/getQUta.png">
-                <h3>
+                <h5 style="font-weight: bold;">
                     Get Quotation
-                </h3>
+                </h5>
             </div>
             <div class="col-sm-2">
                 <img src="img/logo/3dadative.png">
-                <h3>
+                <h5 style="font-weight: bold;">
                     3D Printing<br>
-                    Additive<br>
-                    manufacturing<br>
+                    Additive
+                    manufacturing
                     your product
-                </h3>
+                </h5>
             </div>
             <div class="col-sm-2">
                 <img src="img/logo/delivery.png">
-                <h3>
+                <h5 style="font-weight: bold;">
                     Delivery
-                </h3>
+                </h5>
             </div>
 
         </div>
