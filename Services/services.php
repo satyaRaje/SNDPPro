@@ -7,10 +7,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    .w3-sidebar a {font-family: "Roboto", sans-serif}
-    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
-</style>
 <body class="w3-content" style="max-width:1200px">
 <?php include '../header.php';?>
 <!-- Sidebar/menu -->
@@ -41,11 +37,6 @@
 	  
 
     <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
 	            <h3 class = "zo-grid-title">3D Printing</a>
                     </h3>                <div class="zo-grid-content">
                     What is 3D printing? Glad you asked. Additive manufacturing process is popularly known as 3D printing. Additive manufacturing is a method of manufacturing physical parts in a successive addition process of...                </div>
