@@ -1,83 +1,62 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-ABOUT_US-Authentic</title>
+<title>IPRO3D-Authentic</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    .w3-sidebar a {font-family: "Roboto", sans-serif}
-    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
-</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link href="vGraphic.css" rel="stylesheet" type="text/css">
+<link href="whatsApp.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 <body class="w3-content" style="max-width:1200px">
 <?php include '../header.php';?>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;height:350px;" id="mySidebar">
-    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold;margin-top:100px" >
-       <?php include 'aboutus_link.php';?>
-     </div>
-
-</nav>
+<br><br><br>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'aboutus_link.php';?>
+</div>
 
 <!-- Top menu on small screens -->
-<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-    <div class="w3-bar-item w3-padding-24 w3-wide"><img src="img/logo.png"></div>
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-</header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:250px;">
 
     <!-- Push down content on small screens -->
-    <div class="w3-hide-large" style="margin-top:83px"></div>
+
 
     <!-- Top header -->
-      <div class="container" align="left" style="margin:20px 300px">
+      <div class="container">
            <div class="row">
-           </br>
-		   </br><br><br><br>
-           <h1><b>Authentic</b></h1>
-           </div>
-      </div>
-      <div class="container-fluid" align="left" style="margin:0px 50px">
-           <div class="row">
-           </br>
-		   </br>
-           <h4><b>Authentic</b></h4>
-           </div>
-      </div>
-      <div class="container-fluid" align="left" style="margin:0px 50px">
-           <div class="row">
-           <p>Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality</p>
-           </div>
-      </div>
-	  <div class="container-fluid" align="left" style="margin:0px 50px">
-           <div class="row">
-           </br>
-		   </br>
-           <h4><b>Material Used</b></h4>
-           </div>
-      </div>
-      <div class="container-fluid" align="left" style="margin:0px 50px;">
-           <div class="row">
-           <p>IPRO3d offers a wide variety of high quality 3d Printing materials. Making your ideas become real 3d physical object/part in different materials like photopolymer resins, plastics and polymers, metals, alloys, high temperature resistant materials, tough materials, castable materials, etc. Our material have the highest level of dimensional accuracy and material properties. Whether you want to develop unique jewelry designs, scale models for architecture projects or landscapes, prototypes of toys, industrial parts, end use parts or medical devices, IPRO3D assures the premium quality materials for all prototypes according to product requirements. We offer different alternatives of materials like detailed, durable and multicolor also. You can choose the perfect materials alternative for your products.
-</br>If you are not very good technically in choosing materials we are always there and can also help you choose it.
-</br></br>
-</p>
+           <h1 style="...">Authentic</h1>
+           Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality
+
+	       <h4>Material Used</h4>
+           IPRO3d offers a wide variety of high quality 3d Printing materials. Making your ideas become real 3d physical object/part in different materials like photopolymer resins, plastics and polymers, metals, alloys, high temperature resistant materials, tough materials, castable materials, etc. Our material have the highest level of dimensional accuracy and material properties. Whether you want to develop unique jewelry designs, scale models for architecture projects or landscapes, prototypes of toys, industrial parts, end use parts or medical devices, IPRO3D assures the premium quality materials for all prototypes according to product requirements. We offer different alternatives of materials like detailed, durable and multicolor also. You can choose the perfect materials alternative for your products.
+             If you are not very good technically in choosing materials we are always there and can also help you choose it.
+
            </div>
       </div>
     <!-- Footer -->
 
     <!-- End page content -->
-</div>
 
 <!-- Newsletter Modal -->
-
+<br><br>
+<?php include '../footer.php';?>
 <script>
     // Accordion
     function myAccFunc() {
@@ -104,11 +83,15 @@
         document.getElementById("myOverlay").style.display = "none";
     }
 </script>
-<footer id="footer">
-<div class="container">
-    <?php include'../footer.php';?>
-</div>
-    </footer>
+<script>
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
+
+    });
+</script>
+
 
 </body>
 </html>
