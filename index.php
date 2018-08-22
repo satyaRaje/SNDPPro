@@ -273,42 +273,36 @@
 <br>
 
     <!-- Contact Section -->
-    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <div class="container-fluid"  id="contact">
         <h3 class="w3-center">CONTACT</h3>
-        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-        <div class="w3-row-padding" style="margin-top:64px">
-            <div class="w3-half">
 
-                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
-                    <br>
-                    IPRO3D TECHNOLOGIES LLP<br>
+        <div class="row" style="height: 400px;background-color: #bbbbbb;">
+            <div id="googleMap" class="w3-greyscale-max" style="width:100%;"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6">
+
+                <h5><b>IPRO3D TECHNOLOGIES LLP</b><br>
                     Incubation Office<br>
-                    IPRO3D TECHNOLOGIES LLP,<br>
+                    <b>IPRO3D TECHNOLOGIES LLP,</b><br>
                     C/O Er. Yogesh Pawar,<br>
                     Workstation-1, MAGIC, CMIA office,<br>
                     Bajaj Bhavan, Near MIDC office,<br>
                     Railway Station Road, Aurangabad,<br>
-                    Maharashtra, India.</p>
-
-                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
-                    <br>
-                    Corporate office Manufacturing Facility<br>
-                    Address:<br>
-                    IPRO3D TECHNOLOGIES LLP,<br>
-                    C/O Er. Yogesh Pawar,<br>
-                    Meridian Status-B, F-7,<br>
-                    Near Youth Hostel, Kesarsingpura,<br>
-                    Aurangabad-431005, Maharashtra,<br>
-                    India.<br>
-                </p>
-                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Mobile : +91 9821413663 </p>
-                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: hello@ipro3d.io</p>
-                <br>
+                    Maharashtra, India.<h5>
 
             </div>
-            <div class="w3-half">
-                <!-- Add Google Maps -->
-                <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+            <div class="col-sm-6">
+              <h5>
+                  <b>Corporate office Manufacturing Facility</b><br>
+                Address:<br>
+                  <b>IPRO3D TECHNOLOGIES LLP,</b><br>
+                C/O Er. Yogesh Pawar,<br>
+                Meridian Status-B, F-7,<br>
+                Near Youth Hostel, Kesarsingpura,<br>
+                Aurangabad-431005, Maharashtra,<br>
+                India.<br>
+              </h5>
             </div>
         </div>
     </div>
