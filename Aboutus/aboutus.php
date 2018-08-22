@@ -38,39 +38,34 @@
     <div class="w3-hide-large" style="margin-top:83px"></div>
 
     <!-- Top header -->
-	
-	<div class="container">
+	<div class="container" style="padding: 5px 5px 5px 5px;margin-left: 24px;margin-right: 5px;">
            <div class="row">
-	         
-		   </div>
+
+               <h1>About Us</h1>
+
+               <p><img src="img/Aboutus/1.png"></img>
+                   &nbsp;&nbsp;We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online
+                   <br> and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.<br>
+
+                   &nbsp;&nbsp;&nbsp;IPRO3D provides access to wide range of materials, finishes, techniques and manufacturing processes as well as superior optimization tools for file repair and analysis. We provide delivery of our 3d printed and traditionally manufactured products PAN India. We <br>
+
+                   also process worldwide delivery according to the order quantity.<br>
+                   <li>IPRO3D a socially responsible business:<br>
+                       1)The company runs with a strong focus on Corporate Social Responsibility.<br>
+                       2)The founders have entrenched their commitment to social issues in the company’s character. <br>
+                       The style of management strives to achieve success on a daily basis, but also in long term.<br>
+                       <br>
+
+
+               <li>Report abusive content:<br>
+                   If you think that this website presents abusive content, you may inform us at report@ipro3d.io
+
+               </p>
+           </div>
 	</div>
 	<!-- Footer -->
     
-<div style="margin-top:100px">
-	
-    <h1>About Us</h1>
-		 
-		   <p><img src="img/Aboutus/1.png"></img>
-&nbsp;&nbsp;We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online
-<br> and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.<br>
 
-   &nbsp;&nbsp;&nbsp;IPRO3D provides access to wide range of materials, finishes, techniques and manufacturing processes as well as superior optimization tools for file repair and analysis. We provide delivery of our 3d printed and traditionally manufactured products PAN India. We <br>
-   
-  also process worldwide delivery according to the order quantity.<br>
-<li>IPRO3D a socially responsible business:<br>
- 1)The company runs with a strong focus on Corporate Social Responsibility.<br>
- 2)The founders have entrenched their commitment to social issues in the company’s character. <br>
- The style of management strives to achieve success on a daily basis, but also in long term.<br>
- <br>
-
-
-<li>Report abusive content:<br> 
-	If you think that this website presents abusive content, you may inform us at report@ipro3d.io
-
-       </p>    
-	 
-</div>
-    
 </div>
 <!-- Newsletter Modal -->
 <?php include '../footer.php';?>
