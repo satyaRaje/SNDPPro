@@ -280,10 +280,10 @@
 
     <!-- Contact Section -->
     <div class="container-fluid"  id="contact">
-        <h3 class="w3-center">CONTACT</h3>
+        <h3 class="w3-center" style="color: darkslategrey;font-weight: bolder;" >CONTACT</h3>
 
-        <div class="row" style="height: 400px;background-color: #bbbbbb;">
-            <div id="googleMap" class="w3-greyscale-max" style="width:100%;"></div>
+        <div class="row" style="background-color: #bbbbbb;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.2523532716305!2d75.31352311425753!3d19.871563331647998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb99e84cc7f4e7%3A0x8ef52048513cb04!2sIPRO3D+Technologies+LLP!5e0!3m2!1sen!2sin!4v1534930979184" style="width:100%;" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="row text-center w3-black">
 
