@@ -152,7 +152,7 @@
     </div>
 
     <!--  -->
-
+<hr>
     <!-- PRODUCTIOn  -->
     <div class="container-fluid text-center">
         <h3 style="font-weight: bolder;color:darkslategrey;">Prototype Your Product</h3>
@@ -226,56 +226,51 @@
     </div>
 
     <!--  -->
+    <!-- Promo Section "Statistics" -->
+
+    <div class="w3-container w3-row w3-center " style="background-color: #f2f2f2;">
+        <h3 class="text-center" style="font-weight: bold;color: darkslategrey;">Statistics </h3>
+        <div class="w3-quarter w3-padding-44">
+            <span class="w3-xxlarge">14+</span>
+            <br><b>Partners</b>
+        </div>
+        <div class="w3-quarter w3-padding-44">
+            <span class="w3-xxlarge">55+</span>
+            <br><b>Projects Done</b>
+        </div>
+        <div class="w3-quarter w3-padding-44">
+            <span class="w3-xxlarge">89+</span>
+            <br><b>Happy Clients</b>
+        </div>
+        <div class="w3-quarter w3-padding-44">
+            <span class="w3-xxlarge">150+</span>
+            <br><b>Meetings</b>
+            <br><br><br><br>
+        </div>
+
+    </div>
+
+
 
     <!-- About Section -->
-    <div class="w3-container" style="padding:128px 16px" id="about">
-        <h3 class="w3-center">ABOUT THE COMPANY</h3>
-        <p class="w3-center w3-large">Key features of our company</p>
+    <div class="w3-container"  id="about">
+        <h3 class="w3-center" style="font-weight: bold; color: darkslategrey;">Our Clients</h3>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-quarter">
-                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-                <p class="w3-large">Responsive</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+             <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
             </div>
             <div class="w3-quarter">
-                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Passion</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
             </div>
             <div class="w3-quarter">
-                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Design</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
             </div>
             <div class="w3-quarter">
-                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Support</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
             </div>
         </div>
     </div>
-
-    <!-- Promo Section "Statistics" -->
-    <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-        <div class="w3-quarter">
-            <span class="w3-xxlarge">14+</span>
-            <br>Partners
-        </div>
-        <div class="w3-quarter">
-            <span class="w3-xxlarge">55+</span>
-            <br>Projects Done
-        </div>
-        <div class="w3-quarter">
-            <span class="w3-xxlarge">89+</span>
-            <br>Happy Clients
-        </div>
-        <div class="w3-quarter">
-            <span class="w3-xxlarge">150+</span>
-            <br>Meetings
-        </div>
-    </div>
-
-
+<br>
 
     <!-- Contact Section -->
     <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
