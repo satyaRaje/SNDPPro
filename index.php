@@ -334,6 +334,9 @@
                     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
                     <i class="fa fa-twitter w3-hover-opacity"></i>
                     <i class="fa fa-linkedin w3-hover-opacity"></i>
+                    <button class="float my-float">w</button>
+                    <a href="https://api.whatsapp.com/send?phone=919821413663" class="float" target="_blank">
+                        <i class="fa fa-whatsapp my-float"></i></a>
                 </div>
                 <h4 style="background-color: gray">Mobile : +91 9821413663</h4>
                 <h4>Email : hello@ipro3d.io</h4>
