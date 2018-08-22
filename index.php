@@ -74,18 +74,18 @@
         <div class="item active">
             <img src="img/banner1.jpg" alt="Image">
             <div class="carousel-caption">
-                <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
+                 <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                  <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
-                 <h3>Institute Code: 170523</h3> -->
+                 <h3>Institute Code: 170523</h3>
             </div>
         </div>
 
         <div class="item">
             <img src="img/banner2.jpg" alt="Image">
             <div class="carousel-caption">
-                <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
+                <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                 <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
-                <h3>Institute Code: 170523</h3> -->
+                <h3>Institute Code: 170523</h3>
             </div>
         </div>
 
@@ -279,9 +279,9 @@
         <div class="row" style="height: 400px;background-color: #bbbbbb;">
             <div id="googleMap" class="w3-greyscale-max" style="width:100%;"></div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm-6">
-
+        <div class="row text-center w3-black">
+            <div class="col-sm-3">
+               <br><br>
                 <h5><b>IPRO3D TECHNOLOGIES LLP</b><br>
                     Incubation Office<br>
                     <b>IPRO3D TECHNOLOGIES LLP,</b><br>
@@ -290,9 +290,11 @@
                     Bajaj Bhavan, Near MIDC office,<br>
                     Railway Station Road, Aurangabad,<br>
                     Maharashtra, India.<h5>
-
+                        <h4 style="background-color: gray">Mobile : +91 9821413663</h4>
+                        <h4>Email : hello@ipro3d.io</h4>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-3">
+               <br><br>
               <h5>
                   <b>Corporate office Manufacturing Facility</b><br>
                 Address:<br>
@@ -302,98 +304,34 @@
                 Near Youth Hostel, Kesarsingpura,<br>
                 Aurangabad-431005, Maharashtra,<br>
                 India.<br>
+
               </h5>
+            </div>
+
+            <div class="col-sm-3">
+                <h3>Our Services</h3>
+                <h5>3D Printing</h5>
+                <h5>3D Scanning</h5>
+                <h5>2D & 3D design services</h5>
+                <h5>Design for 3D Printing</h5>
+                <h5>Many more services…..</h5>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="w3-xxlarge">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-center w3-black">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>Our Services</h1>
-                    <h5>3D Printing</h5>
-                    <h5>3D Scanning</h5>
-                    <h5>Vacuum resin casting</h5>
-                    <h5>Soft tooling manufacturing</h5>
-                    <h5>2D & 3D design services</h5>
-                    <h5>Design for 3D Printing</h5>
-                    <h5>Design topology optimization</h5>
-                    <h5>X-ray tomography</h5>
-                    <h5>Small Batch production</h5>
-                    <h5>CNC machining</h5>
-                    <h5>Many more services…..</h5>
 
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="w3-xxlarge w3-section">
-                        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                        <i class="fa fa-instagram w3-hover-opacity"></i>
-                        <i class="fa fa-snapchat w3-hover-opacity"></i>
-                        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                        <i class="fa fa-twitter w3-hover-opacity"></i>
-                        <i class="fa fa-linkedin w3-hover-opacity"></i>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-
-
-        </div>
-        <!--
-
-            <p>Powered by <a href="https://www.mit.asia" title="W3.CSS" target="_blank" class="w3-hover-text-green">MIT COllege,Aurangabad</a></p>
-            -->
-    </footer>
-
-    <!-- Add Google Maps -->
-    <script>
-        function myMap()
-        {
-            myCenter=new google.maps.LatLng(41.878114, -87.629798);
-            var mapOptions= {
-                center:myCenter,
-                zoom:12, scrollwheel: false, draggable: false,
-                mapTypeId:google.maps.MapTypeId.ROADMAP
-            };
-            var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-            var marker = new google.maps.Marker({
-                position: myCenter,
-            });
-            marker.setMap(map);
-        }
-
-        // Modal Image Gallery
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-            var captionText = document.getElementById("caption");
-            captionText.innerHTML = element.alt;
-        }
-
-
-        // Toggle between showing and hiding the sidebar when clicking the menu icon
-        var mySidebar = document.getElementById("mySidebar");
-
-        function w3_open() {
-            if (mySidebar.style.display === 'block') {
-                mySidebar.style.display = 'none';
-            } else {
-                mySidebar.style.display = 'block';
-            }
-        }
-
-        // Close the sidebar with the close button
-        function w3_close() {
-            mySidebar.style.display = "none";
-        }
-    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
     <!--
     To use this code on your website, get a free API key from Google.
