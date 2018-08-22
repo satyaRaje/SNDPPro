@@ -159,63 +159,63 @@
         <div class="row">
             <div class="col-sm-2">
                 <img src="img/New%20folder/material.png" style="height: 150px;">
-                <h3 style="font-weight: bold;">Material</h3>
+                <h5 style="font-weight: bold;">Material</h5>
                 <h5>
-                    Select materials<br>
+                    Select materials
                     from a wide<br>
                     variety in plastics,<br>
-                    metals, metal<br>
-                    alloys and plastic<br>
+                    metals, metal
+                    alloys and plastic
                     composites
                 </h5>
             </div>
             <div class="col-sm-2">
                 <img src="img/New%20folder/quality.png"  style="height: 150px;">
-                <h5>Quality</h5>
-                <h6 >We don’t<br>
-                    compromise on<br>
-                    part / product<br>
-                    quality</h6>
+                <h5 style="font-weight: bold;">Quality</h5>
+                <h5 >We don’t<br>
+                    compromise on
+                    part / product
+                    quality</h5>
             </div>
             <div class="col-sm-2">
-                <img src="img/New%20folder/price.png">
-                <h1>Price </h1>
-                <h3>
-                    We provide the<br>
-                    best competitive<Br>
-                    price compared<br>
-                    to any other<br>
-                    competitor in<BR>
-                    India and world<br>
-                    3D printing<Br>
+                <img src="img/New%20folder/price.png" style="height: 150px;">
+                <h5 style="font-weight: bold;">Price </h5>
+                <h5>
+                    We provide the
+                    best competitive
+                    price compared
+                    to any other
+                    competitor in
+                    India and world
+                    3D printing
                     market.
-                </h3>
+                </h5>
             </div>
             <div class="col-sm-2">
-                <img src="img/New%20folder/profuction.png">
-                <h1>Production</h1>
-                <h3>
-                    We manufacture all<br>
-                    products at a time<br>
-                    and help reduce the<br>
-                    manufacturing time<br>
-                    and cost while<br>
-                    maintaining the<br>
-                    optimum part quality<br>
-                </h3>
+                <img src="img/New%20folder/profuction.png" style="height: 150px;">
+                <h5 style="font-weight: bold;">Production</h5>
+                <h5>
+                    We manufacture all
+                    products at a time
+                    and help reduce the
+                    manufacturing time
+                    and cost while
+                    maintaining the
+                    optimum part quality
+                </h5>
             </div>
             <div class="col-sm-2">
-                <img src="img/New%20folder/delivery.png">
-                <h1>Delivery all<br>
-                    over India </h1>
+                <img src="img/New%20folder/delivery.png" style="height: 150px;">
+                <h5 style="font-weight: bold;">Delivery all
+                    over India </h5>
                 <h3>
 
                 </h3>
             </div>
             <div class="col-sm-2">
-                <img src="img/New%20folder/world.png">
-                <h1>World wide
-                    delivery</h1>
+                <img src="img/New%20folder/world.png" style="height: 150px;">
+                <h5 style="font-weight: bold;">World wide
+                    delivery</h5>
                 <h3>
 
                 </h3>
