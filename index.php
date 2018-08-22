@@ -62,30 +62,36 @@
 <!-- Header with full-height image -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
+    <!--
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
+
         <div class="item active">
-            <img src="img/banner1.jpg" alt="Image">
+            <img src="img/slider/img13.jpg" alt="Image">
             <div class="carousel-caption">
-                 <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
-                 <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
-                 <h3>Institute Code: 170523</h3>
+                <h3 style="font-weight: bolder;">WE ARE HERE</h3>
+                <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
+                <button type="button" class="btn btn-primary">REQUEST A QUOTE</button>
             </div>
         </div>
 
         <div class="item">
-            <img src="img/banner2.jpg" alt="Image">
+            <img src="img/slider/img1.jpg" alt="Image">
             <div class="carousel-caption">
-                <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
-                <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
-                <h3>Institute Code: 170523</h3>
+                <h3 style="font-weight: bolder;">WE ARE HERE</h3>
+                <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
+                <button type="button" class="btn btn-primary">REQUEST A QUOTE</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="img/slider/slide-2.jpg" alt="Image">
+            <div class="carousel-caption">
+                <h3 style="font-weight: bolder;">WE ARE HERE</h3>
+                <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
+                <button type="button" class="btn btn-primary">REQUEST A QUOTE</button>
             </div>
         </div>
 
@@ -280,6 +286,17 @@
             <div id="googleMap" class="w3-greyscale-max" style="width:100%;"></div>
         </div>
         <div class="row text-center w3-black">
+
+            <div class="col-sm-3">
+                <h3>Our Services</h3>
+                <h5>3D Printing</h5>
+                <h5>3D Scanning</h5>
+                <h5>2D & 3D design services</h5>
+                <h5>Design for 3D Printing</h5>
+                <h5>Many more services…..</h5>
+
+            </div>
+
             <div class="col-sm-3">
                <br><br>
                 <h5><b>IPRO3D TECHNOLOGIES LLP</b><br>
@@ -290,8 +307,7 @@
                     Bajaj Bhavan, Near MIDC office,<br>
                     Railway Station Road, Aurangabad,<br>
                     Maharashtra, India.<h5>
-                        <h4 style="background-color: gray">Mobile : +91 9821413663</h4>
-                        <h4>Email : hello@ipro3d.io</h4>
+
             </div>
             <div class="col-sm-3">
                <br><br>
@@ -308,17 +324,9 @@
               </h5>
             </div>
 
-            <div class="col-sm-3">
-                <h3>Our Services</h3>
-                <h5>3D Printing</h5>
-                <h5>3D Scanning</h5>
-                <h5>2D & 3D design services</h5>
-                <h5>Design for 3D Printing</h5>
-                <h5>Many more services…..</h5>
-
-            </div>
 
             <div class="col-sm-3">
+                <br><br><br>
                 <div class="w3-xxlarge">
                     <i class="fa fa-facebook-official w3-hover-opacity"></i>
                     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -327,6 +335,8 @@
                     <i class="fa fa-twitter w3-hover-opacity"></i>
                     <i class="fa fa-linkedin w3-hover-opacity"></i>
                 </div>
+                <h4 style="background-color: gray">Mobile : +91 9821413663</h4>
+                <h4>Email : hello@ipro3d.io</h4>
             </div>
         </div>
     </div>
