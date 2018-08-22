@@ -42,60 +42,43 @@
     <!-- Top header -->
       <div class="container">
            <div class="row">
-		   
+               <h3 >3D Printing </h3>
+                   What is 3D printing? Glad you asked. Additive manufacturing process is popularly known as 3D printing. Additive manufacturing is a method of manufacturing physical parts in a successive addition process of...
+                   <a href=3dprinting.php class="btn-link">[Read more]</a>
 
-           </div>
+               <h3>3D SCANNING</h3>
+                   It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in...
+               <a href=3dscanning.php class="btn-link">[Read more]</a>
 
-      </div
+               <h3>3D DESIGN</h3>
+                   3D and 2D Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals....
+               <a href=design.php class="btn-link">[Read more]</a>
+
+               <h3>EDUCATION</h3>
+                   Using a unique apprenticeship program to help train underserved communities learn advanced manufacturing skills such as 3D printing, we have just been given the opportunity to expand their approach even further. We...
+                   <a href=functional.php class="btn-link">[Read more]</a>
+
+               <h3>IDEA & SOLUTION</h3>
+                   lf you're not that much of a designer, we offer design service and technical support so you can design your own products, with the precision of a professional designer. Our team...
+                   <a href=idea.php class="btn-link">[Read more]</a>
+
+               <h3>CUSTOMIZATION</h3>
+                   If you have a good idea and you want to see your idea being turned into a functional prototype, we can help you print a wide variety of products. This process supplies...
+                   <a href="customization.php" class="btn-link">[Read more]</a>
+
+
+               </div>
+
+      </div>
 	  
 
     <!-- Footer -->
-	            <h3 class = "zo-grid-title">3D Printing</a>
-                    </h3>                <div class="zo-grid-content">
-                    What is 3D printing? Glad you asked. Additive manufacturing process is popularly known as 3D printing. Additive manufacturing is a method of manufacturing physical parts in a successive addition process of...                </div>
-                <div class="zo-grid-readmore">
-                    <a href=# class="btn-link">[Read more]</a>
-                </div>
-                <h3 class = "zo-grid-title"><a href=# title="3D SCANNING">3D SCANNING</a>
-                    </h3>                <div class="zo-grid-content">
-                    It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in...                </div>
-                
-                    <a href=# class="btn-link">[Read more]</a>
-               
-                <h3 class = "zo-grid-title"><a href=# title="3D DESIGN">3D DESIGN</a>
-                    </h3>           <div class="zo-grid-content">     
-                    3D and 2D Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals....                </div>
-                <div class="zo-grid-readmore">
-                    <a href=# class="btn-link">[Read more]</a>
-                </div>
-                <h3 class = "zo-grid-title"><a href=# title="EDUCATION">EDUCATION</a>
-                    </h3> <div class="zo-grid-content">
-                    Using a unique apprenticeship program to help train underserved communities learn advanced manufacturing skills such as 3D printing, we have just been given the opportunity to expand their approach even further. We...                </div>
-                <div class="zo-grid-readmore">
-                    <a href=# class="btn-link">[Read more]</a>
-                </div>
-                
-				<h3 class = "zo-grid-title"><a href=# title="IDEA &#038; SOLUTION">IDEA &#038; SOLUTION</a>
-                    </h3>    <div class="zo-grid-content">   
-                    lf you're not that much of a designer, we offer design service and technical support so you can design your own products, with the precision of a professional designer. Our team...                </div>
-                <div class="zo-grid-readmore">
-                    <a href=# class="btn-link">[Read more]</a>
-                </div>
-            
-                <h3 class = "zo-grid-title"><a href=# title="CUSTOMIZATION">CUSTOMIZATION</a>
-                    </h3>      <div class="zo-grid-content">         
-                    If you have a good idea and you want to see your idea being turned into a functional prototype, we can help you print a wide variety of products. This process supplies...                </div>
-                <div class="zo-grid-readmore">
-                    <a href=# class="btn-link">[Read more]</a>
-                </div>
-            </div>
-                
+
     
     <!-- End page content -->
-</div>
 
 <!-- Newsletter Modal -->
-
+          <?php include '../footer.php';?>
 <script>
     // Accordion
     function myAccFunc() {
@@ -122,6 +105,15 @@
         document.getElementById("myOverlay").style.display = "none";
     }
 </script>
+
+          <script>
+              $(document).ready(function(){
+                  $("#menu_flip").click(function(){
+                      $("#menu_panel").slideToggle("slow");
+                  });
+
+              });
+          </script>
 
 </body>
 </html>

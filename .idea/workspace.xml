@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Aboutus/aboutus.php" afterPath="$PROJECT_DIR$/Aboutus/aboutus.php" />
       <change beforePath="$PROJECT_DIR$/Aboutus/accuracy.php" afterPath="$PROJECT_DIR$/Aboutus/accuracy.php" />
       <change beforePath="$PROJECT_DIR$/Services/services.php" afterPath="$PROJECT_DIR$/Services/services.php" />
     </list>
@@ -49,8 +47,8 @@
       <file leaf-file-name="aboutus.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aboutus/aboutus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="105" column="9" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="105" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -59,8 +57,8 @@
       <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Services/services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,8 +67,8 @@
       <file leaf-file-name="accuracy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aboutus/accuracy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="224">
+              <caret line="57" column="337" lean-forward="true" selection-start-line="57" selection-start-column="337" selection-end-line="57" selection-end-column="337" />
               <folding />
             </state>
           </provider>
@@ -97,8 +95,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/vGraphic.css" />
-        <option value="$PROJECT_DIR$/Aboutus/accuracy.php" />
         <option value="$PROJECT_DIR$/Aboutus/aboutus.php" />
+        <option value="$PROJECT_DIR$/Aboutus/accuracy.php" />
         <option value="$PROJECT_DIR$/Services/services.php" />
       </list>
     </option>
@@ -143,6 +141,11 @@
               <item name="SNDPPro" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Aboutus" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SNDPPro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,12 +187,12 @@
       <workItem from="1534919697851" duration="5345000" />
       <workItem from="1534927866471" duration="6275000" />
       <workItem from="1534945558489" duration="1334000" />
-      <workItem from="1534954744984" duration="4367000" />
+      <workItem from="1534954744984" duration="7101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19704000" />
+    <option name="totallyTimeSpent" value="22438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -417,26 +420,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aboutus/accuracy.php">
+    <entry file="file://$PROJECT_DIR$/Aboutus/aboutus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="275">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="105" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aboutus/aboutus.php">
+    <entry file="file://$PROJECT_DIR$/Aboutus/accuracy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="57" column="337" lean-forward="true" selection-start-line="57" selection-start-column="337" selection-end-line="57" selection-end-column="337" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -55,7 +55,7 @@
            </ul>
             The accuracy of the 3d printed part is reflected from its 3D design/model.
            <h4><b>Authentic Appearance</b></h4>
-           <p>The appearance and scale of object are important in 3d printing industry. The carefull analysis, design and rendering of the CAD file with 3D software and tools ensure the authentic appearance of objects. Selection of 3d printing materials also contributes to the appearance and mechanical properties of the part/model/object.
+           The appearance and scale of object are important in 3d printing industry. The carefull analysis, design and rendering of the CAD file with 3D software and tools ensure the authentic appearance of objects. Selection of 3d printing materials also contributes to the appearance and mechanical properties of the part/model/object.
 <br><br>Design experts at IPRO3D identify and ensure the printability of the STL file of 3d CAD model to assure the authentic appearance of the models.
 <br><br>The process of mapping of drawing form 3d CAD model file to actual 3d printing process is totally taken care by machine and its software’s.
 <br><br>The process of mapping the drawing to model is the actual 3d printing process which is totally handeled by the machine. There are several processes associated with 3d printing. However, the basic principle of 3d printing layer by layer remains the same.</p>
@@ -66,7 +66,7 @@
 
 
     <!-- End page content -->
-</div>
+
 
 <!-- Newsletter Modal -->
 <?php include '../footer.php';?>
