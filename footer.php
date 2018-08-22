@@ -15,25 +15,17 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black">
-    <div class="container-fluid">
+  <div class="container-fluid">
 	<div class="row">
-	<div class="col-sm-3">
-	</div>
-	<div class="col-sm-3">
-	  <h1 class="animated finite bounceInDown	 delay-2s">Our Services</h1>
-	  </div>
-	</div>
-	</br>
-	</br>
-
-      <div class="row">
-       <div class="col-sm-4">
-	   <h5>3D Scanning</h5>
-	   </div>
-	   <div class="col-sm-4">
-	   <h5>3D Printing</h5>
-	   </div>     
-       
+     <div class="col-sm-4">
+	   <h5>Vacuum resin casting</h5></br>
+	   <h5>2D & 3D design services</h5>
+     </div>
+    <div class="col-sm-4">
+	   <h5>Soft tooling manufacturing</h5></br>
+	   <h5>Design for 3D Printing</h5>
+    </div>
+	
       <!-- <h5>Vacuum resin casting</h5>
        <h5>Soft tooling manufacturing</h5>
        <h5>2D & 3D design services</h5>
@@ -52,32 +44,8 @@
             <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
-		</div>
-    </div>
-	<div class="row">
-	<div class="col-sm-4">
-	   <h5>2D & 3D design services</h5>
-	   </div>
-	   <div class="col-sm-4">
-	  <h5>Design for 3D Printing</h5>
-	   </div>
-    </div>
-	</br>
-	</br>
-	<div class="row">
-	<div class="col-sm-3">
 	</div>
-	<div class="col-sm-3">
-	  <h5><a src="#"><b>Many more Services...</b></a></h5>
-	  </div>
-	</div>
-
-	   </div>
-	
-   </div>
-   </div>
-   
-
+    </div>
   </div>
   
 </footer>

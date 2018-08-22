@@ -14,7 +14,7 @@
 <body class="w3-content" style="max-width:1200px">
 <?php include '../header.php';?>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;height:350px;" id="mySidebar">
     <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold;margin-top:100px" >
        <?php include 'aboutus_link.php';?>
      </div>
@@ -31,7 +31,7 @@
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:250px">
+<div class="w3-main" style="margin-left:250px;">
 
     <!-- Push down content on small screens -->
     <div class="w3-hide-large" style="margin-top:83px"></div>
@@ -44,41 +44,34 @@
            <h1><b>Authentic</b></h1>
            </div>
       </div>
-      <div class="container" align="left" style="margin:0px 50px">
+      <div class="container-fluid" align="left" style="margin:0px 50px">
            <div class="row">
            </br>
 		   </br>
            <h4><b>Authentic</b></h4>
            </div>
       </div>
-      <div class="container" align="left" style="margin:0px 50px">
+      <div class="container-fluid" align="left" style="margin:0px 50px">
            <div class="row">
            <p>Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality</p>
            </div>
       </div>
-	  <div class="container" align="left" style="margin:0px 50px">
+	  <div class="container-fluid" align="left" style="margin:0px 50px">
            <div class="row">
            </br>
 		   </br>
            <h4><b>Material Used</b></h4>
            </div>
       </div>
-      <div class="container" align="left" style="margin:0px 50px">
+      <div class="container-fluid" align="left" style="margin:0px 50px;">
            <div class="row">
            <p>IPRO3d offers a wide variety of high quality 3d Printing materials. Making your ideas become real 3d physical object/part in different materials like photopolymer resins, plastics and polymers, metals, alloys, high temperature resistant materials, tough materials, castable materials, etc. Our material have the highest level of dimensional accuracy and material properties. Whether you want to develop unique jewelry designs, scale models for architecture projects or landscapes, prototypes of toys, industrial parts, end use parts or medical devices, IPRO3D assures the premium quality materials for all prototypes according to product requirements. We offer different alternatives of materials like detailed, durable and multicolor also. You can choose the perfect materials alternative for your products.
 </br>If you are not very good technically in choosing materials we are always there and can also help you choose it.
-
+</br></br>
 </p>
            </div>
       </div>
     <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
-
-
 
     <!-- End page content -->
 </div>
@@ -111,6 +104,11 @@
         document.getElementById("myOverlay").style.display = "none";
     }
 </script>
+<footer id="footer">
+<div class="container">
+    <?php include'../footer.php';?>
+</div>
+    </footer>
 
 </body>
 </html>

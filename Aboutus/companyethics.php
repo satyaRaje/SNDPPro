@@ -7,6 +7,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="vGraphic.css" rel="stylesheet" type="text/css">
+<link href="whatsApp.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 <style>
     .w3-sidebar a {font-family: "Roboto", sans-serif}
     body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
@@ -14,7 +24,7 @@
 <body class="w3-content" style="max-width:1200px">
 <?php include '../header.php' ;?>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;height:450px;" id="mySidebar">
     <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold;margin-top:60px">
        <?php include 'aboutus_link.php';?>
     </div>
@@ -36,7 +46,7 @@
     <div class="w3-hide-large" style="margin-top:83px"></div>
 
     <!-- Top header -->
-      <div class="container" align="left" style="margin:0px 50px">
+      <div class="container" align="left" style="margin:50px 50px">
            <div class="row">
 		   </br>
 		   </br>
@@ -88,12 +98,6 @@
            </div>
       </div>
     <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
-
 
 
     <!-- End page content -->
@@ -127,6 +131,11 @@
         document.getElementById("myOverlay").style.display = "none";
     }
 </script>
+<footer id="footer">
+<div class="container">
+    <?php include'../footer.php';?>
+</div>
+    </footer>
 
 </body>
 </html>
