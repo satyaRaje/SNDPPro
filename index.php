@@ -279,72 +279,10 @@
 <br>
 
     <!-- Contact Section -->
-    <div class="container-fluid"  id="contact">
-        <h3 class="w3-center" style="color: darkslategrey;font-weight: bolder;" >CONTACT</h3>
-
-        <div class="row" style="background-color: #bbbbbb;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.2523532716305!2d75.31352311425753!3d19.871563331647998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb99e84cc7f4e7%3A0x8ef52048513cb04!2sIPRO3D+Technologies+LLP!5e0!3m2!1sen!2sin!4v1534930979184" style="width:100%;" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="row text-center w3-black">
-
-            <div class="col-sm-3">
-                <h3>Our Services</h3>
-                <h5>3D Printing</h5>
-                <h5>3D Scanning</h5>
-                <h5>2D & 3D design services</h5>
-                <h5>Design for 3D Printing</h5>
-                <h5>Many more services…..</h5>
-
-            </div>
-
-            <div class="col-sm-3">
-               <br><br>
-                <h5><b>IPRO3D TECHNOLOGIES LLP</b><br>
-                    Incubation Office<br>
-                    <b>IPRO3D TECHNOLOGIES LLP,</b><br>
-                    C/O Er. Yogesh Pawar,<br>
-                    Workstation-1, MAGIC, CMIA office,<br>
-                    Bajaj Bhavan, Near MIDC office,<br>
-                    Railway Station Road, Aurangabad,<br>
-                    Maharashtra, India.<h5>
-
-            </div>
-            <div class="col-sm-3">
-               <br><br>
-              <h5>
-                  <b>Corporate office Manufacturing Facility</b><br>
-                Address:<br>
-                  <b>IPRO3D TECHNOLOGIES LLP,</b><br>
-                C/O Er. Yogesh Pawar,<br>
-                Meridian Status-B, F-7,<br>
-                Near Youth Hostel, Kesarsingpura,<br>
-                Aurangabad-431005, Maharashtra,<br>
-                India.<br>
-
-              </h5>
-            </div>
-
-
-            <div class="col-sm-3">
-                <br><br><br>
-                <div class="w3-xxlarge">
-                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                    <i class="fa fa-instagram w3-hover-opacity"></i>
-                    <i class="fa fa-snapchat w3-hover-opacity"></i>
-                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                    <i class="fa fa-twitter w3-hover-opacity"></i>
-                    <i class="fa fa-linkedin w3-hover-opacity"></i>
-                    <button class="float my-float">w</button>
-                    <a href="https://api.whatsapp.com/send?phone=919821413663" class="float" target="_blank">
-                        <i class="fa fa-whatsapp my-float"></i></a>
-                </div>
-                <h4 style="background-color: gray">Mobile : +91 9821413663</h4>
-                <h4>Email : hello@ipro3d.io</h4>
-            </div>
-        </div>
+    <div class="row" style="background-color: #bbbbbb;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.2523532716305!2d75.31352311425753!3d19.871563331647998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb99e84cc7f4e7%3A0x8ef52048513cb04!2sIPRO3D+Technologies+LLP!5e0!3m2!1sen!2sin!4v1534930979184" style="width:100%;" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-
-
+<?php include 'footer.php';?>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
     <!--
     To use this code on your website, get a free API key from Google.

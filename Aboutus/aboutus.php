@@ -17,15 +17,11 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<style>
-    .w3-sidebar a {font-family: "Roboto", sans-serif}
-    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
-</style>
-<body class="w3-content" style="max-width:1200px">
+<body class="w3-content" style="max-width:1500px">
 <?php include '../header.php';?>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;height:450px;" id="mySidebar">
-    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold;margin-top:60px">
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="width:250px;height:200px;" id="mySidebar">
+    <div class="w3-padding-64 w3-large w3-text-grey">
        <?php include 'aboutus_link.php';?>
     </div>
 </nav>
@@ -77,7 +73,7 @@
     
 </div>
 <!-- Newsletter Modal -->
-
+<?php include '../footer.php';?>
 <script>
     // Accordion
     function myAccFunc() {
