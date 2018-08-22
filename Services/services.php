@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>IPRO3D Services</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body class="w3-content" style="max-width:1200px">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link href="vGraphic.css" rel="stylesheet" type="text/css">
+<link href="whatsApp.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+<body class="w3-content" style="max-width:1500px">
 <?php include '../header.php';?>
+
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
-    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold;margin-top:60px">
+<br><br><br>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
        <?php include 'services_link.php';?>
     </div>
-</nav>
+
 
 <!-- Top menu on small screens -->
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:250px">
+
 
     <!-- Push down content on small screens -->
-    <div class="w3-hide-large" style="margin-top:83px"></div>
 
     <!-- Top header -->
       <div class="container">
