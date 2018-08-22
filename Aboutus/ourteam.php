@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-ABOUT_US-OurTeam</title>
+<title>IPRO3D OurTeam</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -14,11 +14,13 @@
 <body class="w3-content" style="max-width:1200px">
 <?php include '../header.php';?>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="width:250px;height:350px;" id="mySidebar">
     <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold;margin-top:60px">
        <?php include 'aboutus_link.php';?>
+	   
     </div>
 </nav>
+
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
@@ -63,54 +65,81 @@
 		</div>
 	  </div>
     <!--  Our Team -->
-	  <div class="container">
-	    <div class="row">
-		<div>
-		  <h4 style="margin:0px 50px"><b>Our Team Members</b></h4>
-		 <p><img src="../img/team/t1.jpg"  align="left" style="margin:0px 50px"><h5><b>Yogesh Pawar</b></h5>Founder and Managing Director</br></br>
-             He is a Mechanical Engineer. He heads Business Operations and Business Development.</p>
-         </br></br></br></br></br></br></br>
-	    </div>
-		</div>
-	  </div>
-      <div class="container">
-	    <div class="row">
-		<div>
-		 <p><img src="../img/team/t2.png"  align="left" style="margin:0px 50px"><h5><b>Chandrakant Pawar</b></h5>Co-Founder and Director Finance</br></br></br></br></br></br>
-         </p> </br></br></br></br></br>
-	    </div>
-		</div>
-	  </div>
-      <div class="container">
-	    <div class="row">
-		<div>
-		 <p><img src="../img/team/t3.jpg"  align="left" style="margin:0px 50px"><h5><b>Vivek Mugdal</b></h5>Engineer</p>
-		 </br></br></br></br></br></br></br></br></br></br>
-	    </div>
-		</div>
-	  </div>
-      <div class="container">
-	    <div class="row">
-		<div>
-		 <p><img src="../img/team/t4.jpg"  align="left" style="margin:0px 50px"><h5><b>Yash Pawar</b></h5>Intern</p>
-	    </div>
-		</div>
-	  </div>
-
-    <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
-
-
-
+	  
+	<div class="container"> 
+	  <div class="w3-container" style="padding:128px 16px  left-margin:20px" id="team">
+    <h3 class="w3-center">THE TEAM</h3>
+    <p class="w3-center w3-large">The ones who runs this company...</br>IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.</p>
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-card">
+                <img src="../img/team/t1.jpg" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                    <h3>Er. Yogesh C. Pawar </h3>
+                    <p class="w3-opacity">Founder and Director</p>
+                    <p>Department – Business Operations and Business Development</br>Passionate Mechanical Engineer and Entrepreneur.</p>
+                    <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+            </div>
+        </div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-card">
+                <img src="../img/team/t2.png" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                    <h3>Dr.Chandrakant T Pawar</h3>
+                    <p class="w3-opacity">Co-Founder and Director</p>
+                    <p>Department- Finance</br>Doctor by profession.</br></p>
+                    <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-card">
+                <img src="../img/team/t3.jpg" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                    <h3>Er. Vivek R Mugdal</h3>
+                    <p class="w3-opacity">Trainee Engineer</p>
+                    <p>Department – Business Operations</br>Passionate Electrical and Electronics Engineer. </p></br>
+                    <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-card">
+                <img src="../img/team/t4.jpg" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                    <h3>Mr. Yash C. Pawar</h3>
+                    <p class="w3-opacity"> Intern (Graphic design, Arts and animated modeling)</p>
+                    <p>Department- Business Development</br>Passionate artist and graphic designer.</p>
+                    <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+	  
+<div class="container" align="left" style="margin:0px 50px">
+  <div class="row">
+    <h3>We have two teams working towards same goal</h3></br>
+  </div>
+</div>
+<div class="container" align="left" style="margin:0px 50px">
+  <div class="row">
+     <p><b>1)	Web development and business development Team.</b></br>
+     <p>This team designs and operates online and offline portal services. It is also responsible for promoting of IPRO3D and build a strong customer relationship by enhancing the user experience and acquire new customers. This team specifically works towards improvement of web portal and web services related issues by removing the flaws in the existing system.</br></br></p>
+     <b>2)	Business operations Team</b></br>
+     The operations team performs the actual additive manufacturing or 3D printing of the 3D CAD designs and 3D scans by using various techniques of additive manufacturing or 3d printing as the principle remains the same even if the method of manufacturing is changed. This team looks after rigorous quality testing of the 3d printed product/part/object. The operations team is also responsible for the procurement of raw material, rigorous quality testing and control, reducing the Leadtime, designing, packaging, accounts and finance, etc.
+  </div>
+</div>
     <!-- End page content -->
 </div>
-
+</div>
+<!-- Footer -->
+<div class="container-fluid">
+<?php include '../footer.php';?>
 <!-- Newsletter Modal -->
-
+</div>
 <script>
     // Accordion
     function myAccFunc() {
@@ -137,6 +166,12 @@
         document.getElementById("myOverlay").style.display = "none";
     }
 </script>
+<footer>
+
+</footer>
 
 </body>
+</html>
+
+<html>
 </html>

@@ -36,13 +36,6 @@
     <div class="w3-hide-large" style="margin-top:83px"></div>
 
     <!-- Top header -->
-      <div class="container">
-           <div class="row">
-		   </br>
-		   </br><br><br>
-           <h1><span style="padding-left:300px"></span><b>Company Ethics</b></h1>
-           </div>
-      </div>
       <div class="container" align="left" style="margin:0px 50px">
            <div class="row">
 		   </br>

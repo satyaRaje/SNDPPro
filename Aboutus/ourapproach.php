@@ -44,23 +44,20 @@
 <h1>Our Approach</h1>
 <br>
 
-<p><img src="img/overview/1.png" align="right" Style="margin-left:120px 0px"></img>
-<h3>PRINT YOUR OWN IDEA</h3>
-We give you the power to take your custom designs and make them real.
-<br> Let’s make ideas materialize….</p>
+<p style="margin-left:120px 0px"><img src="img/overview/1.png" align="right" Style="margin-left:120px 0px"></img>
+ &nbsp;&nbsp;&nbsp;&nbsp;Our approach is to work towards bringing every innovative idea or product to reality (Actual 3d object/part)<br>
+ by using a disruptive technology of Additive Manufacturing also popularly known as 3D printing and make the <br>
+ world a better place to live by changing the face of manufacturing industry by removing its currently involved <br>
+ hierarchy of traditional manufacturing and to become the global leader of digital manufacturing industry.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;We work with Additive Manufacturing technology majorly involved in Industry 4.0. As Additive Manufacturing
+<br> is an integral part of Industry 4.0 the 4th industrial revolution.<br></p>
 <br><br>
 
 
            </div>
 	</div>
 
-    <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
-
+    
 
 
     <!-- End page content -->

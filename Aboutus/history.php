@@ -42,25 +42,23 @@
 	<p><img src="img/history/1.png" align="right" Style="margin-left:120px 0px"><p>
 <br><br><br>	
 <h1>COMPANY HISTORY AND TIMELINE</h1>
-<p>1)Idea (June 2016) – Eureka,Idea of 3D printing business.<br>
-2)Market survey (August 2016).<br>
-3)Training at MCED (October 2016).<br>
-4)Planning and development (December 2016).<br>
-5)Company incorporation (October 2017).<br>
-6)Plant set up in Aurangabad (October 2017).<br>
-7)Website launch (March 2018).<br>
+<p>1)Idea (June 2016) – Eureka, Idea of 3D printing business.<br>
+2)Market survey (August 2016) <br>
+3)Training at MCED (October 2016)<br>
+4)Planning and development (December 2016)<br>
+5)Company Incorporation as IPRO3D TECHNOLOGIES LLP (October 2017)<br>
+6)Plant set up in Aurangabad (October 2017)<br>
+7)Website launch and India 1st Additive Manufacturing 3D Printing Online Marketplace (March 2018)<br>
+8)Incubated at MAGIC (Marathwada Accelerator for Growth and Incubation Council) Incubation Center by CMIA (Chamber of Marathwada Industries and Agriculture) (May 18)<br>
+9)Recognized as a Startup by DIPP (Department of Industrial Policy and Promotion) under Ministry of Commerce and Industries, Government of India. (May 18)<br>
+10)Solidworks partners as CAD partner with IPRO3D TECHNOLOGIES LLP (July 18)<br>
+
 
              </div>
         </div>
 	
 
-    <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
-
+    
 
 
     <!-- End page content -->
