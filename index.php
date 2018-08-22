@@ -101,7 +101,7 @@
     </div>
     <!-- How we work  -->
     <div class="container-fluid text-center">
-        <h3>How We Work</h3>
+        <h3 style="font-weight: bolder;color:darkslategrey;">How We Work</h3>
         <div class="row">
             <div class="col-sm-2">
                 <img src="img/logo/idea.png">
@@ -155,27 +155,27 @@
 
     <!-- PRODUCTIOn  -->
     <div class="container-fluid text-center">
-        <h1>Prototype Your Product</h1>
+        <h3 style="font-weight: bolder;color:darkslategrey;">Prototype Your Product</h3>
         <div class="row">
             <div class="col-sm-2">
-                <img src="img/New%20folder/material.png">
-                <h1>Material</h1>
-                <h3>
+                <img src="img/New%20folder/material.png" style="height: 150px;">
+                <h3 style="font-weight: bold;">Material</h3>
+                <h5>
                     Select materials<br>
                     from a wide<br>
                     variety in plastics,<br>
                     metals, metal<br>
                     alloys and plastic<br>
                     composites
-                </h3>
+                </h5>
             </div>
             <div class="col-sm-2">
-                <img src="img/New%20folder/quality.png">
-                <h1>Quality</h1>
-                <h3>We don’t<br>
+                <img src="img/New%20folder/quality.png"  style="height: 150px;">
+                <h5>Quality</h5>
+                <h6 >We don’t<br>
                     compromise on<br>
                     part / product<br>
-                    quality</h3>
+                    quality</h6>
             </div>
             <div class="col-sm-2">
                 <img src="img/New%20folder/price.png">
