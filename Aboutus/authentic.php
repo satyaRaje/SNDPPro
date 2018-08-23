@@ -17,7 +17,7 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body class="w3-content" style="max-width:1500px">
+<body style="background-color: whitesmoke;color: darkslategrey;">
 <?php include '../header.php';?>
 <!-- Sidebar/menu -->
 <br><br><br>
@@ -28,61 +28,27 @@
     <?php include 'aboutus_link.php';?>
 </div>
 
-<!-- Top menu on small screens -->
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-
-    <!-- Push down content on small screens -->
-
-
     <!-- Top header -->
       <div class="container">
            <div class="row">
-           <h1 style="...">Authentic</h1>
-           Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality
+           <h1 style="text-align: center;">Authentic</h1>
+               <p>Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality</p>
 
-	       <h4>Material Used</h4>
+	       <h4 style="text-align: center;">Material Used</h4>
            IPRO3d offers a wide variety of high quality 3d Printing materials. Making your ideas become real 3d physical object/part in different materials like photopolymer resins, plastics and polymers, metals, alloys, high temperature resistant materials, tough materials, castable materials, etc. Our material have the highest level of dimensional accuracy and material properties. Whether you want to develop unique jewelry designs, scale models for architecture projects or landscapes, prototypes of toys, industrial parts, end use parts or medical devices, IPRO3D assures the premium quality materials for all prototypes according to product requirements. We offer different alternatives of materials like detailed, durable and multicolor also. You can choose the perfect materials alternative for your products.
              If you are not very good technically in choosing materials we are always there and can also help you choose it.
 
            </div>
       </div>
-    <!-- Footer -->
-
-    <!-- End page content -->
 
 <!-- Newsletter Modal -->
 <br><br>
+<div class="container-fluid">
+    <div class="row">
 <?php include '../footer.php';?>
-<script>
-    // Accordion
-    function myAccFunc() {
-        var x = document.getElementById("demoAcc");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
+    </div>
+</div>
 
-    // Click on the "Jeans" link on page load to open the accordion for demo purposes
-    document.getElementById("myBtn").click();
-
-
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
-</script>
 <script>
     $(document).ready(function(){
         $("#menu_flip").click(function(){
