@@ -19,10 +19,18 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body class="w3-content" style="max-width:1200px">
+<body class="" style="">
 
 <!-- Sidebar/menu -->
 <?php include '../header.php';?>
+<br><br><br>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'services_link.php';?>
+</div>
+
 <br><br><br>
 <div class="container">
     <div class="row">
@@ -83,6 +91,14 @@
 
 </div>
 
+<script>
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
+
+    });
+</script>
 
 
 <!-- End page content -->

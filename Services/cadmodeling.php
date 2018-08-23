@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-ABOUT_US-Authentic</title>
+<title>IPRO3D-CADmodelling</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,9 +21,18 @@
 <body style="background-color: whitesmoke;color: darkslategrey;">
 <?php include '../header.php';?>
 <br><br><br>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'services_link.php';?>
+</div>
+
+<br><br><br>
+
       <div class="container">
            <div class="row">
-           <h3 style="text-align: center; "><b>3D and 2D CAD Modelling/Designing:</b></h3>
+           <h3 style="text-align: center; "><b>3D and 2D CAD Modelling/Designing</b></h3>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                    <!-- Indicators -->
@@ -81,33 +90,16 @@
          <?php include '../footer.php';?>
      </div>
  </div>
-
 <script>
-    // Accordion
-    function myAccFunc() {
-        var x = document.getElementById("demoAcc");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
 
-    // Click on the "Jeans" link on page load to open the accordion for demo purposes
-    document.getElementById("myBtn").click();
-
-
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
+    });
 </script>
+
+
 
 </body>
 </html>

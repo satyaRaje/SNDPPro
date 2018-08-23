@@ -21,9 +21,18 @@
 <body>
 <?php include '../header.php';?>
 <br><br><br>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'services_link.php';?>
+</div>
+
+
+<br><br><br>
       <div class="container">
            <div class="row">
-           <h2 style="text-align: center;"><b>Rapid Prototyping:</b></h2>
+           <h2 style="text-align: center;"><b>Rapid Prototyping</b></h2>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                    <!-- Indicators -->
@@ -80,6 +89,15 @@
       </div>
 
   </div>
+<script>
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
+
+    });
+</script>
+
 
 
 
