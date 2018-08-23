@@ -18,7 +18,16 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <body>
 <?php include '../header.php';?>
+
 <br><br><br>
+
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'aboutus_link.php';?>
+</div>
+
       <div class="container" style="color: darkslategrey;">
            <div class="row" style="background-color: whitesmoke;padding: 20px;text-align: justify;">
 <h1 style="text-align: center; font-weight: bolder;">Our Approach</h1>
@@ -41,6 +50,13 @@
     <?php include'../footer.php';?>
     </div>
 </div>
+<script>
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
 
+    });
+</script>
 </body>
 </html>
