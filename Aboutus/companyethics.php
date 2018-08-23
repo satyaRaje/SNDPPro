@@ -22,7 +22,7 @@
 <br><br><br>
       <div class="container">
            <h4 style="text-align: center;"><b>Company Ethics</b></h4>
-
+<br><br>
            <p style="font-weight: bold;">Every business has its risks and security associated with it. IPRO3D is a leading 3d Printing and 3D CAD modeling company. Whether you are establishing a 3D Model or getting printing services with us, security is our prime concern and responsibility. We understand the importance of valuable designs made by invelsting a lot of time, efforts and creative thinking. You can upload designs with confidence as we take care that no one could download / hack the design. Similarly, all our transmissionas are safe with transcripted environment. Your designs are safe with us and never misused or published without your permission.</p>
   <ol>
       <h4><li> <b>What Assignments are prohibited at IPRO3D?</b></li></h4>
@@ -42,7 +42,7 @@
 
 
       </div>
-
+<br><br>
 <div class="container-fluid">
     <div class="row">
     <?php include'../footer.php';?>
