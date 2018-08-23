@@ -22,6 +22,14 @@
 <body style="background-color: whitesmoke;color: darkslategrey;padding: 20px;">
 <?php include '../header.php';?>
 <br><br><br>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'services_link.php';?>
+</div>
+
+<br><br><br>
     <!-- Top header -->
     <div class="container">
         <div class="row">
@@ -94,6 +102,14 @@
      </div>
 
  </div>
+<script>
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
+
+    });
+</script>
 
 
 
