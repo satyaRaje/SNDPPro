@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body class="w3-content" style="max-width:1200px">
+<body class="" style="">
 
 <!-- Sidebar/menu -->
 <?php include '../header.php';?>
