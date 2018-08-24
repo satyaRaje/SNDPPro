@@ -19,11 +19,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<style>
-    .w3-sidebar a {font-family: "Roboto", sans-serif}
-    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
-</style>
-<body style="background-color: whitesmoke;color: darkslategrey;padding: 20px;">
+<body class="" style="">
 <?php include '../header.php';?>
 <br><br><br>
 <div id="menu_flip" >
@@ -36,7 +32,7 @@
     <!-- Top header -->
     <div class="container" style="color: darkslategrey;">
         <div class="row" style="background-color: whitesmoke;padding: 20px;text-align: justify;">
-            <h2 style="text-align:center"><b>Manufacturing</b></h2>
+            <h2 style="text-align:center"><b>Small Batch Production</b></h2>
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                 <ol class="carousel-indicators">
@@ -98,32 +94,13 @@
 </div>
 
 <!-- Newsletter Modal -->
-
 <script>
-    // Accordion
-    function myAccFunc() {
-        var x = document.getElementById("demoAcc");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
 
-    // Click on the "Jeans" link on page load to open the accordion for demo purposes
-    document.getElementById("myBtn").click();
-
-
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
+    });
 </script>
 
 </body>
