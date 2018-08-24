@@ -19,52 +19,20 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<style>
-    .w3-sidebar a {font-family: "Roboto", sans-serif}
-    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
-</style>
 <body class="w3-content" style="max-width:1200px">
+<?php include '../header.php';?>
+<br><br><br>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
-    <div class="w3-container w3-display-container w3-padding-16">
-        <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-        <h3 class="w3-wide"><b><img src="img/logo.png"></b></h3>
-    </div>
-    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-       <?php include 'template_link.php';?>
-     </div>
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'services_link.php';?>
+</div>
 
-</nav>
-
-<!-- Top menu on small screens -->
-<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-    <div class="w3-bar-item w3-padding-24 w3-wide"><img src="img/logo.png"></div>
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-</header>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:250px">
-
-    <!-- Push down content on small screens -->
-    <div class="w3-hide-large" style="margin-top:83px"></div>
-
-    <!-- Top header -->
-      <div class="container" align="left" style="margin:0px 300px">
-           <div class="row">
-           </br>
-		   </br>
-           <h1><b></b></h1>
-           </div>
-      </div>
       <div class="container" align="left" style="margin:20px 50px">
-           <div class="row">
-           </br>
-		   </br>
-           <h4><b>Vacuum Casting:</b></h4>
+<div class="row" style="background-color: whitesmoke;color: darkslategrey;padding: 20px;text-align: justify;">
+<h1 style="text-align: center;font-weight: bold;">Vaccum Casting</h1>
            </div>
       </div>
 	
@@ -118,17 +86,17 @@
 
            </div>
       </div>
-	  <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-
-
-
-    </footer>
-
+	  
 
 
     <!-- End page content -->
 </div>
+<div class="container-fluid">
+   <div class="row">
+         <?php include'../footer.php';?>
+   </div>
+</div>
+
 
 <!-- Newsletter Modal -->
 
