@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D tool manufacture</title>
+<title>IPRO3D_FunctionalPartManufacturing</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -82,7 +82,7 @@
 
 <div class="container" style="padding: 20px;">
     <div class="row" style="font-weight: bolder;">
-           <p>Small batch production can be done using 3d printing technology for directly producing end use parts. </br>SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.</p>
+           p>Additive manufacturing (3d printing) showing a lot of promise is in integrated assemblies. It helps reduce the 3d print time of your object simply by integrating an assembly plan into your 3D model before actually 3d printing it. This will reduce the items you need to manufacture and save you time in the 3d printing process.</p>
            </div>
       </div>
 	  <!-- Footer --><div class="container-fluid">
