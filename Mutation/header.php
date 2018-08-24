@@ -185,12 +185,12 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="portfolio.php"><button class="dropbtn">Portfolio</button></a>
+                        <a href="#"><button class="dropbtn">Portfolio</button></a>
                     </div>
 					</li>
                 <li>
                     <div class="dropdown">
-                        <a href="Marketplace/marketplace.php"><button class="dropbtn">MarketPlace</button></a>
+                        <a href="#"><button class="dropbtn">MarketPlace</button></a>
                     </div>
                 </li>
                 <li>
@@ -200,12 +200,12 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="Materials/materials.php"><button class="dropbtn">Materials</button></a>
+                    <a href="#"><button class="dropbtn">Materials</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="Contact/contact.php"><button class="dropbtn">Contact</button></a>
+                    <a href="#"><button class="dropbtn">Contact</button></a>
                     </div>
                 </li>
                 <li>
