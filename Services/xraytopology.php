@@ -89,7 +89,6 @@
 
 
     <!-- End page content -->
-</div>
 <div class="container-fluid">
    <div class="row">
          <?php include'../footer.php';?>
