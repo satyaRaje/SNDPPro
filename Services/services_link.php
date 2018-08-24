@@ -11,7 +11,7 @@
 <a href="manufacturing.php" class="w3-bar-item w3-button">Small Batch Production</a>
 <a href="vaccumecast.php" class="w3-bar-item w3-button">Vaccum Casting</a>
 <a href="xraytopology.php" class="w3-bar-item w3-button">X-Ray Topography</a>
-<a href="manufacture.php" class="w3-bar-item w3-button">Functional part Manufacturing</a>
+<a href="functional.php" class="w3-bar-item w3-button">Functional part Manufacturing</a>
 <a href="toolmanufacture.php" class="w3-bar-item w3-button">Tooling Manufacturing</a>
 <a href="injectionmedelling.php" class="w3-bar-item w3-button">Injection Modelling</a>
 <a href="cncmachine.php" class="w3-bar-item w3-button">CNC Machining</a>
