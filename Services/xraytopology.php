@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body class="w3-content" style="max-width:1200px">
+<body class="" style="">
 <?php include '../header.php';?>
 <br><br><br>
 
@@ -30,13 +30,12 @@
     <?php include 'services_link.php';?>
 </div>
 
-      <div class="container" align="left" style="margin:20px 50px">
-<div class="row" style="background-color: whitesmoke;color: darkslategrey;padding: 20px;text-align: justify;">
-<h1 style="text-align: center;font-weight: bold;">X-ray Topography</h1>
-           </div>
-      </div>
-	
-<div id="myCarousel" class="carousel slide" data-ride="carousel" align="left" style="margin:50px">
+<br><br><br>
+<div class="container">
+    <div class="row">
+        <h2 style="text-align: center;"><b>X-Ray Topography</b></h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
 
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -79,7 +78,7 @@
 	  
       <div class="container" align="left" style="margin:0px 50px">
            <div class="row">
-           <p>X-ray topography is technology that is widely used to investigate dislocation and other defects, such as stacking faults and precipitates in single crystals. It is mainly used to determine the Burgers vector of the dislocations. The Spatial resolution of the topography is very important for visualizing the individual dislocations in the crystals.
+           X-ray topography is technology that is widely used to investigate dislocation and other defects, such as stacking faults and precipitates in single crystals. It is mainly used to determine the Burgers vector of the dislocations. The Spatial resolution of the topography is very important for visualizing the individual dislocations in the crystals.
 
 </br></br>
 		   
@@ -99,32 +98,13 @@
 
 <!-- Newsletter Modal -->
 
-<script>
-    // Accordion
-    function myAccFunc() {
-        var x = document.getElementById("demoAcc");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
+    <script>
+        $(document).ready(function(){
+            $("#menu_flip").click(function(){
+                $("#menu_panel").slideToggle("slow");
+            });
 
-    // Click on the "Jeans" link on page load to open the accordion for demo purposes
-    document.getElementById("myBtn").click();
-
-
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
-</script>
-
+        });
+    </script>
 </body>
 </html>

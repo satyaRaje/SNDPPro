@@ -76,7 +76,7 @@
 	  
       <div class="container" style="padding:20px;font-weight: bold;">
            <div class="row">
-           <p>Small batch production can be done using 3d printing technology for directly producing end use parts. </br>SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.
+           Small batch production can be done using 3d printing technology for directly producing end use parts. </br>SLS (Selective laser sintering), DMLS (Direct Metal Laser Sintering), SLA (Stereolithography), etc. machines are ideally suited to producing low volume plastic and metal parts, from one to as many as thousands.</br>3D printing produces parts in engineering grade and biocompatible materials which provides both strong and accurate parts as well as affordable which makes it a perfect application for your batch production needs.
 
 </br></br>
            </div>

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Mutation/mutation.php" afterPath="$PROJECT_DIR$/Mutation/mutation.php" />
+      <change beforePath="$PROJECT_DIR$/Services/manufacturing.php" afterPath="$PROJECT_DIR$/Services/manufacturing.php" />
       <change beforePath="$PROJECT_DIR$/Services/vaccumecast.php" afterPath="$PROJECT_DIR$/Services/vaccumecast.php" />
       <change beforePath="$PROJECT_DIR$/Services/xraytopology.php" afterPath="$PROJECT_DIR$/Services/xraytopology.php" />
+      <change beforePath="$PROJECT_DIR$/header1.php" afterPath="$PROJECT_DIR$/header1.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3dprinting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/3dprinting.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="3dscanning.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Services/3dscanning.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/Services/rapidprototyping.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <caret line="98" column="9" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="98" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -48,18 +39,48 @@
       <file leaf-file-name="manufacturing.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Services/manufacturing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="78" column="546" lean-forward="true" selection-start-line="78" selection-start-column="546" selection-end-line="78" selection-end-column="546" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mutation.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mutation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mutation/mutation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xraytopology.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/xraytopology.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vaccumecast.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/vaccumecast.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -95,26 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toolmanufacture.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/toolmanufacture.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -140,12 +141,15 @@
         <option value="$PROJECT_DIR$/Services/toolmanufacture.php" />
         <option value="$PROJECT_DIR$/Services/3dprinting.php" />
         <option value="$PROJECT_DIR$/Services/3dscanning.php" />
-        <option value="$PROJECT_DIR$/Services/rapidprototyping.php" />
         <option value="$PROJECT_DIR$/Services/cadmodeling.php" />
         <option value="$PROJECT_DIR$/Services/design.php" />
         <option value="$PROJECT_DIR$/Services/reverse.php" />
-        <option value="$PROJECT_DIR$/Services/manufacturing.php" />
         <option value="$PROJECT_DIR$/Mutation/mutation.php" />
+        <option value="$PROJECT_DIR$/Services/rapidprototyping.php" />
+        <option value="$PROJECT_DIR$/Services/vaccumecast.php" />
+        <option value="$PROJECT_DIR$/Services/xraytopology.php" />
+        <option value="$PROJECT_DIR$/Services/manufacturing.php" />
+        <option value="$PROJECT_DIR$/header1.php" />
       </list>
     </option>
   </component>
@@ -245,12 +249,12 @@
       <workItem from="1535030375397" duration="3985000" />
       <workItem from="1535034550504" duration="9611000" />
       <workItem from="1535049528780" duration="1527000" />
-      <workItem from="1535119054011" duration="1525000" />
+      <workItem from="1535119054011" duration="2031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52279000" />
+    <option name="totallyTimeSpent" value="52785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -288,20 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Aboutus/careers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4692">
-          <caret line="276" column="14" lean-forward="false" selection-start-line="276" selection-start-column="14" selection-end-line="276" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -519,13 +509,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ip/SNDPPro/Services/3dprinting.php" />
-    <entry file="file://$PROJECT_DIR$/Services/vaccumecast.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Services/services_link.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -590,10 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Services/manufacturing.php">
+    <entry file="file://$PROJECT_DIR$/Mutation/mutation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -601,15 +584,39 @@
     <entry file="file://$PROJECT_DIR$/Services/rapidprototyping.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <caret line="98" column="9" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="98" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mutation/mutation.php">
+    <entry file="file://$PROJECT_DIR$/Services/vaccumecast.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/xraytopology.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/manufacturing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="78" column="546" lean-forward="true" selection-start-line="78" selection-start-column="546" selection-end-line="78" selection-end-column="546" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
           <folding />
         </state>
       </provider>
