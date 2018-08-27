@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-ABOUT_US-Authentic</title>
+<title>IPRO3D-Design3DPrinting</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -75,10 +75,13 @@
 </div>
    </div>
         <br><br>
-<p style="font-weight: bolder;text-align: justify;">
-
- Design for 3d printing is a designing process through which the part can be design according to its final use or purpose but can be optimized for easy 3d printing for reducing the chance of any errors or defects occurrence during the 3d printing process or after production of final part.</br></br>
-</p>
+<p style="text-align: justify;">
+</br>
+</br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design for 3d printing is a designing process through which the part can be design according to its final use or purpose but can be optimized for easy 3d printing for reducing the chance of any errors or defects occurrence during the 3d printing process or after production of final part.</br></br>
+</br>
+</br>
+ </p>
            </div>
       </div>
 	  <!-- Footer -->

@@ -81,9 +81,13 @@
 
 
 <div class="container" style="padding: 20px;">
-    <div class="row" style="font-weight: bolder;">
-           p>Additive manufacturing (3d printing) showing a lot of promise is in integrated assemblies. It helps reduce the 3d print time of your object simply by integrating an assembly plan into your 3D model before actually 3d printing it. This will reduce the items you need to manufacture and save you time in the 3d printing process.</p>
-           </div>
+    <div class="row">
+	</br>
+	</br>
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additive manufacturing (3d printing) showing a lot of promise is in integrated assemblies. It helps reduce the 3d print time of your object simply by integrating an assembly plan into your 3D model before actually 3d printing it. This will reduce the items you need to manufacture and save you time in the 3d printing process.</p>
+           </br>
+		   </br>
+		   </div>
       </div>
 	  <!-- Footer --><div class="container-fluid">
     <div class="row">

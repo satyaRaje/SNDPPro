@@ -81,9 +81,13 @@
 
 
 <div class="container" style="padding: 20px;">
-    <div class="row" style="font-weight: bolder;">
-           <p>Injection molding is a process for producing parts by injecting molten materials into a mold.</br> It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p>       
-    </div>
+    <div class="row">
+	</br>
+	</br>
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Injection molding is a process for producing parts by injecting molten materials into a mold.</br> It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p>       
+    </br>
+	</br>
+	</div>
    </div>
 	  <!-- Footer --><div class="container-fluid">
     <div class="row">

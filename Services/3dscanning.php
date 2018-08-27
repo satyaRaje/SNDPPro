@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-ABOUT_US-Authentic</title>
+<title>IPRO3D-3DScanning</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -34,7 +34,7 @@
 <br><br><br>
       <div class="container">
            <div class="row">
-           <h2 style="text-align: center;"><b>Scanning</b></h2>
+           <h2 style="text-align: center;"><b>3D Scanning</b></h2>
                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
 
                    <!-- Indicators -->
@@ -78,9 +78,9 @@
       </div>
 <br><br>
       <div class="container">
-           <div class="row" style="font-weight: bold;padding: 20px;">
-           It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time. </br></br>
-		  </br> 3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file. </br>3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br></br>
+           <div class="row" style="padding: 20px;">
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.
+		   3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file. </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br>
 		   There are Different 3d scanners and 3d scanning techniques for different applications like industrial, novelty, architecture, reverse engineering, etc. </br></br>
 
            </div>

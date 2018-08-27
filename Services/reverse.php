@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-Authentic</title>
+<title>IPRO3D-Reverse</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -79,9 +79,13 @@
 
 
 <div class="container" style="padding: 20px;">
-    <div class="row" style="font-weight: bolder;">
-        Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</br></br>
-    </div>
+    <div class="row">
+	</br>
+	</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse engineering is a method used to understand an item and its interaction with various components. It is helpful when you want to create an exact copy or customize according to your needs of a common product with a 3D printer.</br></br>
+    </br>
+	</br>
+	</div>
 </div>
 <!-- Footer -->
 <div class="container-fluid">
