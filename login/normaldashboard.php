@@ -166,7 +166,7 @@
                     </label>
                 </div>
                 <div   id="myac_panel">
-                    <h3 style="color: red;">Center Number : <?php echo $_SESSION['userId'];?></h3>
+                    <h3 style="color: red;">Center Number : <?php echo $_SESSION['userLogin'];?></h3>
                     <h3 style="color: red;">Mobile No : <?php echo $_SESSION['mobile'];?></h3>
                 </div>
             </div>

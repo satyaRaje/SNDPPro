@@ -53,7 +53,7 @@
         <th>Client Name</th>
         <th>Mobile</th>
         <th>Email</th>
-        <th>Mobile</th>
+        <th>Quote</th>
         <th>Link</th>
         <th>Send Message</th>
 

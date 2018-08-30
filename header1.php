@@ -216,7 +216,7 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="../login/login.php"><button class="dropbtn">Login</button></a>
+                        <a href="login/login.php"><button class="dropbtn">Login</button></a>
                     </div>
                 </li>
                 <!--
