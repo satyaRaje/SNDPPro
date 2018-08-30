@@ -215,10 +215,16 @@
                     </div>
                 </li>
                 <li>
+                    <div class="dropdown">
+                        <a href="../login/login.php"><button class="dropbtn">Login</button></a>
+                    </div>
+                </li>
+                <!--
+                <li>
                     <a href="#"> <i class="fa fa-shopping-cart" style="font-size: x-large;"></i><span class="badge">5</span></a></li>
                 <li><a href="#">
                                 <span class="glyphicon glyphicon-search" style="font-size: x-large;"></span>
-                             </a> </li>
+                             </a> </li>-->
 
             </ul>
         </div>
