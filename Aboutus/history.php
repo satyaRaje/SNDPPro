@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>IPRO3D-History</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,7 +17,7 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body>
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <br><br><br>
 
@@ -29,7 +29,7 @@
 </div>
 
 <div class="container">
-    <div class="row" style="color: darkslategrey;background-color: whitesmoke;padding: 20px;">
+    <div class="row" >
         <h2 style="text-align: center;font-weight: bold;">Company History and Timeline</h1>
 <p style="text-align:justify;padding:20px;">
  <li>Idea (June 2016) – Eureka, Idea of 3D printing business.</li>
@@ -47,7 +47,7 @@
     </div>
 
 </div>
-<br>
+</br></br>
 <div class="container-fluid">
     <div class="row">
     <?php include'../footer.php';?>

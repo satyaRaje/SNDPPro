@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D about us</title>
+<title>IPRO3D-Careers</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body>
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <!-- Sid-ebar/menu -->
 <br><br><br>
@@ -33,7 +33,7 @@
 
     <!-- Top header -->
 	<div class="container">
-           <div class="row" style="color: darkslategrey;background-color:whitesmoke;">
+           <div class="row" >
 
                <h2 style="text-align: center;font-weight: bold">Careers</h2>
 <h3 style=" font-weight: bolder">Job openings</h3>

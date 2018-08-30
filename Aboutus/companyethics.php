@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>IPRO3D-CompanyEthics</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,7 +17,7 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body>
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <br><br><br>
 
@@ -29,11 +29,11 @@
 </div>
 
 <div class="container" >
-<div class="row" style="background-color: whitesmoke;color: darkslategrey;padding: 20px;text-align: justify;">
+<div class="row">
 <h2 style="text-align: center;font-weight: bold;">Company Ethics</h2>
 
 <br>
-<p style="text-align:justify;padding:20px;">Every business has its risks and security associated with it. IPRO3D is a leading 3d Printing and 3D CAD modeling company. Whether you are establishing a 3D Model or getting printing services with us, security is our prime concern and responsibility. We understand the importance of valuable designs made by invelsting a lot of time, efforts and creative thinking. You can upload designs with confidence as we take care that no one could download / hack the design. Similarly, all our transmissionas are safe with transcripted environment. Your designs are safe with us and never misused or published without your permission.</p>
+<p style="text-align:justify;padding:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every business has its risks and security associated with it. IPRO3D is a leading 3d Printing and 3D CAD modeling company. Whether you are establishing a 3D Model or getting printing services with us, security is our prime concern and responsibility. We understand the importance of valuable designs made by invelsting a lot of time, efforts and creative thinking. You can upload designs with confidence as we take care that no one could download / hack the design. Similarly, all our transmissionas are safe with transcripted environment. Your designs are safe with us and never misused or published without your permission.</p>
   <ol>
       <h4><li><b>What Assignments are prohibited at IPRO3D?</b></li></h4>
 	  <ul type="none">

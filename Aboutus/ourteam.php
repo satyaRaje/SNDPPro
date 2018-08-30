@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>IPRO3D-OurTeam</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,7 +17,7 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body>
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <br><br><br>
 
@@ -32,62 +32,52 @@
       <div class="container">
            <div class="row">
 		   <h1 style="text-align: center;"><b>Our Team</b></h1>
-	  <div class="container">
-	    <div class="row">
-		 <div class="col-sm-4">
-		 <h3 style="font-weight: bolder;">PRINT YOUR OWN IDEA…</h3>
-		 <p style="font-weight: bold;">We give you the power to take your custom<br>designs and make them real. <br>Let’s make ideas materialize….</p>
-		 </div>
-		 <div class="col-sm-4">
-		 <img src="../img/ourwork/wor21.jpg" style="width:300px;">
-		 </div>
-		 </div>
-
-		</div>
+	  		</div>
 	  </div>
     <!--  Our Team -->
 	  
 	<div class="container">
 
-        <h3 class="text-center">THE TEAM</h3>
+        
        <p class="w3-center w3-large">The ones who runs this company...</br>IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.</p>
         <br><br>
       <div class="row">
-           <div class="col-sm-3 card">
+           <div class="col-sm-3 card" style="background-color:#DCDCDC;padding-left:40px">
                 <center><img src="../img/team/t1.jpg" alt="Dan" class="card-img-top img-circle" height="150px"></center>
-                    <h5 class="card-title" style="font-weight: bold;">Er. Yogesh C. Pawar </h5>
-               <p><b style="color: #bbbbbb;">Founder and Director Department</b> <br> Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur.
+                    <h5 class="card-title" style="font-weight: bold;padding-left:55px">Er. Yogesh C. Pawar </h5>
+               <p><b style="color: #696969;padding-left:0px">Founder and Director Department</b></p>
+			   <p style="padding-left:0px">Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur.</p><br><br>
                </div>
-          <div class="col-sm-3 card">
+          <div class="col-sm-3 card" style="background-color:#DCDCDC;padding-left:40px" >
                 <center><img src="../img/team/t2.png" class="card-img-top img-circle" height="150px" ></center>
-                    <h5 class="card-title" style="font-weight: bold;">Dr.Chandrakant T Pawar</h5>
-              <p><b style="color: #bbbbbb;font-weight: bold;">Co-Founder and Director</b><br>
-                        Department- Finance</br>Doctor by profession.</br></p>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:35px">Dr.Chandrakant T Pawar</h5>
+              <p><b style="color:#696969 ;font-weight: bold;padding-left:33px">Co-Founder and Director</b><br>
+                        <p style="padding-left:33px">Department- Finance</br>Doctor by profession.</br></br></p><br><br>
           </div>
 
-          <div class="col-sm-3 card">
-                <center><img src="../img/team/t3.jpg" class="card-img-top img-circle" alt="Dan" height="150px"></center>
-                    <h5 class="card-title" style="font-weight: bold;">Er. Vivek R Mugdal</h5>
-                    <p style="color: #bbbbbb;font-weight: bold;">Trainee Engineer</p>
-                    <p>Department – Business Operations</br>Passionate Electrical and Electronics Engineer. </p></br>
+          <div class="col-sm-3 card" style="background-color:#DCDCDC;padding-left:40px">
+                <center><img src="../img/team/t3.jpg" class="card-img-top img-circle" height="150px"></center>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:50px">Er. Vivek R Mugdal</h5>
+                    <p style="color: #696969;font-weight: bold;padding-left:50px">Trainee Engineer</p>
+                    <p style="padding-left:50px">Department–Business Operations Passionate Electrical and Electronics Engineer. </p><br>
           </div>
 
-           <div class="col-sm-3">
-                <center><img src="../img/team/t4.jpg" class="card-img-top img-circle" alt="Dan" height="150px"></center>
-                    <h5 style="font-weight: bold;">Mr. Yash C. Pawar</h5>
-                    <p style="color: #bbbbbb;"> Intern (Graphic design, Arts and animated modeling)</p>
-                    <p>Department- Business Development</br>Passionate artist  and graphic designer.</p>
+           <div class="col-sm-3" style="background-color:#DCDCDC;padding-left:40px">
+                <center><img src="../img/team/t4.jpg" class="card-img-top img-circle" height="150px"></center>
+                    <h5 style="font-weight: bold;padding-left:53px">Mr. Yash C. Pawar</h5>
+                    <p style="color: #696969;padding-left:40px"> Intern (Graphic design, Arts and animated modeling)</p>
+                    <p style="padding-left:40px">Department-Business Development</br>Passionate artist  and graphic designer.</p>
            </div>
       </div>
     </div>
 
 
-<div class="container">
+<div class="container" style="text-align:justify;padding:20px;">
   <div class="row">
     <h3 style="font-weight: bold;">We have two teams working towards same goal</h3>
   </div>
 </div>
-<div class="container" align="left" style="margin:0px 50px">
+<div class="container" style="text-align:justify;padding:20px;">
   <div class="row">
       <ol>
           <b><li> Web development and business development Team.</li></b>

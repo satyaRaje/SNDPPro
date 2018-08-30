@@ -5,11 +5,11 @@
 
         <div class="col-sm-3">
          <h3>Our Services</h3></a>
-            <a href="../Services/3dprinting.php"> <h5>3D Printing</h5></a>
-            <a href="../Services/3dscanning.php"> <h5>3D Scanning</h5></a>
-            <a href="../Services/cadmodeling.php"> <h5>2D & 3D design services</h5></a>
-            <a href="../Services/design.php"> <h5>Design for 3D Printing</h5></a>
-            <a href="../Services/services.php"><h5>Many more services…..</h5></a>
+            <a href="Services/3dprinting.php"> <h5>3D Printing</h5></a>
+            <a href="Services/3dscanning.php"> <h5>3D Scanning</h5></a>
+            <a href="Services/cadmodeling.php"> <h5>2D & 3D design services</h5></a>
+            <a href="Services/design.php"> <h5>Design for 3D Printing</h5></a>
+            <a href="Services/services.php"><h5>Many more services…..</h5></a>
 
         </div>
 
