@@ -45,7 +45,7 @@
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-                    <img src="img/banner1.jpg" alt="Image">
+                    <img src="../temp-img/fun1.jpg" alt="Image" style="height: 373px ;width: 1024px">
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="img/banner2.jpg" alt="Image">
+                    <img src="../temp-img/fun2.jpg" alt="Image" style="height: 373px ;width: 1024px">
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
