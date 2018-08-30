@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
     <!-- Theme Made By www.w3schools.com - No Copyright -->
     <title>Bootstrap Theme Company Page</title>
     <meta charset="utf-8">
@@ -22,7 +24,9 @@
         .logo {
             color: #f4511e;
         }
-
+  a{
+      color: white;
+  }
 		.navbar {
             margin-bottom: 0;
             background-color: #bbbbbb;

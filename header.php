@@ -121,7 +121,9 @@
 
         .dropdown:hover .dropbtn {background-color: #999999;}
 
-
+        a{
+            color: white;
+        }
     </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" >

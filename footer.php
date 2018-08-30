@@ -1,14 +1,15 @@
+
 <div class="container-fluid">
 
     <div class="row text-center w3-black">
 
         <div class="col-sm-3">
-            <h3>Our Services</h3>
-            <h5>3D Printing</h5>
-            <h5>3D Scanning</h5>
-            <h5>2D & 3D design services</h5>
-            <h5>Design for 3D Printing</h5>
-            <h5>Many more services…..</h5>
+         <h3>Our Services</h3></a>
+            <a href="Services/3dprinting.php"> <h5>3D Printing</h5></a>
+            <a href="Services/3dscanning.php"> <h5>3D Scanning</h5></a>
+            <a href="Services/cadmodeling.php"> <h5>2D & 3D design services</h5></a>
+            <a href="Services/design.php"> <h5>Design for 3D Printing</h5></a>
+            <a href="Services/services.php"> <h5>Many more services…..</h5></a>
 
         </div>
 
@@ -43,12 +44,12 @@
         <div class="col-sm-3">
             <br><br><br>
             <div class="w3-xxlarge">
-                <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <a href="https://www.facebook.com/ipro3d.tech"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                <a href="https://www.instagram.com/ipro3d"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
                 <i class="fa fa-snapchat w3-hover-opacity"></i>
                 <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                <i class="fa fa-twitter w3-hover-opacity"></i>
-                <i class="fa fa-linkedin w3-hover-opacity"></i>
+                <a href=" https://twitter.com/ipro3d"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                <a href="https://www.linkedin.com/company/ipro3d-technologies-llp"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
                 <a href="https://api.whatsapp.com/send?phone=919821413663" class="float" target="_blank">
                     <i class="fa fa-whatsapp my-float"></i></a>
             </div>
