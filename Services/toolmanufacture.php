@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-	<body style="background-image:url('../temp-img/abstract.png');opacity:'0.5';">
+	<body>
 
 	<!-- Sidebar/menu -->
 	<?php include '../header.php';?>
@@ -34,7 +34,7 @@
 	<br><br><br>
 	<div class="container">
 		<div class="row">
-			<h2 style="text-align: center;color:white;font-weight:bold;">Tooling Manufacturing</h2>
+			<h2 style="text-align: center;font-weight:bold;">Tooling Manufacturing</h2>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 				<!-- Indicators -->
@@ -80,7 +80,7 @@
 
 
 
-	<div class="container" style="padding: 20px;color:white;font-weight:bold;">
+	<div class="container" style="padding: 20px;">
 		<div class="row">
 		</br>
 		</br>
