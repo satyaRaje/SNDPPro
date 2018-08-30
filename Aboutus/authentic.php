@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body>
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <!-- Sid-ebar/menu -->
 <br><br><br>
@@ -33,7 +33,7 @@
 
     <!-- Top header -->
 	<div class="container">
-           <div class="row" style="color: darkslategrey;background-color:whitesmoke;">
+           <div class="row">
 
                <h2 style="text-align: center;font-weight: bold">Authentic</h2>
 <p style="text-align:justify;padding:20px;">
