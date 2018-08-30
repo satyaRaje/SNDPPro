@@ -73,7 +73,7 @@
             <div class="carousel-caption">
                 <h3 style="font-weight: bolder;">WE ARE HERE</h3>
                 <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
-                <button type="button" class="btn btn-primary">REQUEST A QUOTE</button>
+                <a href="contact_and_quote/quote.php"> <button type="button" class="btn btn-primary">REQUEST A QUOTE</button></a>
             </div>
         </div>
 

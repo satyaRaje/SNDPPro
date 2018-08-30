@@ -207,7 +207,7 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="#"><button class="dropbtn">Contact</button></a>
+                    <a href="contact_and_quote/contactus.php"><button class="dropbtn">Contact</button></a>
                     </div>
                 </li>
                 <li>
