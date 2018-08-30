@@ -153,7 +153,7 @@
 
                             <button class="dropbtn">About Us</button>
                             <div class="dropdown-content">
-							    <a href="../Aboutus/aboutus.php">About Us</a>
+							<!--    <a href="../Aboutus/aboutus.php">About Us</a>-->
                                 <a href="../Aboutus/overview.php">Overview</a>
                                 <a href="../Aboutus/history.php">History</a>
 								<a href="../Aboutus/ourapproach.php">Our Approach</a>
@@ -172,7 +172,7 @@
                     <a href="#">
                         <button class="dropbtn">Services</button>
                         <div class="dropdown-content">
-						    <a href="../Services/services.php">Services</a>
+						    <!--<a href="../Services/services.php">Services</a>-->
                             <a href="../Services/3dprinting.php">3D Printing</a>
                             <a href="../Services/3dscanning.php">3D Scanning</a>
 							<a href="../Services/rapidprototyping.php">Rapid Prototyping</a>
