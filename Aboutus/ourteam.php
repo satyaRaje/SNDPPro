@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D OurTeam</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,9 +17,17 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body  style="color: darkslategrey;background-color: whitesmoke;">
+<body>
 <?php include '../header.php';?>
-</br><br><br>
+<br><br><br>
+
+<div id="menu_flip" >
+    <button class="btn btn-primary">More Menu</button>
+</div>
+<div id="menu_panel">
+    <?php include 'aboutus_link.php';?>
+</div>
+
     <!-- Top header -->
       <div class="container">
            <div class="row">
@@ -68,7 +76,7 @@
                 <center><img src="../img/team/t4.jpg" class="card-img-top img-circle" alt="Dan" height="150px"></center>
                     <h5 style="font-weight: bold;">Mr. Yash C. Pawar</h5>
                     <p style="color: #bbbbbb;"> Intern (Graphic design, Arts and animated modeling)</p>
-                    <p>Department- Business Development</br>Passionate artist and graphic designer.</p>
+                    <p>Department- Business Development</br>Passionate artist  and graphic designer.</p>
            </div>
       </div>
     </div>
@@ -84,7 +92,7 @@
       <ol>
           <b><li> Web development and business development Team.</li></b>
        <ul type="none">
-           <li>This team designs and operates online and offline portal services. It is also responsible for promoting of IPRO3D and build a strong customer relationship by enhancing the user experience and acquire new customers. This team specifically works towards improvement of web portal and web services related issues by removing the flaws in the existing system.</li>
+           <li>This team designs and operates online and offline portal services.It is also responsible for promoting of IPRO3D and build a strong customer relationship by enhancing the user experience and acquire new customers. This team specifically works towards improvement of web portal and web services related issues by removing the flaws in the existing system.</li>
        </ul>
           <b><li>Business operations Team</li></b>
           <ul type="none">
@@ -98,16 +106,20 @@
     <!-- End page content -->
 </div>
 </div>
-<br><br>
-
+<br>
 <div class="container-fluid">
-    <div class="row">
-    <?php include'../footer.php';?>
-    </div>
+   <div class="row">
+         <?php include'../footer.php';?>
+   </div>
 </div>
 
-</body>
-</html>
+<script>
+    $(document).ready(function(){
+        $("#menu_flip").click(function(){
+            $("#menu_panel").slideToggle("slow");
+        });
 
-<html>
+    });
+</script>
+</body>
 </html>

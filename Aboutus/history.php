@@ -30,8 +30,8 @@
 
 <div class="container">
     <div class="row" style="color: darkslategrey;background-color: whitesmoke;padding: 20px;">
-        <h1 style="text-align: center;font-weight: bolder;"><i>COMPANY HISTORY AND TIMELINE</i></h1>
-<ol style="font-weight: bold;margin-top: 5px;">
+        <h2 style="text-align: center;font-weight: bold;">Company History and Timeline</h1>
+<p style="text-align:justify;padding:20px;">
  <li>Idea (June 2016) – Eureka, Idea of 3D printing business.</li>
 <li>Market survey (August 2016)</li>
 <li>Training at MCED (October 2016)</li>
@@ -42,7 +42,7 @@
 <li>Incubated at MAGIC (Marathwada Accelerator for Growth and Incubation Council) Incubation Center by CMIA (Chamber of Marathwada Industries and Agriculture) (May 18)</li>
 <li>Recognized as a Startup by DIPP (Department of Industrial Policy and Promotion) under Ministry of Commerce and Industries, Government of India. (May 18)</li>
 <li>Solidworks partners as CAD partner with IPRO3D TECHNOLOGIES LLP (July 18)</li>
-</ol>
+</p>
         <br><br>
     </div>
 

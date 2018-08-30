@@ -27,13 +27,13 @@
 <div id="menu_panel">
     <?php include 'aboutus_link.php';?>
 </div>
+<br>
 
       <div class="container" style="color: darkslategrey;">
            <div class="row" style="background-color: whitesmoke;padding: 20px;text-align: justify;">
-<h1 style="text-align: center; font-weight: bolder;">Our Approach</h1>
-
- &nbsp;<p style="font-weight: bolder;">
-    <br>
+<h2 style="text-align: center; font-weight: bolder;">Our Approach</h2>
+<p style="text-align:justify;padding:20px;">
+  
     &nbsp;&nbsp;&nbsp;Our approach is to work towards bringing every innovative idea or product to reality (Actual 3d object/part)
  by using a disruptive technology of Additive Manufacturing also popularly known as 3D printing and make the
  world a better place to live by changing the face of manufacturing industry by removing its currently involved
@@ -42,6 +42,7 @@
      is an integral part of Industry 4.0 the 4th industrial revolution.</p>
 
                <br>
+			   </p>
            </div>
 	</div>
 <br><br>

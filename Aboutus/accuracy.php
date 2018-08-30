@@ -30,8 +30,10 @@
     <!-- Top header -->
       <div class="container" style="background-color: whitesmoke;">
            <div class="row" style="color: darkslategrey;margin: 20px;">
-           <h1 style="font-weight: bold">Accuracy</h1>
-           <p>You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
+           <h2 style="font-weight: bold; text-align:center">Accuracy</h2>
+		   
+           <p style="text-align:justify;padding:20px;">
+&nbsp;&nbsp;&nbsp;You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
 
 	       <h4><b>Engineering Specifications</b></h4>
             It is essential to study the engineering specifications of the part before the 3D printing process starts. IPRO3D follows simple steps to achieve perfection in 3d printing process.

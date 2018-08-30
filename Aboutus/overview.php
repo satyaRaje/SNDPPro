@@ -27,13 +27,12 @@
 <div id="menu_panel">
     <?php include 'aboutus_link.php';?>
 </div>
-
 <div class="container" >
+<div class="row" style="background-color: whitesmoke;color: darkslategrey;padding: 20px;text-align: justify;">
+<h2 style="text-align: center;font-weight: bold;">Overview</h2>
 
-    <div class="row" style="background-color: whitesmoke;color: darkslategrey;padding: 20px;text-align: justify;">
-<h1 style="text-align: center;font-weight: bold;">Overview</h1>
+<p style="text-align:justify;padding:20px;">
 
-<br>
 &nbsp;&nbsp;We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online<br>
  and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.<br>
 <br>
