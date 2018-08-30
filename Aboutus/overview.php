@@ -17,7 +17,7 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body>
+<body style="background-image:url('../temp-img/abstract.png');">
 <?php include '../header.php';?>
 <br><br><br>
 
