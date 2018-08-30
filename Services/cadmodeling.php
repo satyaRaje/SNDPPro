@@ -18,7 +18,7 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body style="background-color: whitesmoke;color: darkslategrey;">
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <br><br><br>
 <div id="menu_flip" >

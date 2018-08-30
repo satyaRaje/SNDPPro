@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body class="" style="">
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 <br><br><br>
 <div id="menu_flip" >
@@ -31,7 +31,7 @@
 
     <!-- Top header -->
     <div class="container" style="color: darkslategrey;">
-        <div class="row" style="background-color: whitesmoke;padding: 20px;text-align: justify;">
+        <div class="row">
             <h2 style="text-align:center"><b>Small Batch Production</b></h2>
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >

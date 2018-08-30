@@ -60,7 +60,7 @@
     }
 
 </style>
-<body>
+<body style="background-image:url('../temp-img/b1.png');">
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">

@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body class="w3-content" style="max-width:1500px">
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
 
 <!-- Sidebar/menu -->

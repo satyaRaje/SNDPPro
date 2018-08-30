@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body class="" style="">
+<body style="background-image:url('../temp-img/b1.png');">
 
 <!-- Sidebar/menu -->
 <?php include '../header.php';?>
@@ -84,7 +84,7 @@
     <div class="row">
 	</br>
 	</br>
-           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Injection molding is a process for producing parts by injecting molten materials into a mold.</br> It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p>       
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Injection molding is a process for producing parts by injecting molten materials into a mold.It is done using variety of materials which mainly include metals, glasses, elastomers, and most commonly thermoplastics and thermosetting polymers.</p>       
     </br>
 	</br>
 	</div>
