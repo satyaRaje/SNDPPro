@@ -43,7 +43,7 @@
                    <div class="carousel-inner" role="listbox">
 
                        <div class="item active">
-                           <img src="../temp-img/models1.png" alt="Image" style="height: 373px ;width: 1024px">
+                           <img src="../temp-img/All_models.png" alt="Image" style="height: 373px ;width: 1024px">
                            <div class="carousel-caption">
                                </div>
                        </div>

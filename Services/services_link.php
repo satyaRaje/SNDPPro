@@ -15,5 +15,7 @@
 <a href="toolmanufacture.php" class="w3-bar-item w3-button" >Tooling Manufacturing</a>
 <a href="injectionmedelling.php" class="w3-bar-item w3-button" >Injection Modelling</a>
 <a href="cncmachine.php" class="w3-bar-item w3-button" >CNC Machining</a>
+<a href="idea.php" class="w3-bar-item w3-button" >Idea & Solution</a>
+<a href="customization.php" class="w3-bar-item w3-button" >Customization</a>
 </body>
 </html>
