@@ -138,7 +138,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand animated infinite bounce delay-3s" style="font-size:35px"  href="#myPage"><b style="font-weight: bolder; "><img src="img/cube-solid.svg"  height="30">Ipro3d</b></a>
+            <a class="navbar-brand animated infinite bounce delay-3s" style="font-size:35px"  href="#myPage"><b style="font-weight: bolder; "><img src="img/cube-solid.svg"  height="30">iPRO3D</b></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
