@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Services/toolmanufacture.php" afterPath="$PROJECT_DIR$/Services/toolmanufacture.php" />
-      <change beforePath="$PROJECT_DIR$/Services/topology.php" afterPath="$PROJECT_DIR$/Services/topology.php" />
+      <change beforePath="$PROJECT_DIR$/Mutation/mutation.php" afterPath="$PROJECT_DIR$/Mutation/mutation.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3706">
-              <caret line="218" column="33" lean-forward="false" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="normaldashboard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login/normaldashboard.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,13 +85,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toolmanufacture.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toolmanufacture.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Services/toolmanufacture.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
               <folding>
                 <element signature="e#3778#3784#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mutation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mutation/mutation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="e#3551#3557#0#HTML" expanded="true" />
+                <element signature="e#3557#3563#0#HTML" expanded="true" />
+                <element signature="e#3978#3984#0#HTML" expanded="true" />
+                <element signature="e#3984#3990#0#HTML" expanded="true" />
+                <element signature="e#4409#4415#0#HTML" expanded="true" />
+                <element signature="e#4540#4546#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +160,6 @@
         <option value="$PROJECT_DIR$/contact_and_quote/contactus.php" />
         <option value="$PROJECT_DIR$/contact_and_quote/quote.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Mutation/mutation.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/header1.php" />
@@ -165,6 +169,7 @@
         <option value="$PROJECT_DIR$/login/enquiry.php" />
         <option value="$PROJECT_DIR$/Services/topology.php" />
         <option value="$PROJECT_DIR$/Services/toolmanufacture.php" />
+        <option value="$PROJECT_DIR$/Mutation/mutation.php" />
       </list>
     </option>
   </component>
@@ -208,6 +213,11 @@
               <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="SNDPPro" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="contact_and_quote" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SNDPPro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mutation" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +288,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68354000" />
+    <option name="totallyTimeSpent" value="68783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -579,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mutation/mutation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="50" lean-forward="false" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -692,6 +694,21 @@
           <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
           <folding>
             <element signature="e#3778#3784#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mutation/mutation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#3551#3557#0#HTML" expanded="true" />
+            <element signature="e#3557#3563#0#HTML" expanded="true" />
+            <element signature="e#3978#3984#0#HTML" expanded="true" />
+            <element signature="e#3984#3990#0#HTML" expanded="true" />
+            <element signature="e#4409#4415#0#HTML" expanded="true" />
+            <element signature="e#4540#4546#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
