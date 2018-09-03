@@ -34,7 +34,7 @@
 <br><br><br>
 <div class="container">
     <div class="row">
-        <h2 style="text-align: center;"><b>Design Topology Optimization</b></h2>
+        <h2 style="text-align: center;"><b>Design Topography Optimization</b></h2>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
