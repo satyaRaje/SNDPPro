@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body style="background-image:url('../temp-img/b1.png');">
+<body class="" style="">
 
 <!-- Sidebar/menu -->
 <?php include '../header.php';?>
