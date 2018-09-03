@@ -159,6 +159,49 @@
 
     <!--  -->
 <hr>
+<!-- Services Demo -->
+    <div class="container-fluid">
+        <div class="row" style="color:white;background-color: lightgray;">
+            <div class="col-sm-4">
+                <img src="img/3dprinting-home1.png" height="450px">
+            </div>
+            <div class="col-sm-8 text-center">
+                <h3 style="font-weight: bolder;color:darkslategrey;">Our Work</h3>
+                <div class="row">
+                    <div class="col-sm-3">
+                    <img src="img/ourwork/wor1.jpg" height="200px" width="200px" class="img img-rounded">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/ourwork/wor2.jpg" height="200px" width="200px" class="img img-rounded">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/ourwork/wor3.jpg" height="200px" width="200px" class="img img-rounded">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="img/ourwork/wor4.jpg" height="200px" width="200px" class="img img-rounded">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/ourwork/wor3.jpg" height="200px" width="200px" class="img img-rounded">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/ourwork/wor2.jpg" height="200px" width="200px" class="img img-rounded">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Service End -->
+
+
+
+
+
     <!-- PRODUCTIOn  -->
     <div class="container-fluid text-center">
         <h3 style="font-weight: bolder;color:darkslategrey;">Prototype Your Product</h3>
