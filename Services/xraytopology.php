@@ -31,10 +31,11 @@
 <div id="menu_panel">
     <?php include 'services_link.php';?>
 </div>
-<br><br><br>
+<br><br>
 <div class="container">
     <div class="row">
         <h2 style="text-align: center;"><b>X-Ray Topology</b></h2>
+        <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->

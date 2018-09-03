@@ -28,11 +28,12 @@
     <?php include 'services_link.php';?>
 </div>
 
-<br><br><br>
+<br><br>
 
       <div class="container">
            <div class="row">
            <h3 style="text-align: center; "><b>3D and 2D CAD Modelling/Designing</b></h3>
+               <br>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                    <!-- Indicators -->

@@ -29,12 +29,12 @@
     <?php include 'services_link.php';?>
 </div>
 
-<br><br><br>
+<br><br>
     <!-- Top header -->
     <div class="container">
         <div class="row">
             <h2 style="text-align: center;"><b>3D Printing</b></h2>
-
+            <br>
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

@@ -28,11 +28,12 @@
 <div id="menu_panel">
     <?php include 'services_link.php';?>
 </div>
-
+<br><br>
     <!-- Top header -->
     <div class="container" style="color: darkslategrey;">
         <div class="row">
             <h2 style="text-align:center"><b>Small Batch Production</b></h2>
+            <br>
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                 <ol class="carousel-indicators">
