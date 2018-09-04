@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="../temp-img/injection2.jpg.jpg" alt="Image" style="height: 373px ;width: 1024px">
+                    <img src="../temp-img/injection2.jpg" alt="Image" style="height: 373px ;width: 1024px">
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>

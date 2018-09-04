@@ -43,13 +43,13 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="../temp-img/img3.jpg" alt="Image" style="height: 373px ;width: 1024px">
+                        <img src="../temp-img/custom3.jpg" alt="Image" style="height: 373px ;width: 1024px">
                         <div class="carousel-caption">
                             </div>
                     </div>
 
                     <div class="item">
-                        <img src="../temp-img/banner2.jpg" alt="Image" style="height: 373px ;width: 1024px">
+                        <img src="../temp-img/custom2.jpg" alt="Image" style="height: 373px ;width: 1024px">
                         <div class="carousel-caption">
                             </div>
                     </div>
