@@ -32,12 +32,11 @@
             background-color: #bbbbbb;
             z-index: 9999;
             border: 0;
-            font-weight: bolder;
-            font-size: 12px !important;
+            font-size: 15px !important;
             line-height: 1.42857143 !important;
             letter-spacing: 2px;
             border-radius: 0;
-            font-family: Montserrat, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .navbar li a, .navbar .navbar-brand {
         }
@@ -138,14 +137,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand animated infinite bounce delay-3s" style="font-size:35px"  href="#myPage"><b style="font-weight: bolder; "><img src="img/cube-solid.svg"  height="30">iPRO3D</b></a>
+            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="temp-img/cube3.png"  height="30">iPRO3D</b></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li >
                     <div class="dropdown">
                         <a href="index.php">
-                            <button class="dropbtn">Home</button>
+                            <button class="dropbtn" style="font-size:16px">Home</button>
                             <div class="dropdown-content">
                             </div>
                         </a>
@@ -155,7 +154,7 @@
                     <div class="dropdown">
                     <a href="#">
 
-                            <button class="dropbtn">About Us</button>
+                            <button class="dropbtn" style="font-size:16px">About Us</button>
                             <div class="dropdown-content">
 							 <!--   <a href="Aboutus/aboutus.php">About Us</a>-->
                                 <a href="Aboutus/overview.php">Overview</a>
@@ -174,7 +173,7 @@
                 <li>
                     <div class="dropdown">
                     <a href="#">
-                        <button class="dropbtn">Services</button>
+                        <button class="dropbtn" style="font-size:16px">Services</button>
                         <div class="dropdown-content">
 						 <!--   <a href="Services/services.php">Services</a>-->
                             <a href="Services/3dprinting.php">3D Printing</a>
@@ -191,32 +190,32 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="#"><button class="dropbtn">Portfolio</button></a>
+                        <a href="#"><button class="dropbtn" style="font-size:16px">Portfolio</button></a>
                     </div>
 					</li>
                 <li>
                     <div class="dropdown">
-                        <a href="#"><button class="dropbtn">MarketPlace</button></a>
+                        <a href="#"><button class="dropbtn" style="font-size:16px">MarketPlace</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="Mutation/mutation.php"><button class="dropbtn">Mutation</button></a>
+                    <a href="Mutation/mutation.php"><button class="dropbtn" style="font-size:16px">Mutation</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="#"><button class="dropbtn">Materials</button></a>
+                    <a href="#"><button class="dropbtn" style="font-size:16px">Materials</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="contact_and_quote/contactus.php"><button class="dropbtn">Contact</button></a>
+                    <a href="contact_and_quote/contactus.php"><button class="dropbtn" style="font-size:16px">Contact</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="login/login.php"><button class="dropbtn">Login</button></a>
+                        <a href="login/login.php"><button class="dropbtn" style="font-size:16px">Login</button></a>
                     </div>
                 </li>
                 <!--
