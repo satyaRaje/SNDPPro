@@ -34,8 +34,8 @@
     }
 
     #contact{
-        background:#333333;
-        color:#f4f4f4;
+        background:#DCDCDC;
+        color:#333333;
         padding-bottom:80px;
     }
 
@@ -62,16 +62,16 @@
                     <div class="col-md-8 col-md-offset-2">
                             <div class="form-group">
                                 <label for="exampleInputName2">Name</label>
-                                <input type="text" class="form-control" name="fname" placeholder="Jane Doe">
+                                <input type="text" class="form-control" name="fname" placeholder="Enter your Name">
                             </div>
 
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Mobile</label>
-                                <input type="text" class="form-control" name="mobileno" maxlength="10" placeholder="99999999999">
+                                <input type="text" class="form-control" name="mobileno" maxlength="10" placeholder="Enter 10-digit Number">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Email</label>
-                                <input type="email" class="form-control" name="email" placeholder="jane.doe@example.com">
+                                <input type="email" class="form-control" name="email" placeholder="Enter Email ID">
                             </div>
                             <div class="form-group ">
                                 <label for="exampleInputText">Your Message</label>
