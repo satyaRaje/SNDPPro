@@ -13,7 +13,7 @@
 
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-3" style="font-family: 'Patua One';">
             <br><br>
             <h5><b>IPRO3D TECHNOLOGIES LLP</b><br>
                 Incubation Office<br>
@@ -25,7 +25,7 @@
                 Maharashtra, India.<h5>
 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3" style="font-family: 'Patua One';">
             <br><br>
             <h5>
                 <b>Corporate office Manufacturing Facility</b><br>
