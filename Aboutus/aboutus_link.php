@@ -6,6 +6,15 @@
     z-index:100;
     }
 
+        .floattu :hover{
+            background-color: transparent;
+        }
+
+    .dropdown:hover .dropbtn {background-color: transparent;}
+    .dropbtn:hover{
+        background-color: transparent;
+    }
+
     </style>
 </head>
 <body>
