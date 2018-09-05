@@ -124,7 +124,26 @@
         a{
             color: white;
         }
+        #idea_panel, #idea_flip {
+            padding: 5px;
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #idea_panel {
+            padding: 50px;
+            display: none;
+        }
     </style>
+    <script>
+        $(document).ready(function(){
+
+            $("#idea_flip").click(function(){
+                $("#idea_panel").slideToggle("slow");
+            });
+        });
+    </script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" >
 

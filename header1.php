@@ -125,7 +125,98 @@
         .dropdown:hover .dropbtn {background-color: #999999;}
 
 
+
+
+        #idea_panel, #idea_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #idea_panel {
+            display: none;
+        }
+        #cad_panel, #cad_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #cad_panel {
+            display: none;
+        }
+
+        #stl_panel, #stl_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #stl_panel {
+            display: none;
+        }
+
+        #getQ_panel, #getQ_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #getQ_panel {
+            display: none;
+        }
+        #3d_panel, #3d_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #3d_panel {
+            display: none;
+        }
+
+        #delivery_panel, #delivery_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #delivery_panel {
+            display: none;
+        }
+
+
+
+
     </style>
+
+
+    <script>
+        $(document).ready(function(){
+
+            $("#idea_flip").click(function(){
+                $("#idea_panel").slideToggle("slow");
+            });
+            $("#cad_flip").click(function(){
+                $("#cad_panel").slideToggle("slow");
+            });
+            $("#stl_flip").click(function(){
+                $("#stl_panel").slideToggle("slow");
+            });
+            $("#getQ_flip").click(function(){
+                $("#getQ_panel").slideToggle("slow");
+            });
+            $("#3d_flip").click(function(){
+                $("#3d_panel").slideToggle("slow");
+            });
+            $("#delivery_flip").click(function(){
+                $("#delivery_panel").slideToggle("slow");
+            });
+
+
+
+        });
+    </script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -137,7 +228,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="temp-img/cube3.png"  height="30">iPRO3D</b></a>
+            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="temp-img/logoUp.png"  height="30">iPRO3D</b></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
