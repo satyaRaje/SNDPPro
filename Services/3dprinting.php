@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D-3DPrinting</title>
+<title>IPRO3D-3DScanning</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -19,13 +19,14 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-<body style="background-color: whitesmoke;color: darkslategrey;padding: 20px;">
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
+
 <br><br><br>
     <?php include 'services_link.php';?>
 
+<!-- Sidebar/menu -->
 <br><br>
-    <!-- Top header -->
     <div class="container">
         <div class="row">
             <h2 style="text-align: center;"><b>3D Printing</b></h2>
@@ -86,26 +87,13 @@
         </div>
     </div>
 
+	  <!-- Footer -->
+<div class="conntainer-fluid">
+    <div class="row">
+        <?php include '../footer.php';?>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
-
- <div class="container-fluid">
-     <div class="row">
-         <?php include '../footer.php';?>
-     </div>
-
- </div>
+</div>
 <script>
     $(document).ready(function(){
         $("#menu_flip").click(function(){
@@ -116,6 +104,7 @@
 </script>
 
 
-
 </body>
 </html>
+
+

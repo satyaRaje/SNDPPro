@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Ipro3d Mutation</title>
+<title>IPRO3D-3DScanning</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,19 +18,14 @@
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<body>
+
+<body style="background-image:url('../temp-img/b1.png');">
 <?php include '../header.php';?>
-<br><br><br>
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
-    <?php include 'mutation_link.php';?>
-</div>
-
 
 <br><br><br>
-<div class="container">
+
+<!-- Sidebar/menu -->
+<br><br><div class="container">
     <div class="row">
         <h2 style="text-align: center;"><b>Mutation</b></h2>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -84,13 +79,9 @@
 <p>&nbsp;Students registered in mutation program get special privileges of educational pricing and student discounts.</p>
 
 		</div>
-	
-    <!-- End page content -->
 </div>
-
-<!-- Newsletter Modal -->
-
-<div class="container-fluid">
+	  <!-- Footer -->
+<div class="conntainer-fluid">
     <div class="row">
         <?php include '../footer.php';?>
     </div>
@@ -105,5 +96,8 @@
     });
 </script>
 
+
 </body>
 </html>
+
+
