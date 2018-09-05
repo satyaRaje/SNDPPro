@@ -28,12 +28,12 @@
             background-color: #bbbbbb;
             z-index: 9999;
             border: 0;
-            font-weight: bolder;
-            font-size: 12px !important;
+           
+            font-size: 15px !important;
             line-height: 1.42857143 !important;
             letter-spacing: 2px;
             border-radius: 0;
-            font-family: Montserrat, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .navbar li a, .navbar .navbar-brand {
         }
@@ -155,7 +155,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand animated infinite bounce delay-3s" style="font-size:35px"  href="#myPage"><b style="font-weight: bolder; "><img src="img/cube-solid.svg"  height="30">Ipro3d</b></a>
+            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="../temp-img/logoUp.png"  height="30">iPRO3D</b></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
