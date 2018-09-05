@@ -22,12 +22,7 @@
 <body style="background-color: whitesmoke;color: darkslategrey;padding: 20px;">
 <?php include '../header.php';?>
 <br><br><br>
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
     <?php include 'services_link.php';?>
-</div>
 
 <br><br>
     <!-- Top header -->
