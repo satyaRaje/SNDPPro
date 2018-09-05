@@ -145,9 +145,9 @@
                 </h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="3d_flip">
+            <div class="col-sm-2" id="threed_flip">
                 <img src="img/logo/3dadative.png">
-                <div id="3d_panel">
+                <div id="threed_panel">
                 <h6 style="font-weight: bold;">
                     3D Printing<br>
                     Additive
@@ -218,30 +218,38 @@
     <div class="container-fluid text-center">
         <h3 style="font-weight: bolder;color:darkslategrey;">Prototype Your Product</h3>
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2" id="material_flip">
                 <img src="img/New%20folder/material.png" style="height: 150px;">
-                <h5 style="font-weight: bold;">Material</h5>
-                <h5>
+                <div id="material_panel">
+                <h6 style="font-weight: bold;">Material</h6>
+
+                <h6>
                     Select materials
                     from a wide<br>
                     variety in plastics,<br>
                     metals, metal
                     alloys and plastic
                     composites
-                </h5>
+                </h6>
+                </div>
             </div>
-            <div class="col-sm-2">
+
+            <div class="col-sm-2" id="qua_flip">
                 <img src="img/New%20folder/quality.png"  style="height: 150px;">
-                <h5 style="font-weight: bold;">Quality</h5>
-                <h5 >We don’t<br>
+                <div id="qua_panel">
+                <h6 style="font-weight: bold;">Quality</h6>
+                <h6 >We don’t<br>
                     compromise on
                     part / product
-                    quality</h5>
+                    quality</h6>
             </div>
-            <div class="col-sm-2">
+            </div>
+
+            <div class="col-sm-2" id="price_flip">
                 <img src="img/New%20folder/price.png" style="height: 150px;">
-                <h5 style="font-weight: bold;">Price </h5>
-                <h5>
+                <div id="price_panel">
+                <h6 style="font-weight: bold;">Price </h6>
+                <h6>
                     We provide the
                     best competitive
                     price compared
@@ -250,12 +258,14 @@
                     India and world
                     3D printing
                     market.
-                </h5>
+                </h6>
+                </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2" id="profuction_flip">
                 <img src="img/New%20folder/profuction.png" style="height: 150px;">
-                <h5 style="font-weight: bold;">Production</h5>
-                <h5>
+                <div id="profuction_panel">
+                <h6 style="font-weight: bold;">Production</h6>
+                <h6>
                     We manufacture all
                     products at a time
                     and help reduce the
@@ -263,20 +273,24 @@
                     and cost while
                     maintaining the
                     optimum part quality
-                </h5>
+                </h6>
             </div>
-            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-2" id="del_flip">
                 <img src="img/New%20folder/delivery.png" style="height: 150px;">
-                <h5 style="font-weight: bold;">Delivery all
-                    over India </h5>
+                <div id="del_panel">
+                <h6 style="font-weight: bold;">Delivery all
+                    over India </h6>
                 <h3>
 
                 </h3>
             </div>
-            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-2" id="world_flip">
                 <img src="img/New%20folder/world.png" style="height: 150px;">
-                <h5 style="font-weight: bold;">World wide
-                    delivery</h5>
+                <div id="world_panel">
+                <h6 style="font-weight: bold;">World wide
+                    delivery</h6>
                 <h3>
 
                 </h3>

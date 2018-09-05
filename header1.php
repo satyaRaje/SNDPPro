@@ -165,13 +165,14 @@
         #getQ_panel {
             display: none;
         }
-        #3d_panel, #3d_flip {
+
+        #threed_panel, #threed_flip {
             text-align: center;
             /*background-color: #e5eecc;
             border: solid 1px #c3c3c3;*//
         }
 
-        #3d_panel {
+        #threed_panel {
             display: none;
         }
 
@@ -185,6 +186,64 @@
             display: none;
         }
 
+        #material_panel, #material_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #material_panel {
+            display: none;
+        }
+
+        #qua_panel, #qua_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #qua_panel {
+            display: none;
+        }
+
+        #price_panel, #price_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #price_panel {
+            display: none;
+        }
+
+        #profuction_panel, #profuction_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #profuction_panel {
+            display: none;
+        }
+        #del_panel, #del_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #del_panel {
+            display: none;
+        }
+
+        #world_panel, #world_flip {
+            text-align: center;
+            /*background-color: #e5eecc;
+            border: solid 1px #c3c3c3;*//
+        }
+
+        #world_panel {
+            display: none;
+        }
 
 
 
@@ -206,12 +265,31 @@
             $("#getQ_flip").click(function(){
                 $("#getQ_panel").slideToggle("slow");
             });
-            $("#3d_flip").click(function(){
-                $("#3d_panel").slideToggle("slow");
+            $("#threed_flip").click(function(){
+                $("#threed_panel").slideToggle("slow");
             });
             $("#delivery_flip").click(function(){
                 $("#delivery_panel").slideToggle("slow");
             });
+            $("#material_flip").click(function(){
+                $("#material_panel").slideToggle("slow");
+            });
+            $("#qua_flip").click(function(){
+                $("#qua_panel").slideToggle("slow");
+            });
+            $("#price_flip").click(function(){
+                $("#price_panel").slideToggle("slow");
+            });
+            $("#profuction_flip").click(function(){
+                $("#profuction_panel").slideToggle("slow");
+            });
+            $("#del_flip").click(function(){
+                $("#del_panel").slideToggle("slow");
+            });
+            $("#world_flip").click(function(){
+                $("#world_panel").slideToggle("slow");
+            });
+
 
 
 
