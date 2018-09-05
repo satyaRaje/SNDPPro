@@ -23,12 +23,7 @@
 <!-- Sid-ebar/menu -->
 <br><br><br>
 
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
     <?php include 'aboutus_link.php';?>
-</div>
 <br>
 
     <!-- Top header -->

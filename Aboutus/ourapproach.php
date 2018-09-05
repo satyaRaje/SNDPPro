@@ -20,13 +20,7 @@
 <?php include '../header.php';?>
 
 <br><br><br>
-
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
     <?php include 'aboutus_link.php';?>
-</div>
 <br>
 
       <div class="container"  >
@@ -52,13 +46,5 @@ We work with Additive Manufacturing technology majorly involved in Industry 4.0.
     </div>
 </div>
 
-<script>
-    $(document).ready(function(){
-        $("#menu_flip").click(function(){
-            $("#menu_panel").slideToggle("slow");
-        });
-
-    });
-</script>
 </body>
 </html>

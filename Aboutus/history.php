@@ -21,16 +21,11 @@
 <?php include '../header.php';?>
 <br><br><br>
 
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
     <?php include 'aboutus_link.php';?>
-</div>
 
 <div class="container">
     <div class="row" >
-        <h2 style="text-align: center;font-weight: bold;">Company History and Timeline</h1>
+        <h2 style="text-align: center;font-weight: bold;">Company History and Timeline</h2>
 <p style="text-align:justify;padding:20px;">
  <li>Idea (June 2016) – Eureka, Idea of 3D printing business.</li>
 <li>Market survey (August 2016)</li>
@@ -54,13 +49,5 @@
     </div>
 </div>
 
-<script>
-    $(document).ready(function(){
-        $("#menu_flip").click(function(){
-            $("#menu_panel").slideToggle("slow");
-        });
-
-    });
-</script>
 </body>
 </html>

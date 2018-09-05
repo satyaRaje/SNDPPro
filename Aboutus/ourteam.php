@@ -21,12 +21,7 @@
 <?php include '../header.php';?>
 <br><br><br>
 
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
     <?php include 'aboutus_link.php';?>
-</div>
 
     <!-- Top header -->
       <div class="container">
