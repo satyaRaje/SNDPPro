@@ -44,7 +44,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../temp-img/banner2.jpg" alt="Image" style="height: 373px ;width: 1024px">
+                        <img src="../temp-img/toys.png" alt="Image" style="height: 373px ;width: 1024px">
                         <div class="carousel-caption">
                             </div>
                     </div>
