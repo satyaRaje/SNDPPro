@@ -105,29 +105,79 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <!-- Application of 3d Printing -->
+    <div class="container-fluid text-center" style="color:darkslategrey;">
+         <div class="row">
+             <h3 style="font-weight: bolder;text-align: center;">Application of 3d Printing</h3>
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/Svenarchitecture.jpg" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">3D printing applications  in Architecture and Construction</h5>
+                 <p style="text-align: left;">
+                     Beautiful and durable models for conception and promotion of construction industry
+                 </p>
+             </div>
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/syera4.jpg" style="margin: 5px;" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">3D printing applications in Maritime Industry</h5>
+                 <p style="text-align: left;">
+                     Prototypes and improved spare part management for shipbuilding
+                 </p>
+             </div>
+
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/3D_printed_ancilarry_tool_for_an_elbow_orthopedic_surgery_.jpg" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">3D printing applications in Healthcare and Medical</h5>
+                 <p style="text-align: left;">
+                     Surgical guides, custom prosthetics and education models for medical professionals
+                 </p>
+             </div>
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/molecule_380.jpg" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">3d printing applications in Chemical Industry</h5>
+                 <p style="text-align: left;">
+                     Enlargement of molecular structures and mechanical parts for laboratory tooling.
+                 </p>
+             </div>
+
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/piecesmecaniquesglacier.jpg" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">3d printing applications in Mechanics</h5>
+                 <p style="text-align: left;">
+                     Functional prototypes and final products like 3d printed gears. Masters and mechanical parts to be machined.
+                 </p>
+
+             </div>
+
+         </div>
+
+    </div>
+
+    <!-- End 3d Application -->
+
     <!-- How we work  -->
     <div class="container-fluid text-center">
         <h3 style="font-weight: bolder;color:darkslategrey;">How We Work</h3>
         <div class="row">
-            <div class="col-sm-2" id="idea_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/logo/idea.png" id="">
-                <div id="idea_panel">
+                <div id="">
                 <h6 style="font-weight: bold;" >
                     IDEA
                 </h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="cad_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/logo/3dCAD.png">
-                <div id="cad_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">3D CAD<br>
                     Model in<br>
                     STL Format</h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="stl_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/logo/stlUPload.png">
-                <div id="stl_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">
                     Upload
                     Design STL
@@ -137,17 +187,17 @@
                 </h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="getQ_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/logo/getQUta.png">
-                <div id="getQ_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">
                     Get Quotation
                 </h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="threed_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/logo/3dadative.png">
-                <div id="threed_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">
                     3D Printing<br>
                     Additive
@@ -156,9 +206,9 @@
                 </h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="delivery_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/logo/delivery.png">
-                <div id="delivery_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">
                     Delivery
                 </h6>
@@ -196,10 +246,10 @@
                         <img src="img/ourwork/wor4.jpg" height="200px" width="200px" class="img img-rounded">
                     </div>
                     <div class="col-sm-3">
-                        <img src="img/ourwork/wor3.jpg" height="200px" width="200px" class="img img-rounded">
+                        <img src="img/ourwork/teddy.jpg" height="200px" width="200px" class="img img-rounded">
                     </div>
                     <div class="col-sm-3">
-                        <img src="img/ourwork/wor2.jpg" height="200px" width="200px" class="img img-rounded">
+                        <img src="img/ourwork/shoes.jpg" height="200px" width="200px" class="img img-rounded">
                     </div>
                 </div>
                 <br>
@@ -218,9 +268,9 @@
     <div class="container-fluid text-center">
         <h3 style="font-weight: bolder;color:darkslategrey;">Prototype Your Product</h3>
         <div class="row">
-            <div class="col-sm-2" id="material_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/New%20folder/material.png" style="height: 150px;">
-                <div id="material_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">Material</h6>
 
                 <h6>
@@ -234,9 +284,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-2" id="qua_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/New%20folder/quality.png"  style="height: 150px;">
-                <div id="qua_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">Quality</h6>
                 <h6 >We don’t<br>
                     compromise on
@@ -245,9 +295,9 @@
             </div>
             </div>
 
-            <div class="col-sm-2" id="price_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/New%20folder/price.png" style="height: 150px;">
-                <div id="price_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">Price </h6>
                 <h6>
                     We provide the
@@ -261,9 +311,9 @@
                 </h6>
                 </div>
             </div>
-            <div class="col-sm-2" id="profuction_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/New%20folder/profuction.png" style="height: 150px;">
-                <div id="profuction_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">Production</h6>
                 <h6>
                     We manufacture all
@@ -276,9 +326,9 @@
                 </h6>
             </div>
             </div>
-            <div class="col-sm-2" id="del_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/New%20folder/delivery.png" style="height: 150px;">
-                <div id="del_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">Delivery all
                     over India </h6>
                 <h3>
@@ -286,9 +336,9 @@
                 </h3>
             </div>
             </div>
-            <div class="col-sm-2" id="world_flip">
+            <div class="col-sm-2" id="">
                 <img src="img/New%20folder/world.png" style="height: 150px;">
-                <div id="world_panel">
+                <div id="">
                 <h6 style="font-weight: bold;">World wide
                     delivery</h6>
                 <h3>
