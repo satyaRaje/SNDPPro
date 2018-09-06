@@ -377,7 +377,7 @@
 
 
 
-    <!-- About Section -->
+    <!-- About Section
     <div class="w3-container"  id="about">
         <h3 class="w3-center" style="font-weight: bold; color: darkslategrey;">Our Clients</h3>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
