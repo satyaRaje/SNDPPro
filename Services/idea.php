@@ -69,9 +69,9 @@
     <div class="container" style="padding:20px;">
         <div class="row">
 		</br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <p style="text-align:justify;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  	If you're not that much of a designer, we offer design service and technical support so you can design your own products, with the precision of a professional designer.
-Our team helps you make your product form idea stage to finished product/Solution. Our team guides you in achieving your goals. We at IPRO3D are a very passionate team of engineers and doctor.
+Our team helps you make your product form idea stage to finished product/Solution. Our team guides you in achieving your goals. We at IPRO3D are a very passionate team of engineers and doctor.</p>
 			   </br></br>
         </div>
     </div>

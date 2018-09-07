@@ -69,9 +69,9 @@
     <div class="container" style="padding:20px;">
         <div class="row">
 		</br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have a good idea and you want to see your idea being turned into a functional prototype, we can help you print a wide variety of products. This process supplies you with a complete digital representation of your part to be used for reverse engineering, quality inspection or at any point of a typical manufacturing cycle.</br>
+           <p style="text-align:justify;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have a good idea and you want to see your idea being turned into a functional prototype, we can help you print a wide variety of products. This process supplies you with a complete digital representation of your part to be used for reverse engineering, quality inspection or at any point of a typical manufacturing cycle.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let 3D scanning empower you with: rapid data capture, shortened production cycles, increased manufacturing efficiency, improved product quality, CAD models that reflect shop-floor changes. 3D scanning can be used in almost any engineering process and/or setting, and as a result there are many different ways that the data obtained can benefit you. While most customers require post-processing of 3D scan data, it is not necessary in some situations.</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tell us your problem and we'll do everything in our power to help you solve it. We are great project managers and are happy to perform large-scale service projects in addition to smaller projects. So whether you need simple STL data for 1 part, or class A surfaces of 500 parts, give us a call!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tell us your problem and we'll do everything in our power to help you solve it. We are great project managers and are happy to perform large-scale service projects in addition to smaller projects. So whether you need simple STL data for 1 part, or class A surfaces of 500 parts, give us a call!</p>
 
 			   </br></br>
         </div>

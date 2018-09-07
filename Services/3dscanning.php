@@ -69,10 +69,10 @@
 <br><br>
       <div class="container">
            <div class="row" style="padding: 20px;">
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.
-		   3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file. </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. </br>
+           <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a contactless, non-destructive technology that helps digitally captures the surface shape of a physical object by using a line of laser light or by superimposing several images files in real time.
+		   3D scanners create cloud point of data from the surface of an object and collectively compiles the data to provide a 3d digital output in form of an STL file.3D scanning is also a way to capture a physical object with exact size and shape into digital file the computer can read data digitally from the 3D representation of the Object. 
 		   There are Different 3d scanners and 3d scanning techniques for different applications like industrial, novelty, architecture, reverse engineering, etc. </br></br>
-
+           </p>
            </div>
       </div>
 	  <!-- Footer -->

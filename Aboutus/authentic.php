@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D about us</title>
+<title>IPRO3D-Authentic</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,7 +30,7 @@
 	<div class="container">
            <div class="row">
 
-               <h2 style="text-align: center;font-weight: bold">Authentic</h2>
+               <h2 style="text-align: center;font-weight: bold;">Authentic</h2>
 <p style="text-align:justify;padding:20px;">
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality</p>
 

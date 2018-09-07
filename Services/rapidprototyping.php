@@ -77,7 +77,7 @@
            <div class="row">
 		   </br>
 		   </br>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.</br></br>
+           <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.</br></br></p>
            </br>
 		   </br>
 		   </div>

@@ -79,8 +79,8 @@
 <div class="container" style="padding: 20px;">
     <div class="row">
 	</br></br>
-           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNC (Computer Numeric Control) machining process used in the manufacturing industry that involves the use of computers to control machine tools.</br> Tools that can be controlled in this manner include lathes, mills, routers, grinders, etc.</p>
-           </br></br>
+           <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNC (Computer Numeric Control) machining process used in the manufacturing industry that involves the use of computers to control machine tools.Tools that can be controlled in this manner include lathes, mills, routers, grinders, etc.</p>
+          </br></br>
 		   </div>
       </div>
 	  <!-- Footer --><div class="container-fluid">

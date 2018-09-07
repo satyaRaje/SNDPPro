@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>IPRO3D_InjectionModeling</title>
+<title>IPRO3D_VaccumCast</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -77,10 +77,10 @@
 
 
 <div class="container" style="padding: 20px;">
-    <div class="row" ">
+    <div class="row" >
 	</br>
 	</br>
-           <p>&nbsp;&nbsp;&nbsp;&nbsp;It is a highly adaptable technology that is capable of producing parts in a wide range of polyurethane(PU) resins and cast nylon. 
+           <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;It is a highly adaptable technology that is capable of producing parts in a wide range of polyurethane(PU) resins and cast nylon. 
 		It can create, replicate and replace engineering polymers for prototypes and end-use parts.</p>
 </br></br>
     </div>

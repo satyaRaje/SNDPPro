@@ -79,7 +79,7 @@
 <div class="container" style="padding: 20px;">
     <div class="row">
         </br></br>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tooling is also known as machine tooling. It is the manufacturing of components, tools and machines needed for production. The common categories of machine tooling include fixture, jigs, gauges, moulds, dies, cutting equipment, patterns, etc.</p></br> </br>
+        <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tooling is also known as machine tooling. It is the manufacturing of components, tools and machines needed for production. The common categories of machine tooling include fixture, jigs, gauges, moulds, dies, cutting equipment, patterns, etc.</p></br> </br>
     </div>
 </div>
 <!-- Footer --><div class="container-fluid">

@@ -39,7 +39,7 @@ We work with Additive Manufacturing technology majorly involved in Industry 4.0.
 			   </p>
            </div>
 	</div>
-</br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br>
 <div class="container-fluid">
     <div class="row">
     <?php include'../footer.php';?>

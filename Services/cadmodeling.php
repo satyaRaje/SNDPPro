@@ -75,7 +75,7 @@
            <div class="row">
 		   </br>
 		   </br>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D and 2d Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals. 3D CAD modeling provides an extra dimension to precisely visualize and share designs concepts and iterate it many times in real time.</br></br>
+           <p style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D and 2d Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals. 3D CAD modeling provides an extra dimension to precisely visualize and share designs concepts and iterate it many times in real time.</br></br></p>
            </br>
 		   </br>
 		   </div>
