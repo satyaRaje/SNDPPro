@@ -111,48 +111,63 @@
          <div class="row">
              <h3 style="font-weight: bolder;text-align: center;">Application of 3d Printing</h3>
              <div class="col-sm-2" style="margin: 5px;" id="">
-                 <img src="img/application/Svenarchitecture.jpg" height="200px" width="200px" class="img img-rounded">
-                 <h5 style="font-weight: bolder;color: darkslategrey;">3D printing applications  in Architecture and Construction</h5>
-                 <p style="text-align: left;">
-                     Beautiful and durable models for conception and promotion of construction industry
-                 </p>
-             </div>
-             <div class="col-sm-2" style="margin: 5px;" id="">
-                 <img src="img/application/syera4.jpg" style="margin: 5px;" height="200px" width="200px" class="img img-rounded">
-                 <h5 style="font-weight: bolder;color: darkslategrey;">3D printing applications in Maritime Industry</h5>
-                 <p style="text-align: left;">
-                     Prototypes and improved spare part management for shipbuilding
-                 </p>
+                 <img src="img/application/aerospace.png" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">Aerospace</h5>
+
              </div>
 
              <div class="col-sm-2" style="margin: 5px;" id="">
-                 <img src="img/application/3D_printed_ancilarry_tool_for_an_elbow_orthopedic_surgery_.jpg" height="200px" width="200px" class="img img-rounded">
-                 <h5 style="font-weight: bolder;color: darkslategrey;">3D printing applications in Healthcare and Medical</h5>
-                 <p style="text-align: left;">
-                     Surgical guides, custom prosthetics and education models for medical professionals
-                 </p>
-             </div>
-             <div class="col-sm-2" style="margin: 5px;" id="">
-                 <img src="img/application/molecule_380.jpg" height="200px" width="200px" class="img img-rounded">
-                 <h5 style="font-weight: bolder;color: darkslategrey;">3d printing applications in Chemical Industry</h5>
-                 <p style="text-align: left;">
-                     Enlargement of molecular structures and mechanical parts for laboratory tooling.
-                 </p>
-             </div>
+                 <img src="img/application/architecture.png" style="margin: 5px;" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">Architecture</h5>
+                </div>
 
              <div class="col-sm-2" style="margin: 5px;" id="">
-                 <img src="img/application/piecesmecaniquesglacier.jpg" height="200px" width="200px" class="img img-rounded">
-                 <h5 style="font-weight: bolder;color: darkslategrey;">3d printing applications in Mechanics</h5>
-                 <p style="text-align: left;">
-                     Functional prototypes and final products like 3d printed gears. Masters and mechanical parts to be machined.
-                 </p>
+                 <img src="img/application/automotive.png" height="200px" width="200px" class="img img-rounded">
+                 <br>
+                 <h5 style="font-weight: bolder;color: darkslategrey;">Automotive</h5>
+                  </div>
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/consumer.png" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">Consumer</h5>
+                </div>
+
+             <div class="col-sm-2" style="margin: 5px;" id="">
+                 <img src="img/application/electronics.png" height="200px" width="200px" class="img img-rounded">
+                 <h5 style="font-weight: bolder;color: darkslategrey;">Electronics</h5>
 
              </div>
+
 
          </div>
+        <div class="row">
+            <div class="col-sm-2" style="margin: 5px;" id="">
+                <img src="img/application/foundry.png" height="200px" width="200px" class="img img-rounded">
+                <h5 style="font-weight: bolder;color: darkslategrey;">Foundry</h5>
+            </div>
+                <div class="col-sm-2" style="margin: 5px;" id="">
+                    <img src="img/application/jewelry.png" height="200px" width="200px" class="img img-rounded">
+                    <h5 style="font-weight: bolder;color: darkslategrey;">Jewelry</h5>
 
-    </div>
+                </div>
+            <div class="col-sm-2" style="margin: 5px;" id="">
+                <img src="img/application/lifestyle.png" height="200px" width="200px" class="img img-rounded">
+                <h5 style="font-weight: bolder;color: darkslategrey;">Lifestyle</h5>
 
+            </div>
+            <div class="col-sm-2" style="margin: 5px;" id="">
+                <img src="img/application/medical.png" height="200px" width="200px" class="img img-rounded">
+                <h5 style="font-weight: bolder;color: darkslategrey;">Medical</h5>
+
+            </div>
+            <div class="col-sm-2" style="margin: 5px;" id="">
+                <img src="img/application/packaging.png" height="200px" width="200px" class="img img-rounded">
+                <h5 style="font-weight: bolder;color: darkslategrey;">Packaging</h5>
+
+            </div>
+
+        </div>
+        </div>
+<hr>
     <!-- End 3d Application -->
 
     <!-- How we work  -->
@@ -377,22 +392,39 @@
 
 
 
-    <!-- About Section
-    <div class="w3-container"  id="about">
+   <!--About Section-->
+    <div class="w3-container"   id="">
         <h3 class="w3-center" style="font-weight: bold; color: darkslategrey;">Our Clients</h3>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-quarter">
-             <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
+             <img src="img/clients/startup.png" class="img-circle" style="height: 100px;width: 150px;">
             </div>
             <div class="w3-quarter">
-                <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
+                <img src="img/clients/make.jpg" class="img-circle" style="height: 100px;width: 150px;">
             </div>
             <div class="w3-quarter">
-                <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
+                <img src="img/clients/ikea.png" class="img-circle" style="height: 100px;width: 150px;">
             </div>
             <div class="w3-quarter">
-                <img src="img/banner2.jpg" class="img-circle" style="height: 100px;width: 150px;">
+                <img src="img/clients/cc.png" class="img-circle" style="height: 100px;width: 150px;">
             </div>
+        </div>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <img src="img/clients/blue.png" class="img-circle" style="height: 100px;width: 150px;">
+            </div>
+            <div class="w3-quarter">
+                <img src="img/clients/paytm.png" class="img-circle" style="height: 100px;width: 150px;">
+            </div>
+            <div class="w3-quarter">
+                <img src="img/clients/savera.png" class="img-circle" style="height: 100px;width: 150px;">
+            </div>
+            <div class="w3-quarter">
+                <img src="img/clients/sbi.png" class="img-circle" style="height: 100px;width: 150px;">
+            </div>
+
+
+
         </div>
     </div>
 <br>
