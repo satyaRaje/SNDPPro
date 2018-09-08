@@ -18,29 +18,34 @@
         font-family: 'Patua One', cursive;
         text-transform: uppercase;
         letter-spacing:1px;
+		color:black;
     }
 
     p{
         margin:0 0 25px;
         font-size:18px;
         line-height:1.6em;
+		color:black;
     }
     a{
-        color:#26a5d3;
+        color:black;
     }
     a:hover,a:focus{
         text-decoration:none;
-        color:#26a5d3;
+        color:black;
     }
 
     #contact{
         background:#DCDCDC;
         color:#333333;
+        color:#f4f4f4;
         padding-bottom:80px;
+		color:black;
     }
 
     textarea.form-control{
         height:100px;
+		color:black;
     }
 </style>
 
@@ -57,21 +62,26 @@
         <div class="contact-section">
             <div class="container">
                 <h2>Contact Us</h2>
-                <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>
+                <p>Feel free to contact us by filling the contact form or visiting our social sites like Facebook,Whatsapp,Twitter,Instagram,LinkedIn.</p>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                             <div class="form-group">
                                 <label for="exampleInputName2">Name</label>
-                                <input type="text" class="form-control" name="fname" placeholder="Enter your Name">
+
+                               
+
+                                <input type="text" class="form-control" name="fname" placeholder="Enter your name">
+
                             </div>
 
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Mobile</label>
                                 <input type="text" class="form-control" name="mobileno" maxlength="10" placeholder="Enter 10-digit Number">
                             </div>
+                            
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Email</label>
-                                <input type="email" class="form-control" name="email" placeholder="Enter Email ID">
+                                <input type="email" class="form-control" name="email" placeholder="abc@gmail.com">
                             </div>
                             <div class="form-group ">
                                 <label for="exampleInputText">Your Message</label>

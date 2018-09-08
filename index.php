@@ -356,12 +356,12 @@
     <div class="w3-container w3-row w3-center " style="background-color: #f2f2f2;">
         <h3 class="text-center" style="font-weight: bold;color: darkslategrey;">Statistics </h3>
         <div class="w3-quarter w3-padding-44">
-            <span class="w3-xxlarge">14+</span>
+            <span class="w3-xxlarge">8+</span>
             <br><b>Partners</b>
         </div>
         <div class="w3-quarter w3-padding-44">
-            <span class="w3-xxlarge">55+</span>
-            <br><b>Projects Done</b>
+            <span class="w3-xxlarge">550+</span>
+            <br><b>Parts printed</b>
         </div>
         <div class="w3-quarter w3-padding-44">
             <span class="w3-xxlarge">89+</span>
