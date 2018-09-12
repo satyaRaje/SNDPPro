@@ -85,7 +85,36 @@
                                 <label for="exampleInputEmail2">Email</label>
                                 <input type="email" class="form-control" name="email" placeholder="abc@gmail.com">
                             </div>
-                            <div class="form-group ">
+                        <div class="dropdown">
+                            <label for="exampleInputEmail2">Info</label>
+                            <select input type="text" class="form-control" name="info" maxlength="email" placeholder="Info">
+
+                                    <option value="Student">Student</option>
+                                    <option value="Industry">Industry</option>
+                                    <option value="Employee">Employee</option>
+                                    <option value="designer">Designer</option>
+                                    <option value="maker">Maker</option>
+                                    <option value="professional">Professional</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                    </div>
+<br><br>
+                        <div class="dropdown">
+                            <label for="exampleInputEmail2">Where did you hear about us</label>
+                            <select input type="text" class="form-control" name="info" maxlength="email" placeholder="Info">
+
+                                <option value="social">Social Media</option>
+                                <option value="news">Newspaper</option>
+                                <option value="google">Google Search</option>
+                                <option value="youtube">YouTube</option>
+                                <option value="justdial">JustDial</option>
+                                <option value="friend">Friend</option>
+                                <option value="direct">Direct us</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+<br><br>
+                        <div class="form-group ">
                                 <label for="exampleInputText">Your Message</label>
                                 <textarea  class="form-control" name="message" placeholder="Description"></textarea>
                             </div>
@@ -94,9 +123,9 @@
                         <hr>
                         <h3>Our Social Sites</h3>
                         <ul class="list-inline banner-social-buttons">
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
+                            <li><a href=" https://twitter.com/ipro3d" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
+                            <li><a href="https://www.facebook.com/ipro3d.tech" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-instagram"> <span class="network-name">Instagram</span></i></a></li>
                         </ul>
                     </div>
                 </div>
