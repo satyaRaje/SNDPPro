@@ -32,10 +32,11 @@
 </head>
 <!------ Include the above in your HEAD tag ---------->
 <body>
+<!--
 <section class="login-block">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 login-sec">
+        <div class="row" >
+            <div class="col-sm-6 login-sec">
                 <h2 class="text-center">Login</h2>
                 <form class="login-form" method="post" action="">
                     <div class="form-group">
@@ -48,6 +49,11 @@
                         <input type="password" class="form-control"name="password" placeholder="">
                     </div>
 
+                    <div class="col-sm-6 banner-sec pull-right">
+                        <button type="submit" name="lo" class="btn btn-register float-left">Register as Industry</button>
+                        <button type="submit" name="lo" class="btn btn-individual float-right">Register as Individual</button>
+
+                    </div>
 
                     <div class="form-check">
                         <label class="form-check-label">
@@ -57,8 +63,9 @@
                         <button type="submit" name="lo" class="btn btn-login float-right">Submit</button>
                     </div>
 
+
                 </form>
-                <?php
+-->                <?php
 
 
                 if(isset($_POST['lo'])){
@@ -105,11 +112,55 @@
 
 
             </div>
-            <div class="col-md-8 banner-sec">
 
             </div>
 
         </div>
+
 </section>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" style="background-color: white;">
+            <h2 class="text-center">Login</h2>
+            <form class="login-form" method="post" action="">
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="text-uppercase" >Username</label>
+                    <input type="text" class="form-control"name="email" placeholder="">
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="text-uppercase" >Password</label>
+                    <input type="password" class="form-control"name="password" placeholder="">
+                </div>
+
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        <small>Remember Me</small>
+                    </label>
+                    <button type="submit" name="lo" class="btn btn-login float-right">Submit</button>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="col-sm-6" style="background-color: white;" align="center">
+            <div class="col-sm-6 banner-sec ">
+                <br><br><br><br>
+                <a href="register.php" button type="submit" name="lo" class="btn btn-register float-right" style="padding-right">Register as Industry</a button>
+                <br><br>
+                <button type="submit" name="lo" class="btn btn-individual float-right">Register as Individual</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </body>
 </html>
