@@ -150,9 +150,14 @@
         <div class="col-sm-6" style="background-color: white;" align="center">
             <div class="col-sm-6 banner-sec ">
                 <br><br><br><br>
-                <a href="register.php" button type="submit" name="lo" class="btn btn-register float-right" style="padding-right">Register as Industry</a button>
+                <a href="compdetail.php" button type="submit" name="lo" class="btn btn-register float-right" style="padding-right">Register as Industry</a button>
                 <br><br>
-                <button type="submit" name="lo" class="btn btn-individual float-right">Register as Individual</button>
+
+
+                <a href="register.php" button type="submit" name="lo" class="btn btn-register float-right" style="padding-right">Register as Individual</a button>
+                <br><br>
+
+
 
             </div>
 
