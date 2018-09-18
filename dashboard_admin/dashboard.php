@@ -190,7 +190,7 @@ session_start();
         <div class="row" style="left-margin:100px">
 		<div class="card col-sm-4"></div>
 		<div class="card col-sm-7" style="font-family: Arial, Helvetica, sans-serif;">
-		<h2><b>Admin Panal</b></h2>
+		<h2><b>Admin Panel</b></h2>
 		</div>
 		<div class="card col-sm-4"></div>
 		</div>
