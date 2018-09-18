@@ -12,7 +12,7 @@
                         <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                         <h3>Welcome</h3>
                         <p>You are 30 seconds away from earning your own money!</p>
-                        <a href="register1.php"><input type="submit" name="" value="Register"/></a><br/>
+                        <a href="register1.php">"<input type="submit" name="" value="Register"/></a><br/>
                     </div>
                     <div class="col-md-9 register-right">
                         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -24,7 +24,7 @@
                                 <div class="row register-form">
                                     <div>
                                         <div class="form-group" style="margin-left:220px">
-                                            <input type="text" class="form-control" placeholder="Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
                                         </div>
                                         <div class="form-group" style="margin-left:220px">
                                             <input type="password" class="form-control" placeholder="Password *" value="" />
