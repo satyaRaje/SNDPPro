@@ -1,12 +1,19 @@
-<html>
-<head>
-</head>
-<body>
-<div class="container-fluid">
-    <div class="row text-center w3-black">
 
-        
-        <div class="col-sm-4" style="font-family: 'Patua One';">
+<div class="container-fluid">
+
+    <div class="row text-center" style="background-color:Black;">
+
+        <div class="col-sm-3">
+         <h3 style="color:#FFFFFF">Our Services</h3></a>
+            <a href="../Services/3dprinting.php"> <h5>3D Printing</h5></a>
+            <a href="../Services/3dscanning.php"> <h5>3D Scanning</h5></a>
+            <a href="../Services/cadmodeling.php"> <h5>2D & 3D design services</h5></a>
+            <a href="../Services/design.php"> <h5>Design for 3D Printing</h5></a>
+            <a href="../Services/services.php"><h5>Many more services…..</h5></a>
+
+        </div>
+
+        <div class="col-sm-3" style="font-family: 'Patua One';color:#FFFFFF;">
             <br><br>
             <h5><b>IPRO3D TECHNOLOGIES LLP</b><br>
                 Incubation Office<br>
@@ -18,7 +25,7 @@
                 Maharashtra, India.<h5>
 
         </div>
-        <div class="col-sm-4" style="font-family: 'Patua One';">
+        <div class="col-sm-3" style="font-family: 'Patua One';color:#FFFFFF;">
             <br><br>
             <h5>
                 <b>Corporate office Manufacturing Facility</b><br>
@@ -34,7 +41,7 @@
         </div>
 
 
-        <div class="col-sm-4">
+        <div class="col-sm-3" Style="color:#FFFFFF">
             <br><br><br>
             <div class="w3-xxlarge">
                 <a href="https://www.facebook.com/ipro3d.tech"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
@@ -51,5 +58,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>
