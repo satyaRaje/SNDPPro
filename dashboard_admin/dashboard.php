@@ -78,7 +78,9 @@ session_start();
             display: none;
         }
 
-
+         img {
+              border-radius: 50%;
+             }        
         #rpt_panel, #rpt_flip {
             padding: 5px;
             text-align: center;
@@ -101,7 +103,9 @@ session_start();
         #admin_panel {
             padding: 50px;
             display: none;
+			
         }
+		
 
 
 
@@ -144,6 +148,9 @@ session_start();
             padding: 50px;
             display: none;
         }
+		
+
+
 
     </style>
 
@@ -191,16 +198,21 @@ session_start();
 		<div class="card col-sm-4"></div>
 		<div class="card col-sm-7" style="font-family: Arial, Helvetica, sans-serif;">
 		<h2><b>Admin Panel</b></h2>
+		<br>
 		</div>
 		<div class="card col-sm-4"></div>
 		</div>
 		<div class="row content">
-            <div class="col-sm-3 sidenav" style="background-color:#DCDCDC;;"	>
-                <img src="a.jpg" height="100px" width="100px" class="img img-circle"/>
-                <h6>Name : Swaranjali</h6>
-                <h6>mobile : 1234567890</h6>
-                <h6>Email : @gmail.com</h6>
-                <h6>Center Id : 1001</h6>
+            <div class="col-sm-3 sidenav" style="background-color:#87CEEB	; margin-top:-95px;height:555px;"	>
+			<br>
+                <img src="img/logo/3dadative.png"  style="height:100px ;width:100px;"  ></img>
+				<br>
+				<br>
+				<br>
+                <h4>Name : Swaranjali</h4>
+                <h4>Mobile : 1234567890</h4>
+                <h4>Email : @gmail.com</h4>
+                <h4>Center Id : 1001</h4>
 
                 <br>
                 <br>
@@ -208,7 +220,7 @@ session_start();
 				<button>Logout</button>
 				</br>
 				</br>
-				<a href="changepassword.php" style="font-size:20px;font-color:black">Change Password</a>
+				<a href="changepassword.php" style="font-size:20px;color:black">Change Password</a>
 				
 				<br>
             </div>
@@ -217,50 +229,32 @@ session_start();
                 <div class="container" style="color: white;font-weight: bolder;">
                     <div class="row text-center">
                         
-                        <div class="card col-sm-4" id="admission_flip" style="border-radius: 50%;background-color:transparent;border-style: none;">
+                        <div class="card col-sm-4" id="admission_flip" style="border-radius:50%; margin-left:140px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
-                                    <h6><img src="svg/reading.svg" height="100px" class="img img-circle"></h6>
-                                    <label class="label label-primary" style="font-size: large;">View STL file</label>
-                                </div>
-                                <div style="font-size: large;" id="admission_panel">
-                                    <a href="spotAdmission.php"><button class="btn "> New Admission</button></a>
-                                    <br><br>
-                                    <a href="core/enquiryReport.php" > <button class="btn">From Enquiry</button></a>
-                                </div>
-                            </div>
-                        </div>
-						<div class="card col-sm-3 bg-info" style="border-radius: 50%;background-color:transparent;border-style: none;" id="std_flip">
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <h6><img src="svg/advertising.svg" height="100px" class="img img-circle"></h6>
-                                    <label class="label label-primary" style="font-size: large ;">View Quotation</label>
-                                </div>
-                                <div style="font-size: large;" id="std_panel">
-                                    <button class="btn "><a href="#">Upload File</a></button><br><br>
-                                    <button class="btn " ><a href="#" >Upload Message</a></button>
-                                    <br><br>
-                                    <a href="#"> <button class="btn"> Upload PDF</button></a><br><br>
-                                    <a href="#"><button class="btn"> Upload Questions</button></a>
+                                    <a href="#"><h6><img src="svg/reading.svg" height="100px" class="img img-circle"></h6></a>
+									<button class="label label-primary" style="font-size: large;"><a href="#">View STL file</a></button>
 
                                 </div>
+                                
                             </div>
                         </div>
-
-						<div class="card col-sm-4" style="background-color:transparent;border-style: none;"  id="rpt_flip">
+						<div class="card col-sm-3 bg-info" style="border-radius:50%; margin-left:120px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
-                                    <h6><img src="svg/document.svg" height="100px" class="img img-circle"></h6>
-                                    <label class="label label-primary" style="font-size: large;">View Enquiry</label>
+                                    <a href="#"><h6><img src="svg/advertising.svg" height="100px" class="img img-circle"></h6></a>
+									<button class="label label-primary" style="font-size: large;"><a href="#">View Quotations</a></button>
                                 </div>
-                                <div id="rpt_panel" >
-                                    <a href="core/admissionReport.php"><button class="btn">Admission Report</button></a><br>
-                                    <br>
-                                    <a href="core/admissionReport.php"><button class="btn">Pending Fess Report</button></a>
-                                    <br><br>
-                                    <a href="collection.php"><button class="btn">Collection Report</button></a>
                                 </div>
-                            </div>
+                        </div>
+
+						<div class="card col-sm-4" style="border-radius:50%; margin-left:120px ;height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <a href="enquiry.php"><h6><img src="svg/document.svg" height="100px" class="img img-circle"></h6></a>
+									<button class="label label-primary" style="font-size: large;"><a href="enquiry.php">View Enquiry</a></button>
+                                </div>
+                                </div>
                         </div>
 
                     </div>
@@ -270,11 +264,11 @@ session_start();
 					<br>
                     <div class="row text-center">
 
-                        <div class="card col-sm-11" id="enq_flip" style="border-radius: 50%;background-color:transparent;border-style: none;">
+                        <div class="card col-sm-11" id="enq_flip" style="border-radius:50%; margin-left:468px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
-                                    <h6><img src="svg/assistant.svg" height="100px" class="img img-circle"></h6>
-                                    <label class="label label-primary" style="font-size: large;">Register User</label>
+                                    <a href="#"><h6><img src="svg/assistant.svg" height="100px" class="img img-circle"></h6></a>
+									<button class="label label-primary" style="font-size: large;"><a href="#">Register User</a></button>
                                 </div>
 							</div>
                         </div>

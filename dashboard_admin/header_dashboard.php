@@ -299,14 +299,14 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="height:50px;">
 
 <nav class="navbar navbar-default navbar-fixed-top" >
-    <div class="container">
+    <div class="container" >
         <div class="navbar-header" >
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="../temp-img/logoUp.png"  height="30">iPRO3D</b></a>
+            <a class="navbar-brand" style="font-size:40px; letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="../temp-img/logoUp.png"  height="30">iPRO3D</b></a>
         </div>
     </div>
 </nav>
