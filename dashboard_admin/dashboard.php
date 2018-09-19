@@ -194,17 +194,10 @@ session_start();
 <br>
 
     <div class="container-fluid text-center" style="margin-top:20px;">
-        <div class="row" style="left-margin:100px">
-		<div class="card col-sm-4"></div>
-		<div class="card col-sm-7" style="font-family: Arial, Helvetica, sans-serif;">
-		<h2><b>Admin Panel</b></h2>
-		<br>
-		</div>
-		<div class="card col-sm-4"></div>
-		</div>
 		<div class="row content">
-            <div class="col-sm-3 sidenav" style="background-color:#87CEEB	; margin-top:-95px;height:555px;"	>
+            <div class="col-sm-3 sidenav" style="background-color:#87CEEB;margin-top:-10px;height:558px;"	>
 			<br>
+			<div class="row content">
                 <img src="img/logo/3dadative.png"  style="height:100px ;width:100px;"  ></img>
 				<br>
 				<br>
@@ -224,31 +217,33 @@ session_start();
 				
 				<br>
             </div>
+			</div>
 
+<h1 style="text-align:center;">Admin Panel</h1>
+
+<br>
             <div class="col-sm-6 text-left">
                 <div class="container" style="color: white;font-weight: bolder;">
+				
                     <div class="row text-center">
                         
-                        <div class="card col-sm-4" id="admission_flip" style="border-radius:50%; margin-left:140px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
+                        <div class="card col-sm-3"  style="border-radius:50%; margin-left:120px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
-                                    <a href="#"><h6><img src="svg/reading.svg" height="100px" class="img img-circle"></h6></a>
+								 <a href="#"><h6><img src="svg/reading.svg" height="100px" class="img img-circle"></h6></a>
 									<button class="label label-primary" style="font-size: large;"><a href="#">View STL file</a></button>
-
                                 </div>
-                                
-                            </div>
+							</div>
                         </div>
-						<div class="card col-sm-3 bg-info" style="border-radius:50%; margin-left:120px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
+						<div class="card col-sm-3"  style="border-radius:50%; margin-left:120px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
                                     <a href="#"><h6><img src="svg/advertising.svg" height="100px" class="img img-circle"></h6></a>
 									<button class="label label-primary" style="font-size: large;"><a href="#">View Quotations</a></button>
                                 </div>
-                                </div>
+							</div>
                         </div>
-
-						<div class="card col-sm-4" style="border-radius:50%; margin-left:120px ;height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
+						<div class="card col-sm-3" style="border-radius:50%; margin-left:120px ;height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
                                     <a href="enquiry.php"><h6><img src="svg/document.svg" height="100px" class="img img-circle"></h6></a>
@@ -263,8 +258,18 @@ session_start();
 					<br>
 					<br>
                     <div class="row text-center">
+					
+					<div class="card col-sm-3"  style="border-radius:50%; margin-left:120px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <a href="#"><h6><img src="svg/document.svg" height="100px" class="img img-circle"></h6></a>
+									<button class="label label-primary" style="font-size: large;"><a href="#">Upload STL file</a></button>
+                                </div>
+							</div>
+                        </div>
 
-                        <div class="card col-sm-11" id="enq_flip" style="border-radius:50%; margin-left:468px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
+
+                        <div class="card col-sm-3"  style="border-radius:50%; margin-left:120px; height:200px; width:200px; background-color:#E6E6FA	; border-style:circle;">
                             <div class="card-body">
                                 <div class="card-header">
                                     <a href="#"><h6><img src="svg/assistant.svg" height="100px" class="img img-circle"></h6></a>
@@ -277,7 +282,7 @@ session_start();
             </div>
 		</div>
     </div>
-</div>
+
 
 </body>
 <div>
