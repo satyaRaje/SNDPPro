@@ -12,6 +12,7 @@
                         <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                         <h3>Welcome</h3>
                         <p>You are 30 seconds away from earning your own money!</p>
+						
                         <a href="login2.php"><input type="submit" name="" value="Login"/></a><br/>
                     </div>
                     <div class="col-md-9 register-right">
@@ -23,24 +24,26 @@
                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="register2.php" role="tab" aria-controls="profile" aria-selected="false">Student</a>
                             </li>
                         </ul>
+						</br>
+                         
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h3 class="register-heading">Apply as a Employee</h3>
+                                <h3 class="register-heading">Register here as a Employee</h3>
                                 <div class="row register-form">
-                                    <div class="col-md-6">
+                                    <div class="container" style="width:100%">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="First Name *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="Last Name *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Password *" value="" />
+                                            <input type="password" class="form-control" placeholder="Password *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
+                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" style="width:100%"/>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group" style="width:100%">
                                             <div class="maxl">
                                                 <label class="radio inline"> 
                                                     <input type="radio" name="gender" value="male" checked>
@@ -52,13 +55,12 @@
                                                 </label>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
+                                   
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                            <input type="email" class="form-control" placeholder="Your Email *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
                                             <select class="form-control">
@@ -69,10 +71,13 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
+                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" style="width:100%"/>
                                         </div>
-                                        <input type="submit" class="btnRegister"  value="Register"/>
-                                    </div>
+										<div class="form-group">
+                                        <input type="submit" class="btnRegister" style="width:100%" value="Register"/>
+					                                           
+                                        </div>
+                                   </div>
                                 </div>
                             </div>
                          </div>

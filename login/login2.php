@@ -1,7 +1,7 @@
 <html>
 <head>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
- <link rel="stylesheet" href="login1_css.css">
+ <link rel="stylesheet" href="register1_css.css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
@@ -22,14 +22,17 @@
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h3 class="register-heading">Login</h3>
                                 <div class="row register-form">
-                                    <div>
-                                        <div class="form-group" style="margin-left:220px">
-                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                    <div class="container">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name *" value="" style="width:100%" />
                                         </div>
-                                        <div class="form-group" style="margin-left:220px">
-                                            <input type="password" class="form-control" placeholder="Password *" value="" />
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password *" value="" style="width:100%" />
                                         </div>
-										<input type="submit" class="btnRegister"  value="Login"/>
+										
+										<div class="form-group" style="align:center">
+										<input type="submit" class="btnRegister"  value="Login" style="width=:100%"/>
+										</div>
                                     </div>
                                     
                                 </div>

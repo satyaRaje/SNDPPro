@@ -23,32 +23,42 @@
                                 <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#home" role="tab" aria-controls="profile" aria-selected="false">Student</a>
                             </li>
                         </ul>
-                        
-                            <div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="profile-tab">
-                                <h3  class="register-heading">Apply as a Student</h3>
+                        </br>
+                            <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading" style="width:100%">Register here as a Student</h3>
                                 <div class="row register-form">
-                                    <div class="col-md-6">
+                                    <div class="container" style="width:100%">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="First Name *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="Last Name *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email *" value="" />
+                                            <input type="password" class="form-control" placeholder="Password *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
+                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" style="width:100%"/>
                                         </div>
-
-
-                                    </div>
-                                    <div class="col-md-6">
+                                        <div class="form-group" style="width:100%">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked>
+                                                    <span> Male </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span>Female </span> 
+                                                </label>
+                                            </div>
+                                        </div>
+                                   
                                         <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Password *" value="" />
+                                            <input type="email" class="form-control" placeholder="Your Email *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
                                             <select class="form-control">
@@ -59,12 +69,16 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="`Answer *" value="" />
+                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" style="width:100%"/>
                                         </div>
-                                        <input type="submit" class="btnRegister"  value="Register"/>
-                                    </div>
+										<div class="form-group">
+                                        <input type="submit" class="btnRegister" style="width:100%" value="Register"/>
+					                                           
+                                        </div>
+                                   </div>
                                 </div>
                             </div>
+                         </div>
                         </div>
                     </div>
                 </div>
