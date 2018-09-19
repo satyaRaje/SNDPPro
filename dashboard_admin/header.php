@@ -24,7 +24,7 @@
 </style>
 </head>
  <body>
-   <h1><a href="normaldashboard.php"> dashobard</a> </h1>
+   <h1><a href="dashboard.php"> dashobard</a> </h1>
  </body>
 </html>
 <!--
