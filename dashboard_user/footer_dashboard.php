@@ -1,7 +1,7 @@
 
 <div class="container-fluid">
 
-    <div class="row text-center" style="background-color:Black;">
+    <div class="row text-center" style="background-color:Black;margin-left:-30px; margin-right:-30px;">
 
         <div class="col-sm-3">
          <h3 style="color:#FFFFFF">Our Services</h3></a>

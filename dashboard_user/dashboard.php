@@ -195,12 +195,16 @@ session_start();
 		<div class="card col-sm-4"></div>
 		</div>
 		<div class="row content">
-            <div class="col-sm-3 sidenav" style="background-color:#DCDCDC;;"	>
-                <img src="a.jpg" height="100px" width="100px" class="img img-circle"/>
-                <h6>Name : Swaranjali</h6>
-                <h6>mobile : 1234567890</h6>
-                <h6>Email : @gmail.com</h6>
-                <h6>Center Id : 1001</h6>
+            <div class="col-sm-3 sidenav" style="background-color:#87CEEB	; margin-top:-95px;height:555px;"	>
+			<br>
+                <img src="img/logo/3dadative.png"  style="height:100px ;width:100px;"  ></img>
+				<br>
+				<br>
+				<br>
+                <h4>Name : Swaranjali</h4>
+                <h4>Mobile : 1234567890</h4>
+                <h4>Email : @gmail.com</h4>
+                <h4>Center Id : 1001</h4>
 
                 <br>
                 <br>
@@ -208,7 +212,7 @@ session_start();
 				<button>Logout</button>
 				</br>
 				</br>
-				<a href="changepassword.php" style="font-size:20px;font-color:black">Change Password</a>
+				<a href="changepassword.php" style="font-size:20px;color:black">Change Password</a>
 				
 				<br>
             </div>
