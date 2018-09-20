@@ -339,6 +339,6 @@ if(isset($_POST['b_register'])){
     mysqli_close($conn);
 
 }
-?>
+?>	
 </body>
 </html>	
