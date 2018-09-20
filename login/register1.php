@@ -6,6 +6,8 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 </head>
+<body>
+<form method="post" action="">
 <div class="container register">
                 <div class="row">
                     <div class="col-md-3 register-left">
@@ -32,29 +34,29 @@
                                 <div class="row register-form">
                                     <div class="container" style="width:100%">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Company Name *" value="" style="width:100%"/>
+                                            <input type="text" class="form-control" placeholder="Company Name *" name="t_cname" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Website " value="" style="width:100%"/>
+                                            <input type="text" class="form-control" placeholder="Website " name="t_website" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email *" value="" style="width:100%"/>
+                                            <input type="email" class="form-control" placeholder="Your Email *" name="t_email" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" style="width:100%"/>
+                                            <input type="text" minlength="10" maxlength="10" name="t_phone" class="form-control" placeholder="Your Phone *" value="" style="width:100%"/>
                                         </div>
 										<div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Password *" value="" style="width:100%"/>
+                                            <input type="password" class="form-control" placeholder="Password *" name="t_password" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" style="width:100%"/>
+                                            <input type="password" class="form-control"  placeholder="Confirm Password *" name="t_cpassword" value="" style="width:100%"/>
                                         </div>
                                         <div class="form-group">
-										<textarea class="form-control" rows="5" id="Address" placeholder="Address"></textarea>
+										<textarea class="form-control" rows="5" id="Address" placeholder="Address" name="t_address"></textarea>
 										</div>
 										<div class="form-group">	
-										<select name="location" value="" style="width:100%" >
-<option selected="selected">-Select State and City-</option>
+										<select name="t_city" value="" style="width:100%" >
+<option selected="selected">-Select City-</option>
 <option disabled="disabled" style="background-color:#3E3E3E"><font color="#000000"><i>-Top Metropolitan Cities-</i></font></option>
 <option>Ahmedabad</option> 
 <option>Bengaluru/Bangalore</option>
@@ -292,11 +294,10 @@
 </div></br>
                                         <div class="form-group">
 										<p>Date of Formation :</p>
-                                            <input type="date" name="formationdate" placeholder="Date of formation">
+                                            <input type="date" name="t_fdate" placeholder="Date of formation">
                                         </div>
 										<div class="form-group">
-                                        <input type="submit" class="btnRegister" style="width:100%" value="Register"/>
-					                                           
+                                        <button type="submit" class="btn btn-default" name="b_register" style="width:100%">Register</button>                       
                                         </div>
                                    </div>
                                 </div>
@@ -306,5 +307,29 @@
                 </div>
 
             </div>
-	</div>	
+	</div>
+	</br>
+	</br>
+	</form>
+	<?php
+if(isset($_POST['b_register'])){
+    $query= "INSERT INTO company_register(`company_name`, `company_website`, `company_email`, `company_phone`, `company_password`, `company_cpassword`, `company_address`, `company_city`, `company_fdate`,) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
+    $conn = mysqli_connect("localhost","root", "","dbipro3d");
+	if (!$conn) {
+      die("Connection failed: " . mysqli_connect_error());
+    }
+    echo "Connected successfully";	
+    $check = mysqli_query($conn,$query);
+    if ($check) {
+      echo "New record created successfully"; 
+    } 
+    else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+    mysqli_close($conn);
+
+}
+
+?>
+</body>	
 </html>	
