@@ -311,9 +311,9 @@
 	</br>
 	</br>
 	</form>
-	<?php
+<?php
 if(isset($_POST['b_register'])){
-    $query= "INSERT INTO company_register(`company_name`, `company_website`, `company_email`, `company_phone`, `company_password`, `company_cpassword`, `company_address`, `company_city`, `company_fdate`,) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
+    $query= "INSERT INTO `company_register`(`company_name`, `company_website`, `company_email`, `company_phone`, `company_password`, `company_cpassword`, `company_address`, `company_city`, `company_fdate`) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
     $conn = mysqli_connect("localhost","root", "","dbipro3d");
 	if (!$conn) {
       die("Connection failed: " . mysqli_connect_error());
@@ -329,7 +329,6 @@ if(isset($_POST['b_register'])){
     mysqli_close($conn);
 
 }
-
 ?>
 </body>	
 </html>	
