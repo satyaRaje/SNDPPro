@@ -7,7 +7,7 @@
 <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
-<form method="post" action="">
+
 <div class="container register">
                 <div class="row">
                     <div class="col-md-3 register-left">
@@ -27,7 +27,7 @@
                             </li>
                         </ul>
 						</br>
-                         
+   <form method="post" action="">                      
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h3 class="register-heading">Register here as a Company</h3>
@@ -297,7 +297,7 @@
                                             <input type="date" name="t_fdate" placeholder="Date of formation">
                                         </div>
 										<div class="form-group">
-                                        <button type="submit" class="btn btn-default" name="b_register" style="width:100%">Register</button>                       
+                                        <input type="submit" class="btnRegister" name="b_register" style="width:100%" value="Register"/>
                                         </div>
                                    </div>
                                 </div>

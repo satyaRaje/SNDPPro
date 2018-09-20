@@ -7,14 +7,14 @@
 <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
-<form method="post" action="">
+
 <div class="container register">
                 <div class="row">
                     <div class="col-md-3 register-left">
                         <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                         <h3>Welcome</h3>
                         <p>You are 30 seconds away from earning your own money!</p>
-                        <a href="login2.php"><input type="submit" name="" value="Login"/></a><br/>
+                        <a href="login2.php#home"><input type="submit" name="" value="Login"/></a><br/>
                     </div>
                     <div class="col-md-9 register-right">
                         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -26,6 +26,7 @@
                             </li>
                         </ul>
                         </br>
+						<form method="post" action="">
                             <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h3 class="register-heading" style="width:100%">Register here as a Student</h3>
