@@ -4,7 +4,6 @@
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/contact_and_quote/contactus.php" afterPath="$PROJECT_DIR$/contact_and_quote/contactus.php" />
       <change beforePath="$PROJECT_DIR$/contact_and_quote/quote.php" afterPath="$PROJECT_DIR$/contact_and_quote/quote.php" />
-      <change beforePath="$PROJECT_DIR$/dashboard_admin/compdetail.php" afterPath="$PROJECT_DIR$/dashboard_admin/compdetail.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,13 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="quote.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quote.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_and_quote/quote.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="147" column="80" lean-forward="false" selection-start-line="147" selection-start-column="80" selection-end-line="147" selection-end-column="80" />
+            <state relative-caret-position="374">
+              <caret line="144" column="43" lean-forward="true" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
               <folding>
-                <marker date="1538066259558" expanded="true" signature="6111:6274" ph="INSERT INTO `tblEnquiry`... " />
+                <marker date="1538068174750" expanded="true" signature="6113:6276" ph="INSERT INTO `tblEnquiry`... " />
               </folding>
             </state>
           </provider>
@@ -69,13 +68,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactus.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contactus.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="153" column="2" lean-forward="false" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="2" />
+            <state relative-caret-position="408">
+              <caret line="150" column="43" lean-forward="false" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
               <folding>
-                <marker date="1538066168556" expanded="true" signature="5726:5889" ph="INSERT INTO `tblEnquiry`... " />
+                <marker date="1538068749369" expanded="true" signature="5728:5891" ph="INSERT INTO `tblEnquiry`... " />
               </folding>
             </state>
           </provider>
@@ -144,8 +143,8 @@
         <option value="$PROJECT_DIR$/login/header.php" />
         <option value="$PROJECT_DIR$/dashboard_admin/header.php" />
         <option value="$PROJECT_DIR$/dashboard_admin/compdetail.php" />
-        <option value="$PROJECT_DIR$/contact_and_quote/contactus.php" />
         <option value="$PROJECT_DIR$/contact_and_quote/quote.php" />
+        <option value="$PROJECT_DIR$/contact_and_quote/contactus.php" />
       </list>
     </option>
   </component>
@@ -261,7 +260,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105532000" />
+    <option name="totallyTimeSpent" value="106575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -653,22 +652,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.php">
+    <entry file="file://$PROJECT_DIR$/contact_and_quote/quote.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="153" column="2" lean-forward="false" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="2" />
+        <state relative-caret-position="374">
+          <caret line="144" column="43" lean-forward="true" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
           <folding>
-            <marker date="1538066168556" expanded="true" signature="5726:5889" ph="INSERT INTO `tblEnquiry`... " />
+            <marker date="1538068174750" expanded="true" signature="6113:6276" ph="INSERT INTO `tblEnquiry`... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_and_quote/quote.php">
+    <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="147" column="80" lean-forward="false" selection-start-line="147" selection-start-column="80" selection-end-line="147" selection-end-column="80" />
+        <state relative-caret-position="408">
+          <caret line="150" column="43" lean-forward="false" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
           <folding>
-            <marker date="1538066259558" expanded="true" signature="6111:6274" ph="INSERT INTO `tblEnquiry`... " />
+            <marker date="1538068749369" expanded="true" signature="5728:5891" ph="INSERT INTO `tblEnquiry`... " />
           </folding>
         </state>
       </provider>

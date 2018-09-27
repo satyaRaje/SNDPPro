@@ -138,17 +138,17 @@
 
 <?php
 if(isset($_POST['enquire'])){
-    $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
+  /*  $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
     $conn = mysqli_connect("localhost","root", "","dbipro3d");
-    $check = mysqli_query($conn,$query);
+    $check = mysqli_query($conn,$query);*/
     $to = "hello@ipro3d.io";
     $subject = "Email Enquiry : ";
-    $txt = "Student Name : ".$_POST['name']." Requirement's : ".$_POST['course']." Mobile No. : ".$_POST['mobile']." Email Address : ".$_POST['email'];
+    $txt = "Student Name : ".$_POST['fname']." Requirement's : ".$_POST['message']." Mobile No. : ".$_POST['mobileno']." Email Address : ".$_POST['email'];
     $headers = "From: mit@arkay.org" . "\r\n" .
         "CC: kad.gaurav.gaurav447@gmail.com";
     mail($to,$subject,$txt,$headers);
 
-    echo "<script>alert('Thanks For Quote...!');</script>";
+    echo "<script>alert('Thanks For Contact...!');</script>";
 }
 
 ?>
