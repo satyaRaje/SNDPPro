@@ -135,12 +135,13 @@
 
 </form>
 
+
 <?php
 if(isset($_POST['enquire'])){
     $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
     $conn = mysqli_connect("localhost","root", "","dbipro3d");
     $check = mysqli_query($conn,$query);
-    $to = "kad.gaurav.gaurav447@gmail.com";
+    $to = "hello@ipro3d.io";
     $subject = "Email Enquiry : ";
     $txt = "Student Name : ".$_POST['name']." Requirement's : ".$_POST['course']." Mobile No. : ".$_POST['mobile']." Email Address : ".$_POST['email'];
     $headers = "From: mit@arkay.org" . "\r\n" .

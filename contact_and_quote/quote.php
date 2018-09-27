@@ -140,45 +140,17 @@
 
 <?php
 if(isset($_POST['enquire'])){
-    echo $_POST['image'];
-    $query= "INSERT INTO tblquote(`name`, `mobile`, `email`, `course`,link) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."','".$_POST['image']."')";
+    $query= "INSERT INTO `tblEnquiry`(`name`, `mobile`, `email`, `course`) VALUES ('".$_POST['fname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['message']."')";
     $conn = mysqli_connect("localhost","root", "","dbipro3d");
     $check = mysqli_query($conn,$query);
-    $to = "kad.gaurav.gaurav447@gmail.com";
-
-    if(isset($_FILES['image'])){
-        $errors= array();
-        $file_name = $_FILES['image']['name'];
-        $file_size =$_FILES['image']['size'];
-        $file_tmp =$_FILES['image']['tmp_name'];
-        $file_type=$_FILES['image']['type'];
-        $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
-
-        $expensions= array("jpeg","jpg","png","pdf");
-
-        /*   if(in_array($file_ext,$expensions)=== false){
-              $errors[]="extension not allowed, please choose a JPEG or PNG file.";
-           }
-
-           if($file_size > 2097152000){
-              $errors[]='File size must be excately 2 MB';
-           }
-           */
-        if(empty($errors)==true){
-            move_uploaded_file($file_tmp,"../doc/".$_POST['image']);
-            echo "Success";
-        }else{
-            print_r($errors);
-        }
-    }
-
+    $to = "hello@ipro3d.io";
     $subject = "Email Enquiry : ";
-    $txt = "Student Name : ".$_POST['name']." Requirement's : ".$_POST['course']." Mobile No. : ".$_POST['mobile']." Email Address : ".$_POST['email'];
+    $txt = "Student Name : ".$_POST['fname']." Requirement's : ".$_POST['message']." Mobile No. : ".$_POST['mobileno']." Email Address : ".$_POST['email'];
     $headers = "From: mit@arkay.org" . "\r\n" .
         "CC: kad.gaurav.gaurav447@gmail.com";
     mail($to,$subject,$txt,$headers);
 
-    echo "<script>alert('Thanks For Enquiry...!');</script>";
+    echo "<script>alert('Thanks For Quote...!');</script>";
 }
 
 ?>
