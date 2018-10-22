@@ -63,36 +63,43 @@
 <body>
 
 <div class="container-fluid">
-<?php include '../header1.php';?>
+<?php include '../header.php';?>
 
 <div class="container-fluid">
     <div class="row">
 </br></br></br>
 </div>
 </div>
-<h2 style="margin-left:540px;"> Marketplace</h2>
 <div class="container-fluid" style="margin-right:0%;">
     <div class="row" >
-	  <div class="col-sm-9">
+	  <div class="col-sm-9" style="background-color:#F0F0F0;margin-top:-20px">
+	  </br>
+	  <h2 align="center" style="font-family:Arial, Helvetica, sans-serif;"> Marketplace</h2></br>
+      <h3 align="center" style="color:grey;font-family:Arial, Helvetica, sans-serif;">Except The Unexpected...</h3>
        </br></br></br>
-	   <button id="rcorners1" style="margin-left:4%">Upload Your Product !</button> 	   
-	   <button id="rcorners1" style="margin-left:5%">Sale Your Idea !</button>
-	   <button id="rcorners1" style="margin-left:5%">Hier a Designer !</button>
-	   <button id="rcorners1" style="margin-left:5%">Rounded corners!</button></br></br></br>
+	   <button id="rcorners1" style="margin-left:5%;font-family:Arial, Helvetica, sans-serif;font-size:18px;">Upload Product !</button> 	   
+	   <button id="rcorners1" style="margin-left:5%;font-family:Arial, Helvetica, sans-serif;font-size:18px;">Sale Your Idea !</button>
+	   <button id="rcorners1" style="margin-left:5%;font-family:Arial, Helvetica, sans-serif;font-size:18px;">Hier a Designer !</button>
+	   <button id="rcorners1" style="margin-left:5%;font-family:Arial, Helvetica, sans-serif;font-size:18px;">Rounded corners!</button></br></br></br>
 	      
 <div class="container-fluid">
     <div class="row" > 
-		<div class="col-sm-3" >  
+	<h3 style="color:grey;font-family:Arial, Helvetica, sans-serif;"align="center">Bring ART to the CART...</h3></br></br></br>
+		<div class="col-sm-3">  
            <div class="card">
-             <center><img src="img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
-             <div class="container">
-             <p style="padding-left:35px">Architect & Engineer</p> 
+             <center><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
+             <div class="container" style="font-family:Arial, Helvetica, sans-serif;">
+			 </br>
+             <p style="padding-left:45px">Product Name</p>
+             <p style="padding-left:70px">Price /-</p>
+			 <a href="#" style="color:blue;padding-left:50px">View Details</a></br></br>
+			 <button style="background-color:white-smoke;width:15%;"><b>Buy Now</b></button>
              </div>
 	        </div>
         </div>
 		<div class="col-sm-3">
 		   <div class="card">
-             <center><img src="img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
+             <center><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
              <div class="container">
              <p style="padding-left:35px">Architect & Engineer</p> 
              </div>
@@ -100,7 +107,7 @@
 		</div>
 		<div class="col-sm-3">
 		   <div class="card">
-             <center><img src="img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
+             <center><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
              <div class="container">
              <p style="padding-left:35px">Architect & Engineer</p> 
              </div>
@@ -108,25 +115,35 @@
 		</div>
 		<div class="col-sm-3">
 		   <div class="card">
-             <center><img src="img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
+             <center><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
              <div class="container">
              <p style="padding-left:35px">Architect & Engineer</p> 
              </div>
            </div>
 		</div>
-		   
+		 discover the difference. except the unexpected. your imagination our vision. way to shape ur idea. we bring ur ideas to life. bringing the art to the cart. </br>
+EGFEJDSF
+
+</br></br></br>
+
+</br></br></br>
+</br></br></br>
+
+
+
+		 
 	</div>
    </div>
  </div>
-	   <div class="col-sm-3 sidenav" style="background-color:#87CEEB;height:700px; width:372px;margin-top:-70px;"	>
+	   <div class="col-sm-3 sidenav" style="background-color:#F5F5F5;height:700px;width:372px;margin-top:-20px;margin-right:-20px"	>
 			<br>
-                <img src="img/logo/3dadative.png"  style="height:160px ;width:150px;margin-left:90px;margin-top:10px;"></img>
+                <img src="../img/team/t4.jpg"  style="height:160px ;width:150px;margin-left:90px;margin-top:10px;"></img>
 				<br>
 				<br>
 				<br>
-                <h4 style="text-align:center" >Name : Deepika sodhi</h4>
+                <h4 style="text-align:center" >Name : abc</h4>
                 <h4 style="text-align:center" >City: Aurangabad</h4>
-                <h4 style="text-align:center" >Email : deepi@gmail.com</h4>
+                <h4 style="text-align:center" >Email : abc@gmail.com</h4>
                
 
                             </div>
