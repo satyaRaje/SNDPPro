@@ -87,43 +87,45 @@
 	<h3 style="color:grey;font-family:Arial, Helvetica, sans-serif;"align="center">Bring ART to the CART...</h3></br></br></br>
 		<div class="col-sm-3">
 		   <div class="card">
-             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
+             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0;margin-top:20px;"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
              <div class="container" style="font-family:Arial, Helvetica, sans-serif;">
              <p style="padding-left:45px">Product Name</p>
              <p style="padding-left:70px">Price /-</p>
 			 <a href="#" style="color:blue;padding-left:50px"><u>View Details</u></a></br></br>
-			 <button style="background-color:white-smoke;width:16.5%;"><b>Buy Now</b></button>
+			 <button style="background-color:white-smoke;width:190px;"><b>Buy Now</b></button>
+             <h4 style="color:#F0F0F0">riojgvdjv</h4>
+             </div>
+           </div>
+		</div>
+		<div class="col-sm-3">
+		   <div class="card">
+             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0;margin-top:20px;"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
+             <div class="container" style="font-family:Arial, Helvetica, sans-serif;">
+             <p style="padding-left:45px">Product Name</p>
+             <p style="padding-left:70px">Price /-</p>
+			 <a href="#" style="color:blue;padding-left:50px"><u>View Details</u></a></br></br>
+			 <button style="background-color:white-smoke;width:190px;"><b>Buy Now</b></button>
+			 <h4 style="color:#F0F0F0">riojgvdjv</h4>
              
              </div>
            </div>
 		</div>
 		<div class="col-sm-3">
 		   <div class="card">
-             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
+             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0;margin-top:20px;"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
              <div class="container" style="font-family:Arial, Helvetica, sans-serif;">
              <p style="padding-left:45px">Product Name</p>
              <p style="padding-left:70px">Price /-</p>
 			 <a href="#" style="color:blue;padding-left:50px"><u>View Details</u></a></br></br>
-			 <button style="background-color:white-smoke;width:16.5%;"><b>Buy Now</b></button>
-             
+			 <button style="background-color:white-smoke;width:190px;"><b>Buy Now</b></button>
+			 <h4 style="color:#F0F0F0">riojgvdjv</h4>
+            
              </div>
            </div>
 		</div>
 		<div class="col-sm-3">
 		   <div class="card">
-             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
-             <div class="container" style="font-family:Arial, Helvetica, sans-serif;">
-             <p style="padding-left:45px">Product Name</p>
-             <p style="padding-left:70px">Price /-</p>
-			 <a href="#" style="color:blue;padding-left:50px"><u>View Details</u></a></br></br>
-			 <button style="background-color:white-smoke;width:16.5%;"><b>Buy Now</b></button>
-             </br>
-             </div>
-           </div>
-		</div>
-		<div class="col-sm-3">
-		   <div class="card">
-             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
+             <center><button class="btn btn-primary" style="background-color:#F0F0F0;border-color:#F0F0F0;margin-top:20px;"><img src="../img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></button></center>
              <div class="container" style="font-family:Arial, Helvetica, sans-serif;">
              <p style="padding-left:45px">Product Name</p>
              <p style="padding-left:70px">Price /-</p>
