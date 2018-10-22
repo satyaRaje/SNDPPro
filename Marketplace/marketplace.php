@@ -63,14 +63,14 @@
 <body>
 
 <div class="container-fluid">
-<?php include 'header1.php';?>
+<?php include '../header1.php';?>
 
 <div class="container-fluid">
     <div class="row">
 </br></br></br>
 </div>
 </div>
-
+<h2 style="margin-left:540px;"> Marketplace</h2>
 <div class="container-fluid" style="margin-right:0%;">
     <div class="row" >
 	  <div class="col-sm-9">
@@ -80,9 +80,9 @@
 	   <button id="rcorners1" style="margin-left:5%">Hier a Designer !</button>
 	   <button id="rcorners1" style="margin-left:5%">Rounded corners!</button></br></br></br>
 	      
-<div class="container-fluid" style="margin-right:0%;">
+<div class="container-fluid">
     <div class="row" > 
-		<div class="col-sm-3">  
+		<div class="col-sm-3" >  
            <div class="card">
              <center><img src="img/team/t4.jpg" class="card-img-top img-circle"  height="160px" width="150px"></center>
              <div class="container">
@@ -118,16 +118,19 @@
 	</div>
    </div>
  </div>
-	   
-	  <div class="col-sm-3" id="myDIV" style="height:700px">
-	  </br>
-	  <center><img src="img/team/t4.jpg" class="card-img-top img-circle" height="160px" width="150px"></center>
-        </br>
-		<div align="center">
-		<h3>Profile </br></h3>
-         Name - 
-		</div>
-      </div>
+	   <div class="col-sm-3 sidenav" style="background-color:#87CEEB;height:700px; width:372px;margin-top:-70px;"	>
+			<br>
+                <img src="img/logo/3dadative.png"  style="height:160px ;width:150px;margin-left:90px;margin-top:10px;"></img>
+				<br>
+				<br>
+				<br>
+                <h4 style="text-align:center" >Name : Deepika sodhi</h4>
+                <h4 style="text-align:center" >City: Aurangabad</h4>
+                <h4 style="text-align:center" >Email : deepi@gmail.com</h4>
+               
+
+                            </div>
+
     </div>
   </div>
 </div>
