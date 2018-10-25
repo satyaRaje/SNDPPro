@@ -164,7 +164,7 @@ session_start();
 
     <div class="container-fluid text-center" style="margin-top:20px;">
 		<div class="row content">
-            <div class="col-sm-3 sidenav" style="background-color:#87CEEB;margin-top:-10px;height:558px;"	>
+            <div class="col-sm-3 sidenav" style="background-color:#87CEEB;margin-top:-10px;height:950px;"	>
 			<br>
 			<div class="row content">
                 <img src="img/logo/3dadative.png"  style="height:100px ;width:100px;"  ></img>
@@ -192,29 +192,58 @@ session_start();
 <br>
             <div class="col-sm-6 text-left">
 			<form method="post" action="">
-    <section id="contact" class="content-section text-center">
+    <section id="contact" class="content-section ">
         <div class="contact-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
+					       
+						    <div class="form-group">
+                                <label for="exampleInputEmail2">Admin ID</label>
+                                <input type="text" class="form-control" name="mobileno" placeholder="">
+                            </div>
+							
+							<div class="form-group">
+                                <label for="exampleInputEmail2">Admin Name</label>
+                                <input type="text" class="form-control" name="mobileno" placeholder="">
+                            </div>
+							
                             <div class="form-group">
                                 <label for="exampleInputName2">Product Name</label>
-
-                               
-
                                 <input type="text" class="form-control" name="fname" placeholder="Enter product name">
-
                             </div>
 
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Product Price</label>
-                                <input type="text" class="form-control" name="mobileno" maxlength="10" placeholder="Enter product price">
+                                <input type="text" class="form-control" name="mobileno" placeholder="Enter product price">
                             </div>
-                            
-                        <div class="form-group ">
+							
+                            <div class="form-group">
+							        <form action="" method="POST" enctype="multipart/form-data">
+                                      <label>Upload Image</label>   <input type="file" name="image"><br><br>
+								    </form>
+						    </div>
+							
+							<div class="form-group">
+                                <label for="exampleInputEmail2">Product Height</label>
+                                <input type="text" class="form-control" name="" placeholder="">
+                            </div>
+							
+							<div class="form-group">
+                                <label for="exampleInputEmail2">Product Width</label>
+                                <input type="text" class="form-control" name="" placeholder="">
+                            </div>
+							
+							<div class="form-group">
+                                <label for="exampleInputEmail2">Product Volume</label>
+                                <input type="text" class="form-control" name="" placeholder="">
+                            </div>
+
+                            <div class="form-group ">
                                 <label for="exampleInputText">Description of Product</label>
                                 <textarea  class="form-control" name="message" placeholder="Description"></textarea>
                             </div>
+							
                             <button type="submit" class="btn btn-default" name="enquire">Upload Product</button>
 							</br></br>
 							 <button class="btn btn-default" src="dashboard.php" name="enquire">Go back to Home</button>
