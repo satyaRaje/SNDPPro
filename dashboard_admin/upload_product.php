@@ -200,22 +200,22 @@ session_start();
 					       
 						    <div class="form-group">
                                 <label for="exampleInputEmail2">Admin ID</label>
-                                <input type="text" class="form-control" name="mobileno" placeholder="">
+                                <input type="text" class="form-control" name="aid" placeholder="">
                             </div>
 							
 							<div class="form-group">
                                 <label for="exampleInputEmail2">Admin Name</label>
-                                <input type="text" class="form-control" name="mobileno" placeholder="">
+                                <input type="text" class="form-control" name="aname" placeholder="">
                             </div>
 							
                             <div class="form-group">
                                 <label for="exampleInputName2">Product Name</label>
-                                <input type="text" class="form-control" name="fname" placeholder="Enter product name">
+                                <input type="text" class="form-control" name="pname" placeholder="Enter product name">
                             </div>
 
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Product Price</label>
-                                <input type="text" class="form-control" name="mobileno" placeholder="Enter product price">
+                                <input type="text" class="form-control" name="pprice" placeholder="Enter product price">
                             </div>
 							
                             <div class="form-group">
@@ -226,28 +226,26 @@ session_start();
 							
 							<div class="form-group">
                                 <label for="exampleInputEmail2">Product Height</label>
-                                <input type="text" class="form-control" name="" placeholder="">
+                                <input type="text" class="form-control" name="pheight" placeholder="">
                             </div>
 							
 							<div class="form-group">
                                 <label for="exampleInputEmail2">Product Width</label>
-                                <input type="text" class="form-control" name="" placeholder="">
+                                <input type="text" class="form-control" name="pwidth" placeholder="">
                             </div>
 							
 							<div class="form-group">
                                 <label for="exampleInputEmail2">Product Volume</label>
-                                <input type="text" class="form-control" name="" placeholder="">
+                                <input type="text" class="form-control" name="pvolume" placeholder="">
                             </div>
 
                             <div class="form-group ">
                                 <label for="exampleInputText">Description of Product</label>
-                                <textarea  class="form-control" name="message" placeholder="Description"></textarea>
+                                <textarea  class="form-control" name="pdesc" placeholder="Description"></textarea>
                             </div>
-							
-                            <button type="submit" class="btn btn-default" name="enquire">Upload Product</button>
-							</br></br>
-							 <button class="btn btn-default" src="dashboard.php" name="enquire">Go back to Home</button>
-                        <hr>
+							<div>
+                            <button type="submit" class="btn btn-default" name="pupload" value="Upload Product">Upload Product</button>
+							</div>
                         
                     </div>
                 </div>
@@ -255,13 +253,13 @@ session_start();
         </div>
     </section>
 
-</form>
+
 
 			
            </div>
 		</div>
     </div>
-
+</form>
 
 </body>
 <div>
@@ -269,3 +267,32 @@ session_start();
         <?php include 'footer_dashboard.php';?>
     </footer>
 </div>
+
+
+
+
+    
+   
+<?php
+if(isset($_POST['pupload'])){
+	
+	$query= "INSERT INTO `admin_product_table`(`Admin_Name`, `Product_Name`, `Product_Price`, `Product_Height`, `Product_Width`, `Product_Volume`, `Product_Description`, `Admin_id`) VALUES ('".$_POST['aname']."','".$_POST['pname']."','".$_POST['pprice']."','".$_POST['pheight']."','".$_POST['pheight']."','".$_POST['pvolume']."','".$_POST['pdesc']."','".$_POST['aid']."')";
+    $conn = mysqli_connect("localhost","root", "","add_product_db");
+	if (!$conn) {
+      die("Connection failed: " . mysqli_connect_error());
+    }
+    echo "Connected successfully";
+	
+    $check = mysqli_query($conn,$query);
+    if ($check) {
+      echo "New record created successfully"; 
+    } 
+    else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+    mysqli_close($conn);
+
+}
+?>
+   
+   
