@@ -68,25 +68,22 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                             <div class="form-group">
-                                <label for="exampleInputName2">Name</label>
-
-                               
-
+                                <label for="exampleInputName2"></label>
                                 <input type="text" class="form-control" name="fname" placeholder="Enter your name">
 
                             </div>
 
                             <div class="form-group">
-                                <label for="exampleInputEmail2">Mobile</label>
+                                <label for="exampleInputEmail2"></label>
                                 <input type="text" class="form-control" name="mobileno" maxlength="10" placeholder="Enter 10-digit Number">
                             </div>
                             
                             <div class="form-group">
-                                <label for="exampleInputEmail2">Email</label>
+                                <label for="exampleInputEmail2"></label>
                                 <input type="email" class="form-control" name="email" placeholder="abc@gmail.com">
                             </div>
                         <div class="dropdown">
-                            <label for="exampleInputEmail2">Info</label>
+                            <label for="exampleInputEmail2"></label>
                             <select input type="text" class="form-control" name="info" maxlength="email" placeholder="Info">
 
                                     <option value="Student">Student</option>
@@ -100,8 +97,8 @@
                                     </div>
 <br><br>
                         <div class="dropdown">
-                            <label for="exampleInputEmail2">Where did you hear about us</label>
-                            <select input type="text" class="form-control" name="info" maxlength="email" placeholder="Info">
+                            <label for="exampleInputEmail2"></label>
+                            <select input type="text" class="form-control" name="info" maxlength="email" placeholder="How You Know us">
 
                                 <option value="social">Social Media</option>
                                 <option value="news">Newspaper</option>
@@ -115,8 +112,8 @@
                         </div>
 <br><br>
                         <div class="form-group ">
-                                <label for="exampleInputText">Your Message</label>
-                                <textarea  class="form-control" name="message" placeholder="Description"></textarea>
+                                <label for="exampleInputText"></label>
+                                <textarea  class="form-control" name="message" placeholder="Your Message(Description)"></textarea>
                             </div>
                             <button type="submit" class="btn btn-default" name="enquire">Send Message</button>
 
