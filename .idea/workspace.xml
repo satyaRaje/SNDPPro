@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/contact_and_quote/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_and_quote/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_and_quote/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummy_login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/dummy_login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer1.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +27,14 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
-          <entry key="PHP" value="5" />
+          <entry key="PHP" value="7" />
           <entry key="RNG Compact" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="231" />
-          <entry key="php" value="629" />
+          <entry key="php" value="644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class" />
@@ -46,14 +45,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="231" />
-          <entry key="PHP" value="629" />
+          <entry key="PHP" value="644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="9" />
-          <entry key="php" value="5" />
+          <entry key="php" value="7" />
           <entry key="rnc" value="3" />
         </counts>
       </usages-collector>
@@ -63,38 +62,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html">
+        <entry file="file://$PROJECT_DIR$/header1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="390">
+              <caret line="388" column="21" selection-start-line="388" selection-start-column="21" selection-end-line="388" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/contactus.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Contact/header.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.html">
+        <entry file="file://$PROJECT_DIR$/login/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contact_and_quote/css/main.css">
+        <entry file="file://$PROJECT_DIR$/dummy_login/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="453" column="30" lean-forward="true" selection-start-line="453" selection-end-line="453" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/register1_css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1598">
+              <caret line="94" column="1" selection-start-line="63" selection-end-line="94" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dummy_login/css/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13345">
+              <caret line="785" selection-start-line="785" selection-end-line="785" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dummy_login/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10982">
+              <caret line="646" selection-start-line="646" selection-end-line="646" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="236" column="36" selection-start-line="236" selection-start-column="36" selection-end-line="236" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -107,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Aboutus/careers.php" />
         <option value="$PROJECT_DIR$/Aboutus/authentic.php" />
         <option value="$PROJECT_DIR$/Services/services_link.php" />
         <option value="$PROJECT_DIR$/Mutation/mutation_link.php" />
@@ -137,7 +192,6 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/Aboutus/overview.php" />
         <option value="$PROJECT_DIR$/header1.php" />
-        <option value="$PROJECT_DIR$/footer1.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/login/compdetail.php" />
         <option value="$PROJECT_DIR$/login/login.php" />
@@ -158,6 +212,8 @@
         <option value="$PROJECT_DIR$/dummy login/web/indivreg.php" />
         <option value="$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html" />
         <option value="$PROJECT_DIR$/contact_and_quote/contactus.php" />
+        <option value="$PROJECT_DIR$/footer1.php" />
+        <option value="$PROJECT_DIR$/dummy_login/login.php" />
       </list>
     </option>
   </component>
@@ -181,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,42 +248,17 @@
             <path>
               <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
+              <item name="dummy_login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_and_quote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_and_quote" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
-              <item name="dummy login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
-              <item name="dummy login" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
-              <item name="dummy login" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,12 +349,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127786000" />
+    <option name="totallyTimeSpent" value="128703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20402685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -373,30 +406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/temp-img/cad3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/3dscanning.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/cadmodeling.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/idea.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Services/customization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -434,15 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3906">
-          <caret line="186" selection-start-line="174" selection-start-column="25" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="57" />
+        <state relative-caret-position="407">
+          <caret line="236" column="36" selection-start-line="236" selection-start-column="36" selection-end-line="236" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -458,8 +460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7266">
-          <caret line="346" column="20" selection-start-line="342" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+        <state relative-caret-position="390">
+          <caret line="388" column="21" selection-start-line="388" selection-start-column="21" selection-end-line="388" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -474,13 +476,6 @@
     <entry file="file://$PROJECT_DIR$/login/login.php" />
     <entry file="file://$PROJECT_DIR$/login/login1_css.css" />
     <entry file="file://$USER_HOME$/Downloads/food_signin_form_web_Free11-10-2018_57361428/web/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="454" column="92" selection-start-line="454" selection-start-column="92" selection-end-line="454" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard_admin/compdetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
@@ -497,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -519,13 +514,7 @@
     <entry file="file://$PROJECT_DIR$/dregister/web/index.html" />
     <entry file="file://$USER_HOME$/Downloads/index (1).html" />
     <entry file="file://$PROJECT_DIR$/dregister/web/images/img.jpg" />
-    <entry file="file://$PROJECT_DIR$/dummy login/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="636" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy login/web/css/style.css" />
     <entry file="file://$PROJECT_DIR$/dregister/web/css/style.css" />
     <entry file="file://$PROJECT_DIR$/regindiv/web/images/lamps2.jpg" />
     <entry file="file://$PROJECT_DIR$/dregister/web/index (1).html" />
@@ -549,58 +538,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dummy login/web/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dummy login/web/comreg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dummy login/web/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dummy login/web/indivreg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/contactus.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy login/web/css/font-awesome.css" />
+    <entry file="file://$PROJECT_DIR$/dummy login/web/comreg.php" />
+    <entry file="file://$PROJECT_DIR$/dummy login/web/login.php" />
+    <entry file="file://$PROJECT_DIR$/dummy login/web/indivreg.php" />
+    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.php" />
+    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html" />
+    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/contactus.html" />
     <entry file="file://$PROJECT_DIR$/Contact/header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -615,6 +560,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="453" column="30" lean-forward="true" selection-start-line="453" selection-end-line="453" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/login2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/register1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="336" selection-start-line="336" selection-end-line="336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy_login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>

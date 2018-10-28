@@ -1,5 +1,5 @@
 
-<div class="container-fluid">
+<div class="container-fluid" style="color: red">
 
     <div class="row text-center w3-black">
 

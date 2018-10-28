@@ -35,10 +35,11 @@
 <!-- Body -->
 
 <body>
+<?php include '../header.php';?>
     <h1 class="title-agile text-center">Login</h1>
     <div class="content-w3ls">
         <div class="content-bottom">
-			<h2>Log In Here</h2>
+			<h2></h2>
             <form action="#" method="post">
                 <div class="field-group">
                     <span class="fa fa-user" aria-hidden="true"></span>
@@ -105,6 +106,7 @@
             </form>
         </div>
     </div>
+<?php include '../footer1.php';?>
     </body>
 <!-- //Body -->
 </html>
