@@ -234,7 +234,7 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="../login/register1.php"><button class="dropbtn">Login</button></a>
+                        <a href="../dummy_login/login.php"><button class="dropbtn">Login</button></a>
                     </div>
                 </li>
 
