@@ -93,18 +93,12 @@
             </div>
 
 
-            <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                       <span class="" aria-hidden="true"></span>
                        <h2 class=""></h2>
-                                <input type="radio" id="a-option" name="selector1">
-                                <label for="a-option">Male</label>
-                                <div class="check"></div>
-                                <input type="radio" id="b-option" name="selector1">
-                                <label for="b-option">Female</label>
-                               <div class="check">
-                                    <div class="inside"></div>
-                                </div>
-                    </div>
+                            <input type="radio" name="gender" value="male"> <b>Male</b>
+                            <input type="radio" name="gender" value="female"> Female
+                            <input type="radio" name="gender" value="other"> Other<br><br>
+
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
