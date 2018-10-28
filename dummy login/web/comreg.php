@@ -43,42 +43,42 @@
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Company Name" placeholder="Company Name" required>
+                    <input name="text1"  type="cname"  placeholder="Company Name" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Contact Person" placeholder="Contact Person" required>
+                    <input name="text1"  type="cperson"  placeholder="Contact Person" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Designation" placeholder="Designation" required>
+                    <input name="text1"  type="designation"  placeholder="Designation" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Email" placeholder="Mobile Number" required>
+                    <input name="text1"  type="mobileno"  placeholder="Mobile Number" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Location" placeholder="Location" required>
+                    <input name="text1"  type="Location"  placeholder="Location" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Company Registartion Number" placeholder="Company Registration Number" required>
+                    <input name="text1"  type="compregi"  placeholder="Company Registration Number" required>
                 </div>
             </div>
 
@@ -131,6 +131,25 @@
                 <li class="clearfix"></li>
             </ul>-->
         </form>
+        <?php
+        if(isset($_POST['b_register'])){
+            $query= "INSERT INTO `tblcompanydata`(`comname`, `conperson`, `email`, `mobile`, `designation`, `location`, `comregino`) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
+            $conn = mysqli_connect("localhost","root", "","dbipro3d");
+            if (!$conn) {
+                die("Connection failed: " . mysqli_connect_error());
+            }
+            echo "Connected successfully";
+            $check = mysqli_query($conn,$query);
+            if ($check) {
+                echo "New record created successfully";
+            }
+            else {
+                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+            }
+            mysqli_close($conn);
+
+        }
+        ?>
     </div>
 </div>
 </body>

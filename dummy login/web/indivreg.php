@@ -43,52 +43,101 @@
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Student Name" placeholder="sname" required>
+                    <input name="text1"  type="sname"  placeholder="Student Name" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Email Id" placeholder="email" required>
+                    <input name="text1"  type="email"  placeholder="Email Id" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Mobile Number" placeholder="mobile" required>
+                    <input name="text1"  type="mobileno"  placeholder="Mobile" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Address" placeholder="address" required>
+                    <input name="text1"  type="address"  placeholder="Address" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Gender" placeholder="gender" required>
+                    <input name="text1"  type="country"  placeholder="Country" required>
+                </div>
+            </div>
+
+
+
+            <div class="field-group">
+                <span class="fa fa-user" aria-hidden="true"></span>
+                <div class="wthree-field">
+                    <input name="text1"  type="state"  placeholder="State" required>
+                </div>
+            </div>
+
+
+            <div class="field-group">
+                <span class="fa fa-user" aria-hidden="true"></span>
+                <div class="wthree-field">
+                    <input name="text1"  type="city"  placeholder="City" required>
+                </div>
+            </div>
+
+
+            <div class="field-group">
+                <span class="fa fa-user" aria-hidden="true"></span>
+                       <h2 class=""></h2>
+                                <input type="radio" id="a-option" name="selector1">
+                                <label for="a-option">Male</label>
+                                <div class="check"></div>
+                                <input type="radio" id="b-option" name="selector1">
+                                <label for="b-option">Female</label>
+                               <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                    </div>
+
+            <div class="field-group">
+                <span class="fa fa-user" aria-hidden="true"></span>
+                <div class="wthree-field">
+                    <input name="text1"  type="dob"  placeholder="Date Of Birth" equired>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="text" value="Date of Birth" placeholder="dob" required>
+                    <input name="text1"  type="pincode"  placeholder="Pincode" required>
                 </div>
             </div>
+            <?php
+            if(isset($_POST['b_register'])){
+                $query= "INSERT INTO `company_register`(`company_name`, `company_website`, `company_email`, `company_phone`, `company_password`, `company_cpassword`, `company_address`, `company_city`, `company_fdate`) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
+                $conn = mysqli_connect("localhost","root", "","dbipro3d");
+                if (!$conn) {
+                    die("Connection failed: " . mysqli_connect_error());
+                }
+                echo "Connected successfully";
+                $check = mysqli_query($conn,$query);
+                if ($check) {
+                    echo "New record created successfully";
+                }
+                else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
+                mysqli_close($conn);
 
-            <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
-                <div class="wthree-field">
-                    <input name="text1"  type="text" value="Pincode" placeholder="pincode" required>
-                </div>
-            </div>
-
+            }
+            ?>
 
 
 
@@ -106,16 +155,6 @@
                  </div>
 
              <!-- script for show password -->
-            <script>
-                function myFunction() {
-                    var x = document.getElementById("myInput");
-                    if (x.type === "password") {
-                        x.type = "text";
-                    } else {
-                        x.type = "password";
-                    }
-                }
-            </script>
             <!-- //script for show password -->
 
             <div class="wthree-field">

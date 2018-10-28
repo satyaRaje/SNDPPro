@@ -7,7 +7,7 @@
     <!-- Meta-Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="keywords" content="IPRO3D Login Form">
+    <meta name="keywords" content="IPRO3D Company Login Form">
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -35,7 +35,7 @@
 <!-- Body -->
 
 <body>
-    <h1 class="title-agile text-center">Login Form</h1>
+    <h1 class="title-agile text-center">Login</h1>
     <div class="content-w3ls">
         <div class="content-bottom">
 			<h2>Log In Here</h2>
@@ -88,10 +88,10 @@
                     <li>
                         <a href="#" class="text-right">forgot password?</a>
                     </li>
-                    <div class="row">
+               <!--     <div class="row">
                         <img src="../logo/facebook.svg">
 
-                    </div>
+                    </div>-->
                     <li class="clearfix"></li>
                 </ul>
             </form>
