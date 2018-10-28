@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/contact_and_quote/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_and_quote/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_and_quote/contactus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_and_quote/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_and_quote/contactus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +26,9 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="PHP" value="4" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="9" />
+          <entry key="PHP" value="5" />
           <entry key="RNG Compact" value="3" />
         </counts>
       </usages-collector>
@@ -50,9 +51,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="4" />
-          <entry key="php" value="4" />
+          <entry key="css" value="3" />
+          <entry key="html" value="9" />
+          <entry key="php" value="5" />
           <entry key="rnc" value="3" />
         </counts>
       </usages-collector>
@@ -62,37 +63,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dummy login/web/comreg.php">
+        <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="67" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dummy login/web/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/contactus.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dummy login/web/indivreg.php">
+        <entry file="file://$PROJECT_DIR$/Contact/header.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="357">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.php">
+        <entry file="file://$PROJECT_DIR$/contact_and_quote/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -168,7 +170,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1348" />
@@ -199,6 +201,12 @@
             <path>
               <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_and_quote" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
               <item name="dummy login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -206,6 +214,13 @@
               <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
               <item name="dummy login" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SNDPPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SNDPPro" type="462c0819:PsiDirectoryNode" />
+              <item name="dummy login" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,14 +234,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\SNDPPro\dummy login\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SNDPPro\contact_and_quote" />
+      <recent name="C:\Users\user\Downloads\colorlib-regform-6\colorlib-regform-6" />
+      <recent name="C:\xampp\htdocs\SNDPPro\Contact" />
       <recent name="C:\xampp\htdocs\SNDPPro\dummy login\web" />
       <recent name="C:\xampp\htdocs\SNDPPro\regindiv\web" />
-      <recent name="C:\xampp\htdocs\SNDPPro\dregister\web" />
-      <recent name="C:\xampp\htdocs\SNDPPro\Mutation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SNDPPro\contact_and_quote\css\" />
+      <recent name="C:\xampp\htdocs\SNDPPro\contact_and_quote" />
+      <recent name="C:\xampp\htdocs\SNDPPro\dummy login\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,10 +259,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.contactus.php">
+    <configuration name="contactus.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SNDPPro/contact_and_quote/contactus.php">
+      <method v="2" />
+    </configuration>
     <configuration name="compdetail.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/login/compdetail.php">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Script.compdetail.php" />
+      <item itemvalue="JavaScript Debug.contactus.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.contactus.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -287,11 +317,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126980000" />
+    <option name="totallyTimeSpent" value="127786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20402685" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -344,37 +373,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Services/toolmanufacture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/topology.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/vaccumecast.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/xraytopology.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp-img/cad2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp-img/cad3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -579,10 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html">
+    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="64" column="137" lean-forward="true" selection-end-line="114" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -590,6 +588,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/colorlib-regform-6/colorlib-regform-6/contactus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contact/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_and_quote/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_and_quote/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
