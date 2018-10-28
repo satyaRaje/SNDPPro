@@ -35,10 +35,12 @@
 <!-- Body -->
 
 <body>
-<h1 class="title-agile text-center">Registration</h1>
+<?php include '../header.php'?>
+<br>
+<h1 class="title-agile text-center">Registration as Individual</h1>
 <div class="content-w3ls">
     <div class="content-bottom">
-        <h2>Register as Individual</h2>
+        <!--<h1>Register as Individual</h1>-->
         <form action="#" method="post">
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
@@ -48,28 +50,45 @@
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-envelope" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="email"  placeholder="Email Id" required>
                 </div>
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-mobile-phone" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="mobileno"  placeholder="Mobile" required>
                 </div>
             </div>
 
+
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-calendar" aria-hidden="true"></span>
+                <div class="wthree-field">
+                    <input name="text1"  type="dob"  placeholder="Date Of Birth" equired>
+                </div>
+            </div>
+
+            <span class="" aria-hidden="true"></span>
+            <h2 class=""></h2>
+            <input type="radio" name="gender" value="male"> <b>Male</b>
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other<br><br>
+
+
+
+
+            <div class="field-group">
+                <span class="fa fa-home" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="address"  placeholder="Address" required>
                 </div>
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-address-book" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="country"  placeholder="Country" required>
                 </div>
@@ -78,7 +97,7 @@
 
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-address-card" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="state"  placeholder="State" required>
                 </div>
@@ -92,27 +111,14 @@
                 </div>
             </div>
 
-
-                       <span class="" aria-hidden="true"></span>
-                       <h2 class=""></h2>
-                            <input type="radio" name="gender" value="male"> <b>Male</b>
-                            <input type="radio" name="gender" value="female"> Female
-                            <input type="radio" name="gender" value="other"> Other<br><br>
-
-
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
-                <div class="wthree-field">
-                    <input name="text1"  type="dob"  placeholder="Date Of Birth" equired>
-                </div>
-            </div>
-
-            <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-map-pin" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="pincode"  placeholder="Pincode" required>
                 </div>
             </div>
+
+
             <?php
             if(isset($_POST['b_register'])){
                 $query= "INSERT INTO `company_register`(`company_name`, `company_website`, `company_email`, `company_phone`, `company_password`, `company_cpassword`, `company_address`, `company_city`, `company_fdate`) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";

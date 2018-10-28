@@ -35,13 +35,15 @@
 <!-- Body -->
 
 <body>
-<h1 class="title-agile text-center">Registration</h1>
+<?php include '../header.php'?>
+<br>
+<h1 class="title-agile text-center">Registration as Company</h1>
 <div class="content-w3ls">
     <div class="content-bottom">
-        <h2>Register as Company</h2>
+        <h2></h2>
         <form action="#" method="post">
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-laptop" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="cname"  placeholder="Company Name" required>
                 </div>
@@ -55,28 +57,28 @@
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-user-circle" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="designation"  placeholder="Designation" required>
                 </div>
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-phone-square" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="mobileno"  placeholder="Mobile Number" required>
                 </div>
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-address-book-o" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="Location"  placeholder="Location" required>
                 </div>
             </div>
 
             <div class="field-group">
-                <span class="fa fa-user" aria-hidden="true"></span>
+                <span class="fa fa-pencil" aria-hidden="true"></span>
                 <div class="wthree-field">
                     <input name="text1"  type="compregi"  placeholder="Company Registration Number" required>
                 </div>

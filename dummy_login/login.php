@@ -108,7 +108,7 @@
             </form>
         </div>
     </div>
-<?php include '../footer1.php';?>
+<!--?php include '../footer1.php';?>-->
     </body>
 <!-- //Body -->
 </html>

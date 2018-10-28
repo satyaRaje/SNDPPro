@@ -279,7 +279,8 @@ h1.title-agile {
 }
 h2 {
     font-size: 25px;
-    color: #fff;
+    color: white;
+    font-style: initial;
     letter-spacing: 2px;
     margin-bottom: 1em;
 }
