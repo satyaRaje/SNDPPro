@@ -220,9 +220,8 @@ session_start();
 							
                             <div class="form-group">
 							        <form action="" method="POST" enctype="multipart/form-data">
-                                      <label>Upload Image</label>   <input type="file" name="image"><br><br>
-								    </form>
-						    </div>
+                                      <label>Select Image</label>   <input type="file" name="image" > </form>
+		                   </div>
 							
 							<div class="form-group">
                                 <label for="exampleInputEmail2">Product Height</label>
@@ -243,10 +242,9 @@ session_start();
                                 <label for="exampleInputText">Description of Product</label>
                                 <textarea  class="form-control" name="pdesc" placeholder="Description"></textarea>
                             </div>
-							<div>
-                            <button type="submit" class="btn btn-default" name="pupload" value="Upload Product">Upload Product</button>
-							</div>
-                        
+							<div class="form-group" align="center">
+                                        <input type="submit" class="btnRegister" name="b_upload" style="width:50%" value="Upload Product"/>
+                                        </div>
                     </div>
                 </div>
             </div>
@@ -261,7 +259,7 @@ session_start();
     </div>
 </form>
 
-</body>
+
 <div>
 <footer class="container-fluid text-center">
         <?php include 'footer_dashboard.php';?>
@@ -270,13 +268,46 @@ session_start();
 
 
 
-
     
    
 <?php
-if(isset($_POST['pupload'])){
+if(isset($_POST['b_upload'])){
+
+
 	
-	$query= "INSERT INTO `admin_product_table`(`Admin_Name`, `Product_Name`, `Product_Price`, `Product_Height`, `Product_Width`, `Product_Volume`, `Product_Description`, `Admin_id`) VALUES ('".$_POST['aname']."','".$_POST['pname']."','".$_POST['pprice']."','".$_POST['pheight']."','".$_POST['pheight']."','".$_POST['pvolume']."','".$_POST['pdesc']."','".$_POST['aid']."')";
+
+    @$pname=$_POST['pname'];
+   if(isset($_FILES['image'])){
+      $errors= array();
+      $file_name = $_FILES['image']['name'];
+      $file_size =$_FILES['image']['size'];
+      $file_tmp =$_FILES['image']['tmp_name'];
+      $file_type=$_FILES['image']['type'];
+      $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
+      
+      $expensions= array("jpeg","jpg","png");
+      
+      if(in_array($file_ext,$expensions)=== false){
+         $errors[]="extension not allowed, please choose a JPEG or PNG file.";
+      }
+      
+      if($file_size > 2097152){
+         $errors[]='File size must be excately 2 MB';
+      }
+      
+      if(empty($errors)==true){
+         move_uploaded_file($file_tmp,"proImage/".$pname.".jpg");
+         echo "Success";
+      }else{
+         print_r($errors);
+      }
+   }
+
+	
+	
+	
+	
+	$query= "INSERT INTO `admin_product_table`(`Admin_Name`, `Product_Name`, `Product_Price`, `Product_Height`, `Product_Width`, `Product_Volume`, `Product_Description`, `Product_Image`, `Admin_id`) VALUES ('".$_POST['aname']."','".$_POST['pname']."','".$_POST['pprice']."','".$_POST['pheight']."','".$_POST['pheight']."','".$_POST['pvolume']."','".$_POST['pdesc']."','".$_POST['image']."','".$_POST['aid']."')";
     $conn = mysqli_connect("localhost","root", "","add_product_db");
 	if (!$conn) {
       die("Connection failed: " . mysqli_connect_error());
@@ -284,15 +315,22 @@ if(isset($_POST['pupload'])){
     echo "Connected successfully";
 	
     $check = mysqli_query($conn,$query);
+	
     if ($check) {
-      echo "New record created successfully"; 
+      echo "New record created successfully";
+	echo '<meta http-equiv="refresh" content="0">';
+	  
     } 
+
     else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
+		
     mysqli_close($conn);
 
 }
 ?>
+</body>
    
    
+z

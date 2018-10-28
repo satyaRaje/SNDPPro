@@ -322,6 +322,8 @@ if(isset($_POST['b_register'])){
     $check = mysqli_query($conn,$query);
     if ($check) {
       echo "New record created successfully"; 
+	  	echo '<meta http-equiv="refresh" content="0">';
+
     } 
     else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
