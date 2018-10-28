@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df51f7e5-c86c-46da-87ea-8eb50cef4641" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/dummy_login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/dummy_login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer1.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +26,14 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
-          <entry key="PHP" value="7" />
+          <entry key="PHP" value="8" />
           <entry key="RNG Compact" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="231" />
-          <entry key="php" value="644" />
+          <entry key="php" value="906" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class" />
@@ -45,14 +44,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="231" />
-          <entry key="PHP" value="644" />
+          <entry key="PHP" value="906" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="9" />
-          <entry key="php" value="7" />
+          <entry key="php" value="8" />
           <entry key="rnc" value="3" />
         </counts>
       </usages-collector>
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dummy_login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="526">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -93,6 +92,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/register1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="28" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -115,15 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
               <caret line="453" column="30" lean-forward="true" selection-start-line="453" selection-end-line="453" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/register1_css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="1" selection-start-line="63" selection-end-line="94" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -349,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128703000" />
+    <option name="totallyTimeSpent" value="130979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -406,13 +405,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Services/customization.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Services/injectionmedelling.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -584,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/register1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="336" selection-start-line="336" selection-end-line="336" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -602,10 +587,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login/register1_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="1" selection-start-line="63" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/register1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dummy_login/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="526">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>

@@ -79,15 +79,8 @@
                     <input id="saveForm" name="saveForm" type="submit" value="Log in" />
                 </div>
                 <ul class="list-login">
-                    <li class="switch-agileits">
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                            keep signed in
-                        </label>
-                    </li>
                     <li>
-                        <a href="forgot.php" class="text-right">forgot password?</a>
+                        <a href="forgot.php" class="text-left">forgot password?</a>
                     </li>
                <!--     <div class="row">
                         <img src="../logo/facebook.svg">
@@ -98,7 +91,16 @@
                 <div class="check">
             <ul class="switch-agileits">
                 <li>
-                    <a href="indivreg.php"><label class="checkbox">Create an acoount</label></a>
+                    <label class="checkbox">Create an acoount</label>
+                    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a href="comreg.php" role="tab" aria-selected="true">Register as Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="indivreg.php" role="tab" aria-selected="false">Register as User</a>
+                        </li>
+                    </ul>
+
 
                 </li>
             </ul>
