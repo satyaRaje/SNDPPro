@@ -75,7 +75,7 @@
                     <!-- //script for show password -->
                 </div>
                 <div class="wthree-field">
-                    <input id="saveForm" name="saveForm" type="submit" value="sign in" />
+                    <input id="saveForm" name="saveForm" type="submit" value="Log in" />
                 </div>
                 <ul class="list-login">
                     <li class="switch-agileits">
@@ -86,7 +86,7 @@
                         </label>
                     </li>
                     <li>
-                        <a href="#" class="text-right">forgot password?</a>
+                        <a href="forgot.php" class="text-right">forgot password?</a>
                     </li>
                <!--     <div class="row">
                         <img src="../logo/facebook.svg">
@@ -94,6 +94,14 @@
                     </div>-->
                     <li class="clearfix"></li>
                 </ul>
+                <div class="check">
+            <ul class="switch-agileits">
+                <li>
+                    <a href="indivreg.php"><label class="checkbox">Create an acoount</label></a>
+
+                </li>
+            </ul>
+                </div>
             </form>
         </div>
     </div>

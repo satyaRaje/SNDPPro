@@ -70,6 +70,7 @@ figure,
 figcaption,
 footer,
 header,
+href,
 hgroup,
 menu,
 nav,
@@ -282,6 +283,14 @@ h2 {
     letter-spacing: 2px;
     margin-bottom: 1em;
 }
+href {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+
+}
 .content-w3ls ul li {
     display: inline-block;
 }
@@ -306,6 +315,7 @@ ul.list-login li:nth-child(2) {
 .radio input {
     position: absolute;
     left: -9999px;
+    font-size: 15px;
 }
 
 .checkbox i {
@@ -633,5 +643,7 @@ input:checked+.slider:before {
     }
 
 }
+
+
 
 /* -- //Responsive code -- */
