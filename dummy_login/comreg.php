@@ -45,35 +45,35 @@
             <div class="field-group">
                 <span class="fa fa-laptop" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="cname"  placeholder="Company Name" required>
+                    <input type="text"  name="cname"  placeholder="Company Name" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="cperson"  placeholder="Contact Person" required>
+                    <input type="text"  name="cperson"  placeholder="Contact Person" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-user-circle" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="designation"  placeholder="Designation" required>
+                    <input type="text"  name="designation"  placeholder="Designation" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-phone-square" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="mobileno"  placeholder="Mobile Number" required>
+                    <input type="text"  name="mobileno"  placeholder="Mobile Number" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-address-book-o" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="Location"  placeholder="Location" required>
+                    <input type="text" name="Location"  placeholder="Location" required>
                 </div>
             </div>
 
@@ -84,20 +84,6 @@
                 </div>
             </div>
 
-
-
-           <!-- <div class="field-group">
-                <span class="fa fa-lock" aria-hidden="true"></span>
-                <div class="wthree-field">
-                    <input name="password" id="myInput" type="Password" placeholder="Password">
-                </div>
-            </div>
-            <div class="field-group">
-                <div class="check">
-                    <label class="checkbox w3l">
-                        <input type="checkbox" onclick="myFunction()">
-                        <i> </i>show password</label>
-                </div>
 
             <!-- script for show password -->
                 <script>
@@ -115,45 +101,28 @@
             <div class="wthree-field">
                 <input id="saveForm" name="saveForm" type="submit" value="Register" />
             </div>
-          <!--  <ul class="list-login">
-                <li class="switch-agileits">
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-
-                    </label>
-                </li>
-                <li>
-                    <a href="#" class="text-right"></a>
-                </li>
-                <div class="row">
-                    <img src="../logo/facebook.svg">
-
-                </div>
-                <li class="clearfix"></li>
-            </ul>-->
         </form>
-        <?php
-        if(isset($_POST['b_register'])){
-            $query= "INSERT INTO `tblcompanydata`(`comname`, `conperson`, `email`, `mobile`, `designation`, `location`, `comregino`) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
-            $conn = mysqli_connect("localhost","root", "","dbipro3d");
-            if (!$conn) {
-                die("Connection failed: " . mysqli_connect_error());
-            }
-            echo "Connected successfully";
-            $check = mysqli_query($conn,$query);
-            if ($check) {
-                echo "New record created successfully";
-            }
-            else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-            mysqli_close($conn);
 
-        }
-        ?>
     </div>
 </div>
 </body>
 <!-- //Body -->
 </html>
+
+
+<?php
+if(isset($_POST['saveForm'])){
+    // session_start();
+    include  "../dbClass.php";
+    $db = new dbClass();
+
+    //$_SESSION['OTP']=rand(1000,9000);
+    $qry="INSERT INTO `tblcompany`(`companyName`, `mobileNo`, `email`, `designation`, `location`, `flag`) VALUES ('".$_POST['cname']."','".$_POST['mobileno']."','".$_POST['email']."','".$_POST['designation']."','".$_POST['Location']."',0)";
+    if($db->iudCall($qry)==true){
+        echo "<script>alert('Thanks For Registration');</script>";
+    }else{
+        echo "<script>alert('Please Try Again');</script>";
+    }
+
+}
+?>

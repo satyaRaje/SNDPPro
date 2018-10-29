@@ -41,25 +41,25 @@
 <div class="content-w3ls">
     <div class="content-bottom">
         <!--<h1>Register as Individual</h1>-->
-        <form action="#" method="post">
+        <form action="" method="post">
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="sname"  placeholder="Student Name" required>
+                    <input type="text"  name="sname"  placeholder="Student Name" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-envelope" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="email"  placeholder="Email Id" required>
+                    <input type="text"  name="email"  placeholder="Email Id" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-mobile-phone" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="mobileno"  placeholder="Mobile" required>
+                    <input type=text"  name="mobileno"  placeholder="Mobile" required>
                 </div>
             </div>
 
@@ -67,15 +67,15 @@
             <div class="field-group">
                 <span class="fa fa-calendar" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="dob"  placeholder="Date Of Birth" equired>
+                    <input type="date"  name="dob"  min="2017-04-01" placeholder="Date Of Birth" equired>
                 </div>
             </div>
 
             <span class="" aria-hidden="true"></span>
             <h2 class=""></h2>
-            <input type="radio" name="gender" value="male"> <b>Male</b>
-            <input type="radio" name="gender" value="female"> Female
-            <input type="radio" name="gender" value="other"> Other<br><br>
+            <input type="radio" name="gender" value="0"> <b style="color:white;">Male</b>
+            <input type="radio" name="gender" value="1"><b style="color:white"> Female</b>
+            <input type="radio" name="gender" value="2"><b style="color: white;"> Other</b><br><br>
 
 
 
@@ -83,14 +83,14 @@
             <div class="field-group">
                 <span class="fa fa-home" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="address"  placeholder="Address" required>
+                    <input type="text"  name="address"  placeholder="Address" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-address-book" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="country"  placeholder="Country" required>
+                    <input type="text"  name="country"  placeholder="Country" required>
                 </div>
             </div>
 
@@ -99,7 +99,7 @@
             <div class="field-group">
                 <span class="fa fa-address-card" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="state"  placeholder="State" required>
+                    <input type="text"  name="state"  placeholder="State" required>
                 </div>
             </div>
 
@@ -107,79 +107,40 @@
             <div class="field-group">
                 <span class="fa fa-user" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="city"  placeholder="City" required>
+                    <input type="text"  name="city"  placeholder="City" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <span class="fa fa-map-pin" aria-hidden="true"></span>
                 <div class="wthree-field">
-                    <input name="text1"  type="pincode"  placeholder="Pincode" required>
+                    <input type="text"  name="pincode"  placeholder="Pincode" required>
                 </div>
             </div>
 
-
-            <?php
-            if(isset($_POST['b_register'])){
-                $query= "INSERT INTO `company_register`(`company_name`, `company_website`, `company_email`, `company_phone`, `company_password`, `company_cpassword`, `company_address`, `company_city`, `company_fdate`) VALUES ('".$_POST['t_cname']."','".$_POST['t_website']."','".$_POST['t_email']."','".$_POST['t_phone']."','".$_POST['t_password']."','".$_POST['t_cpassword']."','".$_POST['t_address']."','".$_POST['t_city']."','".$_POST['t_fdate']."')";
-                $conn = mysqli_connect("localhost","root", "","dbipro3d");
-                if (!$conn) {
-                    die("Connection failed: " . mysqli_connect_error());
-                }
-                echo "Connected successfully";
-                $check = mysqli_query($conn,$query);
-                if ($check) {
-                    echo "New record created successfully";
-                }
-                else {
-                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-                }
-                mysqli_close($conn);
-
-            }
-            ?>
-
-
-
-            <!-- <div class="field-group">
-                 <span class="fa fa-lock" aria-hidden="true"></span>
-                 <div class="wthree-field">
-                     <input name="password" id="myInput" type="Password" placeholder="Password">
-                 </div>
-             </div>
-             <div class="field-group">
-                 <div class="check">
-                     <label class="checkbox w3l">
-                         <input type="checkbox" onclick="myFunction()">
-                         <i> </i>show password</label>
-                 </div>
-
-             <!-- script for show password -->
-            <!-- //script for show password -->
-
             <div class="wthree-field">
-                <input id="saveForm" name="saveForm" type="submit" value="Register" />
+                <input id="saveForm" name="b_register" type="submit"/>
             </div>
-            <!--  <ul class="list-login">
-                  <li class="switch-agileits">
-                      <label class="switch">
-                          <input type="checkbox">
-                          <span class="slider round"></span>
-
-                      </label>
-                  </li>
-                  <li>
-                      <a href="#" class="text-right"></a>
-                  </li>
-                  <div class="row">
-                      <img src="../logo/facebook.svg">
-
-                  </div>
-                  <li class="clearfix"></li>
-              </ul>-->
         </form>
     </div>
 </div>
 </body>
 <!-- //Body -->
 </html>
+
+<?php
+if(isset($_POST['b_register'])){
+  // session_start();
+    include  "../dbClass.php";
+    $db = new dbClass();
+
+    //$_SESSION['OTP']=rand(1000,9000);
+    $qry="INSERT INTO `tblindividual`(`fname`, `gender`, `email`, `mobile`, `pwd`, `dateOfBirth`,  `address`, `flag`,city,state,country) VALUES ('".$_POST['sname']."',1,'".$_POST['email']."','".$_POST['mobileno']."','".md5('12345')."','".$_POST['dob']."','".$_POST['address']."',1,'".$_POST['city']."','".$_POST['state']."','".$_POST['country']."')";
+    if($db->iudCall($qry)==true){
+        echo "<script>alert('Thanks For Registration');</script>";
+    }else{
+        echo "<script>alert('Please Try Again');</script>";
+    }
+
+}
+?>

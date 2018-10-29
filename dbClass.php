@@ -19,7 +19,7 @@ class dbClass
         if (!mysqli_connect($this->hostname, $this->userName, $this->password)) {
             die("unable to connect");
         } else {
-            echo "connected sucessful";
+            echo "<Script>alert('connected sucessful');</script>";
             if (!mysqli_select_db($this->conn, $this->db_name)) {
                 echo "database selected sucessfully";
                 $result = array();
@@ -41,12 +41,12 @@ class dbClass
         $this->userName = "root";    //db User Name
         $this->password = "";        // db User Password
         $this->hostname = "localhost";  //HostName
-        $this->db_name = "dbipro3d";  //database name
+        $this->db_name = "dbiproupdated";  //database name
         $this->conn = mysqli_connect($this->hostname, $this->userName, $this->password, $this->db_name);
         if (!mysqli_connect($this->hostname, $this->userName, $this->password)) {
             die("unable to connect");
         } else {
-            echo "cpnnected sucessful";
+            echo "<Script>alert('connected sucessful');</script>";
             if (!mysqli_select_db($this->conn, $this->db_name)) {
                 echo "database selected sucessfully";
             }
@@ -73,9 +73,13 @@ class dbClass
         //$query=$data;
 //        $result = array();
         if ($check = mysqli_query($this->conn, $data)) {
-            return true;
+            echo "<Script>alert('Insert sucessful');</script>";
+            //  return true;
         } else {
-            return false;
+            $myee = mysqli_error($this->conn);
+            //echo "<Script>alert('he.$myee');</script>";
+
+        //    return false;
         }
         //echo json_encode($result);
     }
